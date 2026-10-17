@@ -1,0 +1,315 @@
+{
+  "id": 15305,
+  "name": "Messenger",
+  "description": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+  "rarity": 3,
+  "weaponType": "Bow",
+  "baseAttack": 39.8751,
+  "mainStat": "CRIT DMG",
+  "baseStatText": "6.8%",
+  "effectName": "Archer's Message",
+  "effectTemplate": "Charged Attack hits on weak points deal an additional <color=#99FFFFFF>{0}</color> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+      "values": [
+        "100%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Charged Attack hits on weak points deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+      "values": [
+        "125%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Charged Attack hits on weak points deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+      "values": [
+        "150%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Charged Attack hits on weak points deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+      "values": [
+        "175%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Charged Attack hits on weak points deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+      "values": [
+        "200%"
+      ]
+    }
+  ],
+  "story": "It was said in days gone by,\nThe people of Liyue passed messages by bow and arrow.\n\"Wouldn't bystanders get hurt, you ask?\"\n\"Suffice to say, there's a good reason this bow is an antique...\"\nThe antique shop owner rubbed their chin and smiled.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Msg",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Msg_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Msg",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 2
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 2
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 2
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 8
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 4
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 4
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 2
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 8
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 4
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 6
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114020,
+        "name": "Mist Veiled Primo Elixir",
+        "count": 3
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 12
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 39.8751,
+      "specialized": 0.068
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 101.96063070000001,
+      "specialized": 0.120156
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 121.46063070000001,
+      "specialized": 0.120156
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 0.17510000000000003
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 0.17510000000000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 0.20257200000000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 0.20257200000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 0.23004400000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 0.23004400000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 0.257448
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 0.257448
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 0.28492000000000006
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 0.28492000000000006
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 448.2215814,
+      "specialized": 0.31239200000000006
+    }
+  ],
+  "r1": {
+    "description": "Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "values": [
+      "100%"
+    ]
+  },
+  "r2": {
+    "description": "Charged Attack hits on weak points deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "values": [
+      "125%"
+    ]
+  },
+  "r3": {
+    "description": "Charged Attack hits on weak points deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "values": [
+      "150%"
+    ]
+  },
+  "r4": {
+    "description": "Charged Attack hits on weak points deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "values": [
+      "175%"
+    ]
+  },
+  "r5": {
+    "description": "Charged Attack hits on weak points deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "values": [
+      "200%"
+    ]
+  }
+}

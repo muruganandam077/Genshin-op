@@ -1,0 +1,315 @@
+{
+  "id": 11306,
+  "name": "Skyrider Sword",
+  "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+  "rarity": 3,
+  "weaponType": "Sword",
+  "baseAttack": 37.6075,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "11.3%",
+  "effectName": "Determination",
+  "effectTemplate": "Using an Elemental Burst grants a <color=#99FFFFFF>{0}</color> increase in ATK and Movement SPD for 15s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Using an Elemental Burst grants a 15% increase in ATK and Movement SPD for 15s.",
+      "values": [
+        "15%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Using an Elemental Burst grants a 18% increase in ATK and Movement SPD for 15s.",
+      "values": [
+        "18%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Using an Elemental Burst grants a 21% increase in ATK and Movement SPD for 15s.",
+      "values": [
+        "21%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Using an Elemental Burst grants a 24% increase in ATK and Movement SPD for 15s.",
+      "values": [
+        "24%"
+      ]
+    }
+  ],
+  "story": "Leap, the master swordsman Skyrider did, from the heights of Jueyun Karst.\nHe pierced the clouds as the winds hollered by his ears,\nBut what followed was the sound of bones shattering.\nWhat he had hoped for was something swordsmanship could not bring him.\nHe pawned the sword for medicine,\nBut die it did not, his dream of flight.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Mitsurugi",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Mitsurugi_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Mitsurugi",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 2
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 4
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 6
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114024,
+        "name": "Chunk of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 0.113333
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 0.200259411
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 0.200259411
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.29183247500000004
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.29183247500000004
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.337619007
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.337619007
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.383405539
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.383405539
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.429078738
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.429078738
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.47486527000000006
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.47486527000000006
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 0.520651802
+    }
+  ],
+  "r1": {
+    "description": "Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Using an Elemental Burst grants a 15% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Using an Elemental Burst grants a 18% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Using an Elemental Burst grants a 21% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Using an Elemental Burst grants a 24% increase in ATK and Movement SPD for 15s.",
+    "values": [
+      "24%"
+    ]
+  }
+}

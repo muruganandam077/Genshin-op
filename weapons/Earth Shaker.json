@@ -1,0 +1,313 @@
+{
+  "id": 12431,
+  "name": "Earth Shaker",
+  "description": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
+  "rarity": 4,
+  "weaponType": "Claymore",
+  "baseAttack": 43.7349,
+  "mainStat": "ATK",
+  "baseStatText": "6%",
+  "effectName": "Oath of Qhapaq Nan",
+  "effectTemplate": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by <color=#99FFFFFF>{0}</color> for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 16% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+      "values": [
+        "16%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 20% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+      "values": [
+        "20%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 24% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+      "values": [
+        "24%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 28% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+      "values": [
+        "28%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 32% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+      "values": [
+        "32%"
+      ]
+    }
+  ],
+  "story": "",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Claymore_Isikhulu",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Isikhulu_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Isikhulu",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu_Awaken.png"
+  },
+  "version": "5.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114061,
+        "name": "Blazing Sacrificial Heart's Terror",
+        "count": 3
+      },
+      {
+        "id": 112110,
+        "name": "Ignited Stone",
+        "count": 3
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 3
+      },
+      {
+        "id": 112110,
+        "name": "Ignited Stone",
+        "count": 12
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 6
+      },
+      {
+        "id": 112111,
+        "name": "Ignited Seed of Life",
+        "count": 6
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 3
+      },
+      {
+        "id": 112111,
+        "name": "Ignited Seed of Life",
+        "count": 12
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 6
+      },
+      {
+        "id": 112112,
+        "name": "Ignited Seeing Eye",
+        "count": 9
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114064,
+        "name": "Blazing Sacrificial Heart's Splendor",
+        "count": 4
+      },
+      {
+        "id": 112112,
+        "name": "Ignited Seeing Eye",
+        "count": 18
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.06
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.10601999999999999
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.10601999999999999
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.1545
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.1545
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.17874
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.17874
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.20298
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.20298
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.22716
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.22716
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.2514
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.2514
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.27564
+    }
+  ],
+  "r1": {
+    "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 16% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "values": [
+      "16%"
+    ]
+  },
+  "r2": {
+    "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 20% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r3": {
+    "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 24% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r4": {
+    "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 28% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r5": {
+    "description": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 32% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "values": [
+      "32%"
+    ]
+  }
+}

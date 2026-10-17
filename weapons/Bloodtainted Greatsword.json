@@ -1,0 +1,315 @@
+{
+  "id": 12302,
+  "name": "Bloodtainted Greatsword",
+  "description": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+  "rarity": 3,
+  "weaponType": "Claymore",
+  "baseAttack": 37.6075,
+  "mainStat": "Elemental Mastery",
+  "baseStatText": "41",
+  "effectName": "Bane of Fire and Thunder",
+  "effectTemplate": "Increases DMG against opponents affected by Pyro or Electro by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 15%.",
+      "values": [
+        "15%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 18%.",
+      "values": [
+        "18%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 21%.",
+      "values": [
+        "21%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases DMG against opponents affected by Pyro or Electro by 24%.",
+      "values": [
+        "24%"
+      ]
+    }
+  ],
+  "story": "Legend says that after slaying the venomous dragon,\nThe famed hero bathed in its blood, for he desired invulnerability.\nSure enough, he became untouchable.\nBe it swords, be it spears, or be it rain of arrows,\nHe laughed and shrugged them off.\nEventually, his foes learned:\nHe had borne his prized greatsword on his back as he bathed\nAnd now, his back bore a great weak spot, the very shape and size of that sword.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Siegfry",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Siegfry_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Siegfry",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 2
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 2
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 2
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 8
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 4
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 4
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 2
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 8
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 4
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 6
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 3
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 12
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 40.8
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 72.0936
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 72.0936
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 105.06
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 105.06
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 121.5432
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 121.5432
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 138.0264
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 138.0264
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 154.4688
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 154.4688
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 170.952
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 170.952
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 187.4352
+    }
+  ],
+  "r1": {
+    "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 15%.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 18%.",
+    "values": [
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Increases DMG dealt against opponents affected by Pyro or Electro by 21%.",
+    "values": [
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Increases DMG against opponents affected by Pyro or Electro by 24%.",
+    "values": [
+      "24%"
+    ]
+  }
+}

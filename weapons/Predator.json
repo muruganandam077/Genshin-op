@@ -1,0 +1,254 @@
+{
+  "id": 15415,
+  "name": "Predator",
+  "description": "A uniquely-designed bow. This should not belong in this world.",
+  "rarity": 4,
+  "weaponType": "Bow",
+  "baseAttack": 42.401,
+  "mainStat": "ATK",
+  "baseStatText": "9%",
+  "effectName": "Strong Strike",
+  "effectTemplate": "<color=#99FFFFFF>Effective only on the following platform: </color>\n<color=#99FFFFFF>\"PlayStation™Network\"</color>\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Effective only on the following platform: \n\"PlayStation™Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+      "values": []
+    }
+  ],
+  "story": "The blacksmith who accepted the commission asked why this order had to be made this way and why it had to be named like this.\nThe answer was rather complicated: something about machine beasts that roamed all over the world, and something about polearms not having override codes.\n\nThe blacksmith understood quickly enough, though. So this bow was some powerful weapon used to hunt and kill these mighty machine creatures, and so it was the apex predator of that world.\n\nBut the strange girl corrected him.\nShe was just going to use this to hunt wild boars next, since it appeared that in this world, using bows and arrows to hunt would actually allow one to harvest Raw Meat.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
+    "filename_icon": "UI_EquipIcon_Bow_Predator",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Predator_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Predator",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator_Awaken.png"
+  },
+  "version": "2.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114029,
+        "name": "Narukami's Wisdom",
+        "count": 3
+      },
+      {
+        "id": 112050,
+        "name": "Dismal Prism",
+        "count": 3
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114030,
+        "name": "Narukami's Joy",
+        "count": 3
+      },
+      {
+        "id": 112050,
+        "name": "Dismal Prism",
+        "count": 12
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114030,
+        "name": "Narukami's Joy",
+        "count": 6
+      },
+      {
+        "id": 112051,
+        "name": "Crystal Prism",
+        "count": 6
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114031,
+        "name": "Narukami's Affection",
+        "count": 3
+      },
+      {
+        "id": 112051,
+        "name": "Crystal Prism",
+        "count": 12
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114031,
+        "name": "Narukami's Affection",
+        "count": 6
+      },
+      {
+        "id": 112052,
+        "name": "Polarizing Prism",
+        "count": 9
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114032,
+        "name": "Narukami's Valor",
+        "count": 4
+      },
+      {
+        "id": 112052,
+        "name": "Polarizing Prism",
+        "count": 18
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "Effective only on the following platform: \n\"PlayStation™Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+    "values": []
+  }
+}

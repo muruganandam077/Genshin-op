@@ -1,0 +1,76 @@
+# Genshin Impact DPS Calculator & Optimizer Backend Formulas
+
+This document outlines the complete algebraic frameworks required to build a functional Genshin Impact damage calculator and optimization engine, tracking everything from standard character scaling to modern advanced reaction mechanics.
+
+---
+
+## 1. The General Outgoing Damage Pipeline
+Every standard talent-driven hit (Normal Attack, Skill, Burst) follows this global multiplicative pipeline:
+
+$$Final\ DMG = \Big( Base\ DMG \times Base\ DMG\ Multiplier + Additive\ Base\ DMG\ Bonus \Big) \times \big(1 + DMG\ Bonus\big) \times CRIT \times DEF\ Mult \times RES\ Mult \times Amp\ Reaction$$
+
+### A. Base DMG Layer
+Calculated directly off the attacking character's talent percentages and current attribute scaling sheets:
+$$Base\ DMG = Attribute_{Scale} \times Talent\ Multiplier\%$$
+
+### B. The Bond of Life (BoL) Additive Base DMG Mechanics
+Mechanics like Arlecchino's *Masque of the Red Death* or special weapon abilities operate as **Additive Base DMG Bonuses** (added directly into the flat talent bracket before critical/damage multipliers calculate):
+$$Additive\ Base\ DMG\ Bonus = Total\ ATK \times \left( Masque\ Base\ Multiplier + C1\ Mask\ Modifier \right) \times \left(\frac{Current\ BoL\%}{100\%}\right)$$
+
+* **The Decay Tracking Function:** Your engine must recalculate the current BoL volume step-by-step for every sequential strike:
+  $$BoL_{Hit\ (n+1)} = BoL_{Hit\ n} - \Big(BoL_{Hit\ n} \times 0.075\Big)$$
+
+### C. CRIT Bracket
+* **On-Hit (Strict Boolean):** If critical hit occurs $\rightarrow (1 + CRIT\ DMG\%)$, else $\rightarrow 1$.
+* **Statistical Expectation (Average DMG Optimization Curve):** Used exclusively by the optimizer search loop to evaluate total rotation DPS efficiency:
+  $$CRIT_{Avg} = 1 + \left( CRIT\ Rate\% \times CRIT\ DMG\% \right)$$
+  *(Note: Hard cap the internal calculation values for CRIT Rate at 1.00 and floor them at 0.05)*.
+
+### D. Enemy DEF Multiplier
+Determines exactly how much raw damage passes through based on character level, target enemy level, and defense reductions:
+$$DEF\ Mult = \frac{Level_{Char} + 100}{(Level_{Char} + 100) + (Level_{Enemy} + 100) \times \big(1 - DEF\ Shred\%\big) \times \big(1 - DEF\ Ignore\%\big)}$$
+*(Note: Ensure your logic limits total DEF Shred to a hard ceiling of 0.90)*.
+
+### E. Enemy RES Multiplier
+Evaluated non-linearly across three distinct conditions based on the enemy's final base resistance subtraction values ($Net\ RES = Enemy\ Base\ RES - RES\ Shreds$):
+$$RES\ Mult = \begin{cases} 1 - \frac{Net\ RES}{2} & \text{if } Net\ RES < 0 \\  1 - Net\ RES & \text{if } 0 \le Net\ RES \le 0.75 \\  \frac{1}{4 \times Net\ RES + 1} & \text{if } Net\ RES > 0.75 \end{cases}$$
+
+---
+
+## 2. Core Elemental Reaction Frameworks
+
+### A. Amplifying Reactions (Melt / Vaporise)
+These do not create a standalone second number; they function entirely as straight scaling multipliers on top of the initial triggering hit:
+$$Amp\ Reaction = Reaction\ Base\ Multiplier \times \left(1 + \frac{2.78 \times EM}{1400 + EM} + Reaction\ DMG\ Bonus\%\right)$$
+* **Forward (2.0×):** Pyro triggered on Hydro aura (Vape) / Pyro triggered on Cryo aura (Melt).
+* **Reverse (1.5×):** Hydro triggered on Pyro aura (Vape) / Cryo triggered on Pyro aura (Melt).
+
+### B. Transformative Reactions (Swirl, Overload, Superconduct, Electro-Charged, Hyperbloom)
+These compute entirely separate flat damage values. They completely ignore the character's ATK, Talent%, and enemy DEF calculations, scaling strictly with Level and EM:
+$$Transformative\ DMG = Reaction\ Multiplier \times Level\ Multiplier \times \left(1 + \frac{16 \times EM}{2000 + EM} + Reaction\ DMG\ Buff\%\right) \times Enemy\ RES\ Mult$$
+* **Standard Level 90 Multiplier Constant ($Level\ Mult$):** Baseline value is exactly **1446.85**.
+* **Reaction Multipliers:** 
+  * Superconduct: 0.50 | Swirl: 0.60 | Electro-Charged: 1.20 | Overload: 2.75 | Hyperbloom / Burgeon: 3.00.
+
+### C. Additive Reactions (Spread / Aggravate)
+These act as a flat addition to your base scaling value before damage multipliers calculate, matching the structure of the BoL/Masque mechanics:
+$$Additive\ Base\ DMG\ Bonus = Reaction\ Multiplier \times Level\ Multiplier \times \left(1 + \frac{5 \times EM}{1200 + EM} + Reaction\ DMG\ Buff\%\right)$$
+* **Reaction Multipliers:** Aggravate: 1.15 | Spread: 1.25.
+
+---
+
+## 3. Advanced Reaction Ecosystem: Lunar & Stellar Formulas
+Unlike standard transformative formulas, Lunar and Stellar Glimmer reactions can CRIT, completely ignore enemy DEF scales, and map multi-character buff nodes.
+
+### A. Global Lunar & Stellar Damage Core
+$$Glimmer\ DMG = \Big(Reaction\ Base\ Value \times Jubilee/Moonsign\ Multiplier + Talent\ Additive\ Bonus\Big) \times \left(1 + \frac{16 \times EM}{2000 + EM}\right) \times CRIT \times Enemy\ RES\ Mult$$
+
+### B. The Lunar Architecture (Hydro-Based Conversions)
+Requires an active party node holding a **Moonsign Benediction** trait. Running two Moonsign units inside the calculation array shifts the party state from *Nascent Gleam* into *Ascendant Gleam*, adding a static global $+36\%$ Lunar DMG scaling bonus.
+* **The Stat-to-Base Scaling Hook:** Specialized enablers inject flat base multiplier values into the equation:
+  $$Jubilee/Moonsign\ Base\ Multiplier = 1 + \left( \frac{Support\ Attribute\ Value}{100} \times 0.007 \right) \quad (\text{Capped at a max of } 1.14)$$
+
+### C. The Stellar Glimmer Architecture (Cryo-Based Conversions)
+Gated explicitly behind a **Stellar Jubilee** passive node.
+* **Stellar-Conduct (Cryo + Electro):** Creates a persistent *Polestar Field*. Tracks stacks over time to amplify subsequent active window base damage:
+  $$Stellar\ Stacks_{New} = Cryo\ Hits + Electro\ Hits \quad (\text{Internal reset triggers every } 4.0\text{s loop})$$

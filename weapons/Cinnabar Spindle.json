@@ -1,0 +1,314 @@
+{
+  "id": 11415,
+  "name": "Cinnabar Spindle",
+  "description": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon.",
+  "rarity": 4,
+  "weaponType": "Sword",
+  "baseAttack": 41.0671,
+  "mainStat": "DEF",
+  "baseStatText": "15%",
+  "effectName": "Spotless Heart",
+  "effectTemplate": "Elemental Skill DMG is increased by <color=#99FFFFFF>{0}</color> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Elemental Skill DMG is increased by 40% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+      "values": [
+        "40%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Elemental Skill DMG is increased by 50% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+      "values": [
+        "50%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Elemental Skill DMG is increased by 60% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+      "values": [
+        "60%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Elemental Skill DMG is increased by 70% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+      "values": [
+        "70%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Elemental Skill DMG is increased by 80% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+      "values": [
+        "80%"
+      ]
+    }
+  ],
+  "story": "Separate the dust in the flames with joy, and extract the exquisite from the crude.\nFor all in the universe comes from a single source, and all things may be derived from a single thought.\nYou must pursue that which your elder brother, the one-horned white horse, could not accomplish.\nReach the far side of philosophy, and create a new destiny for myself and your brothers...",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus.png",
+    "filename_icon": "UI_EquipIcon_Sword_Opus",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Opus_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Opus",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus_Awaken.png"
+  },
+  "version": "2.3",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 3
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 12
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 6
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 6
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 3
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 12
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 6
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 9
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 18
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 41.0671,
+      "specialized": 0.150133
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 99.2591807,
+      "specialized": 0.26528501099999996
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 125.15918070000001,
+      "specialized": 0.26528501099999996
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 0.386592475
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 0.386592475
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 0.447246207
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 0.447246207
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 0.507899939
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 0.507899939
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 0.568403538
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 0.568403538
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 0.62905727
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 0.62905727
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 454.36315250000007,
+      "specialized": 0.689711002
+    }
+  ],
+  "r1": {
+    "description": "Elemental Skill DMG is increased by 40% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "values": [
+      "40%"
+    ]
+  },
+  "r2": {
+    "description": "Elemental Skill DMG is increased by 50% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "values": [
+      "50%"
+    ]
+  },
+  "r3": {
+    "description": "Elemental Skill DMG is increased by 60% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "values": [
+      "60%"
+    ]
+  },
+  "r4": {
+    "description": "Elemental Skill DMG is increased by 70% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "values": [
+      "70%"
+    ]
+  },
+  "r5": {
+    "description": "Elemental Skill DMG is increased by 80% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+    "values": [
+      "80%"
+    ]
+  }
+}

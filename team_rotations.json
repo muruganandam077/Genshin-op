@@ -1,0 +1,297 @@
+{
+  "Raiden Shogun": [
+    {
+      "teamName": "Raiden National (Rational)",
+      "teammates": [
+        "Raiden Shogun",
+        "Xiangling",
+        "Xingqiu",
+        "Bennett"
+      ],
+      "rotationLength": "21s",
+      "erRequirements": {
+        "Raiden Shogun": "220-250%",
+        "Xiangling": "180-200%",
+        "Xingqiu": "170-190%",
+        "Bennett": "200-220%"
+      },
+      "rotationSteps": [
+        "Raiden Shogun E (Eye of Stormy Judgment)",
+        "Xingqiu Q -> N1 -> E -> E (Sacrificial Sword proc)",
+        "Bennett Q -> E (Cast burst then skill to funnel into Xiangling)",
+        "Xiangling Q -> E (Snapshot Bennett burst ATK buff)",
+        "Raiden Shogun Q -> 3x N3C + N1C (Attack string while restoring team energy)",
+        "Bennett E -> funnel particles into Xiangling",
+        "Repeat rotation immediately on cooldown"
+      ],
+      "rotationNotes": "Benchmark Genshin rotation. Raiden regenerates ~25 flat energy for all allies, lowering team ER requirements significantly."
+    },
+    {
+      "teamName": "Raiden Hypercarry",
+      "teammates": [
+        "Raiden Shogun",
+        "Kujou Sara",
+        "Kaedehara Kazuha",
+        "Bennett"
+      ],
+      "rotationLength": "20s",
+      "erRequirements": {
+        "Raiden Shogun": "220-240%",
+        "Kujou Sara": "180-200%",
+        "Kaedehara Kazuha": "160-180%",
+        "Bennett": "220%+"
+      },
+      "rotationSteps": [
+        "Raiden Shogun E",
+        "Kaedehara Kazuha tEP -> Q (Swirl Electro to trigger VV + Elemental DMG Bonus)",
+        "Bennett Q -> E",
+        "Kujou Sara E -> Q (Provides ATK buff + C6 60% Electro Crit DMG)",
+        "Raiden Shogun Q -> 3x N3C + N1C",
+        "Kazuha tEP -> Bennett E -> Repeat"
+      ],
+      "rotationNotes": "All team buffs must be funneled into Raiden before she casts Musou Shinsetsu."
+    }
+  ],
+  "Furina": [
+    {
+      "teamName": "Neuvillette Hypercarry",
+      "teammates": [
+        "Neuvillette",
+        "Furina",
+        "Kaedehara Kazuha",
+        "Zhongli"
+      ],
+      "rotationLength": "22s",
+      "erRequirements": {
+        "Neuvillette": "120-130%",
+        "Furina": "170-190%",
+        "Kaedehara Kazuha": "160-170%",
+        "Zhongli": "100-120%"
+      },
+      "rotationSteps": [
+        "Zhongli Hold E (Universal 20% RES Shred + Shield)",
+        "Furina E -> Q (Summon Salon Solitaire + Activate Let the People Rejoice)",
+        "Kaedehara Kazuha tEP -> Q (Double Hydro Swirl + Buff)",
+        "Neuvillette E -> Charged Attack (Equitable Judgment)",
+        "Neuvillette Q -> 2x Charged Attacks",
+        "Kaedehara Kazuha tEP -> Reset Furina pets"
+      ],
+      "rotationNotes": "Neuvillette's HP fluctuations rapidly stack Fanfare points for Furina, maximizing her universal damage multiplier."
+    },
+    {
+      "teamName": "Furina Double Hydro Hyperbloom",
+      "teammates": [
+        "Alhaitham",
+        "Furina",
+        "Yelan",
+        "Kuki Shinobu"
+      ],
+      "rotationLength": "20s",
+      "erRequirements": {
+        "Alhaitham": "130-140%",
+        "Furina": "160-180%",
+        "Yelan": "180-200%",
+        "Kuki Shinobu": "Full EM (100% ER sufficient)"
+      },
+      "rotationSteps": [
+        "Furina E -> Q",
+        "Yelan E -> Q -> N1",
+        "Kuki Shinobu E (Sanctifying Ring for healing & hyperbloom triggers)",
+        "Alhaitham Q -> (Wait 2s for 3 Mirrors) -> 2x N3D -> E -> 2x N3D -> Plunge",
+        "Repeat cycle"
+      ],
+      "rotationNotes": "Extremely high single-target DPS combining raw Hydro/Dendro application with accelerated Fanfare stacking."
+    }
+  ],
+  "Neuvillette": [
+    {
+      "teamName": "Neuvillette Premium Hypercarry",
+      "teammates": [
+        "Neuvillette",
+        "Furina",
+        "Kaedehara Kazuha",
+        "Baizhu"
+      ],
+      "rotationLength": "21s",
+      "erRequirements": {
+        "Neuvillette": "120%",
+        "Furina": "170%",
+        "Kaedehara Kazuha": "160%",
+        "Baizhu": "180-200%"
+      },
+      "rotationSteps": [
+        "Furina E -> Q",
+        "Neuvillette E (Generate first 3 Droplets)",
+        "Kaedehara Kazuha tEP -> Q (Hydro Swirl)",
+        "Baizhu E -> Q (Teamwide healing for instant Fanfare cap + shield)",
+        "Neuvillette Absorbs Droplets -> Charged Attack 1",
+        "Neuvillette Q (Spawn 6 Droplets) -> Charged Attack 2 & 3",
+        "Repeat"
+      ],
+      "rotationNotes": "Baizhu's teamwide burst heal instantly caps Furina Fanfare at 300 stacks, granting maximum team DMG bonus."
+    }
+  ],
+  "Hu Tao": [
+    {
+      "teamName": "Hu Tao Double Hydro",
+      "teammates": [
+        "Hu Tao",
+        "Xingqiu",
+        "Yelan",
+        "Zhongli"
+      ],
+      "rotationLength": "21s",
+      "erRequirements": {
+        "Hu Tao": "110-120%",
+        "Xingqiu": "170-180%",
+        "Yelan": "180-190%",
+        "Zhongli": "100%"
+      },
+      "rotationSteps": [
+        "Zhongli Hold E (Shield + RES Shred)",
+        "Xingqiu Q -> N1 -> E -> E",
+        "Yelan E -> Q -> N1",
+        "Hu Tao E -> 8-9x N2C + Jump/Dash Cancel -> Q (Burst before skill expires)",
+        "Zhongli refresh shield -> Repeat"
+      ],
+      "rotationNotes": "Double Hydro resonance grants +25% Max HP, boosting Hu Tao, Yelan, and Zhongli shield simultaneously."
+    }
+  ],
+  "Arlecchino": [
+    {
+      "teamName": "Arlecchino Vape",
+      "teammates": [
+        "Arlecchino",
+        "Yelan",
+        "Kaedehara Kazuha",
+        "Bennett"
+      ],
+      "rotationLength": "20s",
+      "erRequirements": {
+        "Arlecchino": "100-110%",
+        "Yelan": "190-210%",
+        "Kaedehara Kazuha": "160-170%",
+        "Bennett": "220%+"
+      },
+      "rotationSteps": [
+        "Arlecchino E (Apply Blood-Debt Directive to enemies)",
+        "Zhongli/Kazuha Hold E -> Swirl Pyro",
+        "Yelan E -> Q -> N1",
+        "Bennett Q -> E",
+        "Arlecchino Charged Attack (Absorb Blood-Debt to gain Bond of Life)",
+        "Arlecchino Normal Attack string (6-8s sustained Pyro infusion)",
+        "Arlecchino Q only as emergency heal -> Repeat"
+      ],
+      "rotationNotes": "Allow at least 5 seconds for Blood-Debt Directives to mature into Blood-Debt Dues to absorb the maximum 145% Bond of Life."
+    }
+  ],
+  "Alhaitham": [
+    {
+      "teamName": "Alhaitham Quickbloom",
+      "teammates": [
+        "Alhaitham",
+        "Nahida",
+        "Yelan",
+        "Kuki Shinobu"
+      ],
+      "rotationLength": "20s",
+      "erRequirements": {
+        "Alhaitham": "130-140%",
+        "Nahida": "140-160%",
+        "Yelan": "180-200%",
+        "Kuki Shinobu": "Full EM"
+      },
+      "rotationSteps": [
+        "Nahida Hold E -> Q (Mark enemies + Shrine of Maya EM buff)",
+        "Yelan E -> Q -> N1",
+        "Kuki Shinobu E",
+        "Alhaitham Q -> (Wait 2s for 3 Mirror generation)",
+        "Alhaitham 2x N3D -> E -> 2x N3D -> Plunge/Charged Attack -> 2x N3D",
+        "Repeat rotation"
+      ],
+      "rotationNotes": "Maintain 3 Chisel-Light Mirrors as long as possible by staggering Elemental Skill and Plunge/Charged Attack."
+    }
+  ],
+  "Childe": [
+    {
+      "teamName": "Childe International",
+      "teammates": [
+        "Tartaglia",
+        "Xiangling",
+        "Kaedehara Kazuha",
+        "Bennett"
+      ],
+      "rotationLength": "22s",
+      "erRequirements": {
+        "Tartaglia": "110-120%",
+        "Xiangling": "200-220%",
+        "Kaedehara Kazuha": "160-180%",
+        "Bennett": "220%+"
+      },
+      "rotationSteps": [
+        "Tartaglia E (Apply Hydro) -> Immediate Stance cancel",
+        "Bennett Q (Triggers Pyro on active character)",
+        "Kaedehara Kazuha Hold E -> Plunge (Double Swirl Hydro on field + Pyro on character)",
+        "Kazuha Q (Absorbs Pyro)",
+        "Xiangling Q -> E (Snapshots Bennett ATK buff)",
+        "Tartaglia Ranged Q (Refunds 20 energy) -> Melee E -> 6-8s N2CD combo",
+        "Bennett E -> funnel particles into Xiangling until full"
+      ],
+      "rotationNotes": "World-renowned rotation for double-swirling Hydro and Pyro simultaneously on Kazuha's first leap."
+    }
+  ],
+  "Kamisato Ayaka": [
+    {
+      "teamName": "Ayaka Premium Freeze (MSR)",
+      "teammates": [
+        "Kamisato Ayaka",
+        "Shenhe",
+        "Kaedehara Kazuha",
+        "Sangonomiya Kokomi"
+      ],
+      "rotationLength": "20s",
+      "erRequirements": {
+        "Kamisato Ayaka": "130-140%",
+        "Shenhe": "180-200%",
+        "Kaedehara Kazuha": "160-170%",
+        "Sangonomiya Kokomi": "160-180% (Thrilling Tales)"
+      },
+      "rotationSteps": [
+        "Shenhe Press E -> Q (Icy Quills + Cryo/Physical Shred)",
+        "Kaedehara Kazuha tEP -> Q (Cryo Swirl + Grouping)",
+        "Kokomi E (Apply Hydro with Bake-Kurage)",
+        "Ayaka Dash -> N1 -> E -> Q (Kamisato Art: Soumetsu)",
+        "Shenhe Press E (Refresh Icy Quills while Ayaka burst is spinning)",
+        "Ayaka N2CD combos -> Repeat"
+      ],
+      "rotationNotes": "Ensure Kokomi carries Thrilling Tales of Dragon Slayers and switches directly to Ayaka before her burst."
+    }
+  ],
+  "Navia": [
+    {
+      "teamName": "Navia Geo Quickswap",
+      "teammates": [
+        "Navia",
+        "Chiori",
+        "Xiangling",
+        "Bennett"
+      ],
+      "rotationLength": "18-20s",
+      "erRequirements": {
+        "Navia": "120-130%",
+        "Chiori": "120-130%",
+        "Xiangling": "200-220%",
+        "Bennett": "220%+"
+      },
+      "rotationSteps": [
+        "Navia Q (Continuous cannon bombardment for Crystal Shrapnel stacks)",
+        "Chiori E -> E (Quickswap to Bennett)",
+        "Bennett Q -> E",
+        "Xiangling Q -> E",
+        "Navia Hold E (Fire 6-shrapnel Rosula Gunshot) -> 4s Normal attacks",
+        "Navia second Hold E (Second 6-shrapnel blast) -> Repeat"
+      ],
+      "rotationNotes": "Collecting 3+ Crystallize shards guarantees 100% bullet spread hit, maximizing skill multiplier."
+    }
+  ]
+}

@@ -1,0 +1,5015 @@
+{
+  "id": 10000005,
+  "name": "Aether",
+  "title": "",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "rarity": 5,
+  "element": "None",
+  "weaponType": "Sword",
+  "substat": "ATK",
+  "gender": "Male",
+  "bodyType": "BODY_BOY",
+  "region": "",
+  "affiliation": "",
+  "birthday": "",
+  "constellationName": "Viator",
+  "cv": {
+    "english": "Zach Aguilar & Various Artists",
+    "chinese": "鹿喑 & 多多poi",
+    "japanese": "堀江瞬 & 古賀葵",
+    "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+  },
+  "images": {
+    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png",
+    "card": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg",
+    "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Character_Traveler_%28Male%29_Portrait.png",
+    "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/762377aee992cb1dfd4e0e0a7911096d.png",
+    "filename_icon": "UI_AvatarIcon_PlayerBoy",
+    "filename_iconCard": "UI_AvatarIcon_PlayerBoy_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerBoy.png",
+    "hoyowiki_icon": "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104101,
+        "name": "Brilliant Diamond Sliver",
+        "count": 1
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 3
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104102,
+        "name": "Brilliant Diamond Fragment",
+        "count": 3
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 10
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104102,
+        "name": "Brilliant Diamond Fragment",
+        "count": 6
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 20
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104103,
+        "name": "Brilliant Diamond Chunk",
+        "count": 3
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 30
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104103,
+        "name": "Brilliant Diamond Chunk",
+        "count": 6
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 45
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104104,
+        "name": "Brilliant Diamond Gemstone",
+        "count": 6
+      },
+      {
+        "id": 100024,
+        "name": "Windwheel Aster",
+        "count": 60
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 24
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "hp": 911.791,
+      "attack": 17.808,
+      "defense": 57.225,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2342.391079,
+      "attack": 45.748751999999996,
+      "defense": 147.011025,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3023.545619,
+      "attack": 59.052552,
+      "defense": 189.761025,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5012.8908200000005,
+      "attack": 97.90626,
+      "defense": 314.6145,
+      "specialized": 0.06
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5012.8908200000005,
+      "attack": 97.90626,
+      "defense": 314.6145,
+      "specialized": 0.06
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6411.334486000001,
+      "attack": 125.219268,
+      "defense": 402.38235000000003,
+      "specialized": 0.12
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6411.334486000001,
+      "attack": 125.219268,
+      "defense": 402.38235000000003,
+      "specialized": 0.12
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7648.452052000001,
+      "attack": 149.381376,
+      "defense": 480.0252,
+      "specialized": 0.12
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7648.452052000001,
+      "attack": 149.381376,
+      "defense": 480.0252,
+      "specialized": 0.12
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8884.657927,
+      "attack": 173.525676,
+      "defense": 557.610825,
+      "specialized": 0.18
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8884.657927,
+      "attack": 173.525676,
+      "defense": 557.610825,
+      "specialized": 0.18
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10121.775493000001,
+      "attack": 197.687784,
+      "defense": 635.2536749999999,
+      "specialized": 0.24
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10121.775493000001,
+      "attack": 197.687784,
+      "defense": 635.2536749999999,
+      "specialized": 0.24
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10874.914859,
+      "attack": 212.397192,
+      "defense": 682.521525,
+      "specialized": 0.24
+    }
+  ],
+  "passives": [],
+  "combatTalents": [],
+  "talentUpgradeCosts": {},
+  "constellations": [],
+  "rawTalents": null,
+  "rawConstellations": null,
+  "travelerElementalVariants": {
+    "Anemo": {
+      "element": "Anemo",
+      "talents": {
+        "id": 704,
+        "name": "Traveler (Anemo)",
+        "combat1": {
+          "name": "Foreign Ironwind",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Palm Vortex",
+          "descriptionRaw": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <color=#80FFD7FF>Anemo DMG</color> to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n<color=#FFD780FF>Hold</color>\nDMG and AoE will gradually increase.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the vortex comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+          "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\nHold\nDMG and AoE will gradually increase.\n\nElemental Absorption\nIf the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+          "flavorText": "You discussed the way to grasp the formless wind with Paimon.",
+          "attributes": {
+            "labels": [
+              "Initial Cutting DMG|{param1:F1P}",
+              "Max Cutting DMG|{param2:F1P}",
+              "Initial Storm DMG|{param3:P}",
+              "Max Storm DMG|{param4:P}",
+              "Base CD|{param5:F1}s",
+              "Max Charging CD|{param6:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                0.12,
+                0.129,
+                0.138,
+                0.15,
+                0.159,
+                0.168,
+                0.18,
+                0.192,
+                0.204,
+                0.216,
+                0.228,
+                0.24,
+                0.255,
+                0.27,
+                0.285
+              ],
+              "param2": [
+                0.168,
+                0.1806,
+                0.1932,
+                0.21,
+                0.2226,
+                0.2352,
+                0.252,
+                0.2688,
+                0.2856,
+                0.3024,
+                0.3192,
+                0.336,
+                0.357,
+                0.378,
+                0.399
+              ],
+              "param3": [
+                1.76,
+                1.892,
+                2.024,
+                2.2,
+                2.332,
+                2.464,
+                2.64,
+                2.816,
+                2.992,
+                3.168,
+                3.344,
+                3.52,
+                3.74,
+                3.96,
+                4.18
+              ],
+              "param4": [
+                1.92,
+                2.064,
+                2.208,
+                2.4,
+                2.544,
+                2.688,
+                2.88,
+                3.072,
+                3.264,
+                3.456,
+                3.648,
+                3.84,
+                4.08,
+                4.32,
+                4.56
+              ],
+              "param5": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "param6": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Gust Surge",
+          "descriptionRaw": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <color=#80FFD7FF>Anemo DMG</color>.\n\n<color=#FFD780FF>Elemental Absorption</color>\nIf the tornado comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+          "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.\n\nElemental Absorption\nIf the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+          "flavorText": "You and Paimon studied the flapping of a butterfly's wings.",
+          "attributes": {
+            "labels": [
+              "Tornado DMG|{param1:F1P}",
+              "Additional Elemental DMG|{param2:F1P}",
+              "Duration|{param3:F1}s",
+              "CD|{param4:F1}s",
+              "Energy Cost|{param5:I}"
+            ],
+            "parameters": {
+              "param1": [
+                0.808,
+                0.8686,
+                0.9292,
+                1.01,
+                1.0706,
+                1.1312,
+                1.212,
+                1.2928,
+                1.3736,
+                1.4544,
+                1.5352,
+                1.616,
+                1.717,
+                1.818,
+                1.919
+              ],
+              "param2": [
+                0.248,
+                0.2666,
+                0.2852,
+                0.31,
+                0.3286,
+                0.3472,
+                0.372,
+                0.3968,
+                0.4216,
+                0.4464,
+                0.4712,
+                0.496,
+                0.527,
+                0.558,
+                0.589
+              ],
+              "param3": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "param4": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param5": [
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Slitting Wind",
+          "descriptionRaw": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <color=#80FFD7FF>Anemo DMG</color> to all opponents in its path.",
+          "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path."
+        },
+        "passive2": {
+          "name": "Second Wind",
+          "descriptionRaw": "<color=#FFD780FF>Palm Vortex</color> kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s.",
+          "description": "Palm Vortex kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104301,
+              "name": "Teachings of Freedom",
+              "count": 3
+            },
+            {
+              "id": 112008,
+              "name": "Divining Scroll",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104305,
+              "name": "Guide to Resistance",
+              "count": 2
+            },
+            {
+              "id": 112009,
+              "name": "Sealed Scroll",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104308,
+              "name": "Guide to Ballad",
+              "count": 4
+            },
+            {
+              "id": 112009,
+              "name": "Sealed Scroll",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104302,
+              "name": "Guide to Freedom",
+              "count": 6
+            },
+            {
+              "id": 112009,
+              "name": "Sealed Scroll",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104305,
+              "name": "Guide to Resistance",
+              "count": 9
+            },
+            {
+              "id": 112009,
+              "name": "Sealed Scroll",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104309,
+              "name": "Philosophies of Ballad",
+              "count": 4
+            },
+            {
+              "id": 112010,
+              "name": "Forbidden Curse Scroll",
+              "count": 4
+            },
+            {
+              "id": 113005,
+              "name": "Dvalin's Sigh",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104303,
+              "name": "Philosophies of Freedom",
+              "count": 6
+            },
+            {
+              "id": 112010,
+              "name": "Forbidden Curse Scroll",
+              "count": 6
+            },
+            {
+              "id": 113005,
+              "name": "Dvalin's Sigh",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104306,
+              "name": "Philosophies of Resistance",
+              "count": 12
+            },
+            {
+              "id": 112010,
+              "name": "Forbidden Curse Scroll",
+              "count": 9
+            },
+            {
+              "id": 113005,
+              "name": "Dvalin's Sigh",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104309,
+              "name": "Philosophies of Ballad",
+              "count": 16
+            },
+            {
+              "id": 112010,
+              "name": "Forbidden Curse Scroll",
+              "count": 12
+            },
+            {
+              "id": 113005,
+              "name": "Dvalin's Sigh",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_S_PlayerWind_01",
+          "filename_combat3": "Skill_E_PlayerWind_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerWind_05",
+          "filename_passive2": "UI_Talent_S_PlayerWind_06"
+        },
+        "version": "1.0"
+      },
+      "constellations": {
+        "id": 704,
+        "name": "Traveler (Anemo)",
+        "c1": {
+          "name": "Raging Vortex",
+          "descriptionRaw": "<color=#FFD780FF>Palm Vortex</color> pulls in opponents and objects within a 5m radius.",
+          "description": "Palm Vortex pulls in opponents and objects within a 5m radius."
+        },
+        "c2": {
+          "name": "Uprising Whirlwind",
+          "descriptionRaw": "Increases Energy Recharge by 16%.",
+          "description": "Increases Energy Recharge by 16%."
+        },
+        "c3": {
+          "name": "Sweeping Gust",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Gust Surge</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Gust Surge by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Cherishing Breezes",
+          "descriptionRaw": "Reduces DMG taken while casting <color=#FFD780FF>Palm Vortex</color> by 10%.",
+          "description": "Reduces DMG taken while casting Palm Vortex by 10%."
+        },
+        "c5": {
+          "name": "Vortex Stellaris",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Palm Vortex</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Palm Vortex by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "Intertwined Winds",
+          "descriptionRaw": "Targets who take DMG from <color=#FFD780FF>Gust Surge</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+          "description": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+        },
+        "images": {
+          "constellation2": "Eff_UI_Talent_PlayerGirl_Wind",
+          "filename_c1": "UI_Talent_S_PlayerWind_01",
+          "filename_c2": "UI_Talent_S_PlayerWind_02",
+          "filename_c3": "UI_Talent_U_PlayerWind_02",
+          "filename_c4": "UI_Talent_S_PlayerWind_03",
+          "filename_c5": "UI_Talent_U_PlayerWind_01",
+          "filename_c6": "UI_Talent_S_PlayerWind_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Wind",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Wind"
+        },
+        "version": "1.0"
+      }
+    },
+    "Geo": {
+      "element": "Geo",
+      "talents": {
+        "id": 706,
+        "name": "Traveler (Geo)",
+        "combat1": {
+          "name": "Foreign Rockblade",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Starfell Sword",
+          "descriptionRaw": "You disgorge a meteorite from the depths of the earth, dealing <color=#FFE699FF>AoE Geo DMG</color>.\nThe meteorite is considered a <color=#FFE699FF>Geo Construct</color>, and can be climbed or used to block attacks.\n\n<color=#FFD780FF>Hold</color>\nThis skill's positioning may be adjusted.\n\n<i>You spoke with Paimon about the final destination of falling stars.</i>",
+          "description": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG.\nThe meteorite is considered a Geo Construct, and can be climbed or used to block attacks.\n\nHold\nThis skill's positioning may be adjusted.",
+          "flavorText": "You spoke with Paimon about the final destination of falling stars.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:P}",
+              "Meteorite Duration|{param2:F1}s",
+              "CD|{param3:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                2.48,
+                2.666,
+                2.852,
+                3.1,
+                3.286,
+                3.472,
+                3.72,
+                3.968,
+                4.216,
+                4.464,
+                4.712,
+                4.96,
+                5.27,
+                5.58,
+                5.89
+              ],
+              "param2": [
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30
+              ],
+              "param3": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Wake of Earth",
+          "descriptionRaw": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals <color=#FFE699FF>AoE Geo DMG</color>.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a <color=#FFE699FF>Geo Construct</color>, and may be used to block attacks.\n\n<i>You and Paimon studied the pulse of the mountains.</i>",
+          "description": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals AoE Geo DMG.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a Geo Construct, and may be used to block attacks.",
+          "flavorText": "You and Paimon studied the pulse of the mountains.",
+          "attributes": {
+            "labels": [
+              "DMG Per Shockwave|{param1:P}",
+              "Stonewall Duration|{param2:F1}s",
+              "CD|{param3:F1}s",
+              "Energy Cost|{param4:I}"
+            ],
+            "parameters": {
+              "param1": [
+                1.48,
+                1.591,
+                1.702,
+                1.85,
+                1.961,
+                2.072,
+                2.22,
+                2.368,
+                2.516,
+                2.664,
+                2.812,
+                2.96,
+                3.145,
+                3.33,
+                3.515
+              ],
+              "param2": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param3": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param4": [
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Shattered Darkrock",
+          "descriptionRaw": "Reduces <color=#FFD780FF>Starfell Sword</color>'s CD by 2s.",
+          "description": "Reduces Starfell Sword's CD by 2s."
+        },
+        "passive2": {
+          "name": "Frenzied Rockslide",
+          "descriptionRaw": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <color=#FFE699FF>AoE Geo DMG</color>.",
+          "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104310,
+              "name": "Teachings of Prosperity",
+              "count": 3
+            },
+            {
+              "id": 112011,
+              "name": "Firm Arrowhead",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104314,
+              "name": "Guide to Diligence",
+              "count": 2
+            },
+            {
+              "id": 112012,
+              "name": "Sharp Arrowhead",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104317,
+              "name": "Guide to Gold",
+              "count": 4
+            },
+            {
+              "id": 112012,
+              "name": "Sharp Arrowhead",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104311,
+              "name": "Guide to Prosperity",
+              "count": 6
+            },
+            {
+              "id": 112012,
+              "name": "Sharp Arrowhead",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104314,
+              "name": "Guide to Diligence",
+              "count": 9
+            },
+            {
+              "id": 112012,
+              "name": "Sharp Arrowhead",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104318,
+              "name": "Philosophies of Gold",
+              "count": 4
+            },
+            {
+              "id": 112013,
+              "name": "Weathered Arrowhead",
+              "count": 4
+            },
+            {
+              "id": 113006,
+              "name": "Tail of Boreas",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104312,
+              "name": "Philosophies of Prosperity",
+              "count": 6
+            },
+            {
+              "id": 112013,
+              "name": "Weathered Arrowhead",
+              "count": 6
+            },
+            {
+              "id": 113006,
+              "name": "Tail of Boreas",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104315,
+              "name": "Philosophies of Diligence",
+              "count": 12
+            },
+            {
+              "id": 112013,
+              "name": "Weathered Arrowhead",
+              "count": 9
+            },
+            {
+              "id": 113006,
+              "name": "Tail of Boreas",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104318,
+              "name": "Philosophies of Gold",
+              "count": 16
+            },
+            {
+              "id": 112013,
+              "name": "Weathered Arrowhead",
+              "count": 12
+            },
+            {
+              "id": 113006,
+              "name": "Tail of Boreas",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_S_PlayerRock_01",
+          "filename_combat3": "Skill_E_PlayerRock_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerRock_05",
+          "filename_passive2": "UI_Talent_S_PlayerRock_06"
+        },
+        "version": "1.0"
+      },
+      "constellations": {
+        "id": 706,
+        "name": "Traveler (Geo)",
+        "c1": {
+          "name": "Invincible Stonewall",
+          "descriptionRaw": "Party members within the radius of <color=#FFD780FF>Wake of Earth</color> have their CRIT Rate increased by 10% and have increased resistance against interruption.",
+          "description": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption."
+        },
+        "c2": {
+          "name": "Rockcore Meltdown",
+          "descriptionRaw": "When the meteorite created by <color=#FFD780FF>Starfell Sword</color> is destroyed, it will also explode, dealing additional <color=#FFE699FF>AoE Geo DMG</color> equal to the amount of damage dealt by Starfell Sword.",
+          "description": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword."
+        },
+        "c3": {
+          "name": "Will of the Rock",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Wake of Earth</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Wake of Earth by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Reaction Force",
+          "descriptionRaw": "The shockwave triggered by <color=#FFD780FF>Wake of Earth</color> regenerates 5 Energy for every opponent hit.\nA maximum of 25 Energy can be regenerated in this manner at any one time.",
+          "description": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every opponent hit.\nA maximum of 25 Energy can be regenerated in this manner at any one time."
+        },
+        "c5": {
+          "name": "Meteorite Impact",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Starfell Sword</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Starfell Sword by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "Everlasting Boulder",
+          "descriptionRaw": "The barrier created by <color=#FFD780FF>Wake of Earth</color> lasts 5s longer.\nThe meteorite created by <color=#FFD780FF>Starfell Sword</color> lasts 10s longer.",
+          "description": "The barrier created by Wake of Earth lasts 5s longer.\nThe meteorite created by Starfell Sword lasts 10s longer."
+        },
+        "images": {
+          "constellation2": "Eff_UI_Talent_PlayerGirl_Rock",
+          "filename_c1": "UI_Talent_S_PlayerRock_01",
+          "filename_c2": "UI_Talent_S_PlayerRock_02",
+          "filename_c3": "UI_Talent_U_PlayerRock_02",
+          "filename_c4": "UI_Talent_S_PlayerRock_03",
+          "filename_c5": "UI_Talent_U_PlayerRock_01",
+          "filename_c6": "UI_Talent_S_PlayerRock_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Rock",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Rock"
+        },
+        "version": "1.0"
+      }
+    },
+    "Electro": {
+      "element": "Electro",
+      "talents": {
+        "id": 707,
+        "name": "Traveler (Electro)",
+        "combat1": {
+          "name": "Foreign Thundershock",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Lightning Blade",
+          "descriptionRaw": "Unleashes three swift thunder shadows that deal <color=#FFACFFFF>Electro DMG</color> to opponents and leave an Abundance Amulet behind after hitting an opponent.\n2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.\n\n<color=#FFD780FF>Abundance Amulets</color>\nWhen a character is near an Abundance Amulet, they will absorb it and obtain the following effects:\n·Restores Elemental Energy\n·Increases Energy Recharge during the Abundance Amulet's duration.\n\n<i>You and Paimon discuss the paths by which electricity might flow.</i>",
+          "description": "Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an Abundance Amulet behind after hitting an opponent.\n2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.\n\nAbundance Amulets\nWhen a character is near an Abundance Amulet, they will absorb it and obtain the following effects:\n·Restores Elemental Energy\n·Increases Energy Recharge during the Abundance Amulet's duration.",
+          "flavorText": "You and Paimon discuss the paths by which electricity might flow.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:P}",
+              "Energy Regeneration|{param2:F1} Per Amulet",
+              "Energy Recharge Increase|{param4:P}",
+              "Duration|{param5:F1}s",
+              "Abundance Amulet Duration|{param3:F1}s",
+              "CD|{param6:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                0.78664,
+                0.845638,
+                0.904636,
+                0.9833,
+                1.042298,
+                1.101296,
+                1.17996,
+                1.258624,
+                1.337288,
+                1.415952,
+                1.494616,
+                1.57328,
+                1.67161,
+                1.76994,
+                1.86827
+              ],
+              "param2": [
+                3,
+                3,
+                3,
+                3.5,
+                3.5,
+                3.5,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "param3": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param4": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ],
+              "param5": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "param6": [
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5,
+                13.5
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Bellowing Thunder",
+          "descriptionRaw": "You call upon the protection of lightning, knocking nearby opponents back and dealing <color=#FFACFFFF>Electro DMG</color> to them.\n\n<color=#FFD780FF>Lightning Shroud</color>\nWhen your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing <color=#FFACFFFF>Electro DMG.</color>\nWhen Falling Thunder hits opponents, it will regenerate Energy for that character.\nOne instance of Falling Thunder can be generated every 0.5s.\n\n<i>You and Paimon studied the light that flashes through the clouds.</i>",
+          "description": "You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them.\n\nLightning Shroud\nWhen your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing Electro DMG.\nWhen Falling Thunder hits opponents, it will regenerate Energy for that character.\nOne instance of Falling Thunder can be generated every 0.5s.",
+          "flavorText": "You and Paimon studied the light that flashes through the clouds.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:F1P}",
+              "Falling Thunder DMG|{param2:F1P}",
+              "Energy Regeneration|{param3:F1}",
+              "Duration|{param4:F1}s",
+              "CD|{param5:F1}s",
+              "Energy Cost|{param6:I}"
+            ],
+            "parameters": {
+              "param1": [
+                1.144,
+                1.2298,
+                1.3156,
+                1.43,
+                1.5158,
+                1.6016,
+                1.716,
+                1.8304,
+                1.9448,
+                2.0592,
+                2.1736,
+                2.288,
+                2.431,
+                2.574,
+                2.717
+              ],
+              "param2": [
+                0.328,
+                0.3526,
+                0.3772,
+                0.41,
+                0.4346,
+                0.4592,
+                0.492,
+                0.5248,
+                0.5576,
+                0.5904,
+                0.6232,
+                0.656,
+                0.697,
+                0.738,
+                0.779
+              ],
+              "param3": [
+                0.8,
+                0.8,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "param4": [
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12
+              ],
+              "param5": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param6": [
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Thunderflash",
+          "descriptionRaw": "When another nearby character in the party obtains an Abundance Amulet created by <color=#FFD780FF>Lightning Blade</color>, <color=#FFD780FF>Lightning Blade's</color> CD is decreased by 1.5s.",
+          "description": "When another nearby character in the party obtains an Abundance Amulet created by Lightning Blade, Lightning Blade's CD is decreased by 1.5s."
+        },
+        "passive2": {
+          "name": "Resounding Roar",
+          "descriptionRaw": "Increases the Energy Recharge effect granted by <color=#FFD780FF>Lightning Blade</color>'s Abundance Amulet by 10% of the Traveler's Energy Recharge.",
+          "description": "Increases the Energy Recharge effect granted by Lightning Blade's Abundance Amulet by 10% of the Traveler's Energy Recharge."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104320,
+              "name": "Teachings of Transience",
+              "count": 3
+            },
+            {
+              "id": 112044,
+              "name": "Old Handguard",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104324,
+              "name": "Guide to Elegance",
+              "count": 2
+            },
+            {
+              "id": 112045,
+              "name": "Kageuchi Handguard",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104327,
+              "name": "Guide to Light",
+              "count": 4
+            },
+            {
+              "id": 112045,
+              "name": "Kageuchi Handguard",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104321,
+              "name": "Guide to Transience",
+              "count": 6
+            },
+            {
+              "id": 112045,
+              "name": "Kageuchi Handguard",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104324,
+              "name": "Guide to Elegance",
+              "count": 9
+            },
+            {
+              "id": 112045,
+              "name": "Kageuchi Handguard",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104328,
+              "name": "Philosophies of Light",
+              "count": 4
+            },
+            {
+              "id": 112046,
+              "name": "Famed Handguard",
+              "count": 4
+            },
+            {
+              "id": 113017,
+              "name": "Dragon Lord's Crown",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104322,
+              "name": "Philosophies of Transience",
+              "count": 6
+            },
+            {
+              "id": 112046,
+              "name": "Famed Handguard",
+              "count": 6
+            },
+            {
+              "id": 113017,
+              "name": "Dragon Lord's Crown",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104325,
+              "name": "Philosophies of Elegance",
+              "count": 12
+            },
+            {
+              "id": 112046,
+              "name": "Famed Handguard",
+              "count": 9
+            },
+            {
+              "id": 113017,
+              "name": "Dragon Lord's Crown",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104328,
+              "name": "Philosophies of Light",
+              "count": 16
+            },
+            {
+              "id": 112046,
+              "name": "Famed Handguard",
+              "count": 12
+            },
+            {
+              "id": 113017,
+              "name": "Dragon Lord's Crown",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_S_PlayerElectric_01",
+          "filename_combat3": "Skill_E_PlayerElectric_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerElectric_05",
+          "filename_passive2": "UI_Talent_S_PlayerElectric_06"
+        },
+        "version": "2.0"
+      },
+      "constellations": {
+        "id": 707,
+        "name": "Traveler (Electro)",
+        "c1": {
+          "name": "Spring Thunder of Fertility",
+          "descriptionRaw": "The number of Abundance Amulets that can be generated using <color=#FFD780FF>Lightning Blade</color> is increased to 3.",
+          "description": "The number of Abundance Amulets that can be generated using Lightning Blade is increased to 3."
+        },
+        "c2": {
+          "name": "Violet Vehemence",
+          "descriptionRaw": "When Falling Thunder created by <color=#FFD780FF>Bellowing Thunder</color> hits an opponent, it will decrease their <color=#FFACFFFF>Electro RES</color> by 15% for 8s.",
+          "description": "When Falling Thunder created by Bellowing Thunder hits an opponent, it will decrease their Electro RES by 15% for 8s."
+        },
+        "c3": {
+          "name": "Distant Crackling",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Bellowing Thunder</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Bellowing Thunder by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Fickle Cloudstrike",
+          "descriptionRaw": "When a character obtains Abundance Amulets generated by <color=#FFD780FF>Lightning Blade</color>, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%.",
+          "description": "When a character obtains Abundance Amulets generated by Lightning Blade, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%."
+        },
+        "c5": {
+          "name": "Clamor in the Wilds",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Lightning Blade</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Lightning Blade by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "World-Shaker",
+          "descriptionRaw": "Every 2 Falling Thunder attacks triggered by <color=#FFD780FF>Bellowing Thunder</color> will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character.",
+          "description": "Every 2 Falling Thunder attacks triggered by Bellowing Thunder will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character."
+        },
+        "images": {
+          "constellation2": "Eff_UI_Talent_PlayerGirl_Electric",
+          "filename_c1": "UI_Talent_S_PlayerElectric_01",
+          "filename_c2": "UI_Talent_S_PlayerElectric_02",
+          "filename_c3": "UI_Talent_U_PlayerElectric_01",
+          "filename_c4": "UI_Talent_S_PlayerElectric_03",
+          "filename_c5": "UI_Talent_U_PlayerElectric_02",
+          "filename_c6": "UI_Talent_S_PlayerElectric_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Electric",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Electric"
+        },
+        "version": "2.0"
+      }
+    },
+    "Dendro": {
+      "element": "Dendro",
+      "talents": {
+        "id": 708,
+        "name": "Traveler (Dendro)",
+        "combat1": {
+          "name": "Foreign Fieldcleaver",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Razorgrass Blade",
+          "descriptionRaw": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal <color=#99FF88FF>Dendro DMG</color>.\n\n<i>You and Paimon observed the flowing edges of grass and leaf.</i>",
+          "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.",
+          "flavorText": "You and Paimon observed the flowing edges of grass and leaf.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:P}",
+              "CD|{param2:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                2.304,
+                2.4768,
+                2.6496,
+                2.88,
+                3.0528,
+                3.2256,
+                3.456,
+                3.6864,
+                3.9168,
+                4.1472,
+                4.3776,
+                4.608,
+                4.896,
+                5.184,
+                5.472
+              ],
+              "param2": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Surgent Manifestation",
+          "descriptionRaw": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous <color=#99FF88FF>Dendro DMG</color> to opponents within its AoE.\n\n<color=#FFD780FF>Lotuslight Transfiguration</color>\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FFACFFFF>Electro</color>/<color=#FF9999FF>Pyro</color>:\n·<color=#80C0FFFF>Hydro</color>: the Lamp's AoE and the AoE of its attacks are increased.\n·<color=#FFACFFFF>Electro</color>: the Lamp's ATK SPD is increased.\n·<color=#FF9999FF>Pyro</color>: the Lamp will explode after a short delay and then disappear, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n<i>You and Paimon studied the sounds of plants that sprout after the rain.</i>",
+          "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous Dendro DMG to opponents within its AoE.\n\nLotuslight Transfiguration\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:\n·Hydro: the Lamp's AoE and the AoE of its attacks are increased.\n·Electro: the Lamp's ATK SPD is increased.\n·Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.",
+          "flavorText": "You and Paimon studied the sounds of plants that sprout after the rain.",
+          "attributes": {
+            "labels": [
+              "Lea Lotus Lamp Attack DMG|{param1:F1P}",
+              "Explosion DMG|{param2:F1P}",
+              "Lea Lotus Lamp Duration|{param5:F1}s",
+              "CD|{param6:F1}s",
+              "Energy Cost|{param7:I}"
+            ],
+            "parameters": {
+              "param1": [
+                0.8016,
+                0.86172,
+                0.92184,
+                1.002,
+                1.06212,
+                1.12224,
+                1.2024,
+                1.28256,
+                1.36272,
+                1.44288,
+                1.52304,
+                1.6032,
+                1.7034,
+                1.8036,
+                1.9038
+              ],
+              "param2": [
+                4.008,
+                4.3086,
+                4.6092,
+                5.01,
+                5.3106,
+                5.6112,
+                6.012,
+                6.4128,
+                6.8136,
+                7.2144,
+                7.6152,
+                8.016,
+                8.517,
+                9.018,
+                9.519
+              ],
+              "param3": [
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5
+              ],
+              "param4": [
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+              ],
+              "param5": [
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12
+              ],
+              "param6": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param7": [
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Verdant Overgrowth",
+          "descriptionRaw": "<color=#FFD780FF>Lea Lotus Lamp</color> will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
+          "description": "Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks."
+        },
+        "passive2": {
+          "name": "Verdant Luxury",
+          "descriptionRaw": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by <color=#FFD780FF>Razorgrass Blade</color> by 0.15% and the DMG dealt by <color=#FFD780FF>Surgent Manifestation</color> by 0.1%.",
+          "description": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104329,
+              "name": "Teachings of Admonition",
+              "count": 3
+            },
+            {
+              "id": 112059,
+              "name": "Fungal Spores",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104333,
+              "name": "Guide to Ingenuity",
+              "count": 2
+            },
+            {
+              "id": 112060,
+              "name": "Luminescent Pollen",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104336,
+              "name": "Guide to Praxis",
+              "count": 4
+            },
+            {
+              "id": 112060,
+              "name": "Luminescent Pollen",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104330,
+              "name": "Guide to Admonition",
+              "count": 6
+            },
+            {
+              "id": 112060,
+              "name": "Luminescent Pollen",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104333,
+              "name": "Guide to Ingenuity",
+              "count": 9
+            },
+            {
+              "id": 112060,
+              "name": "Luminescent Pollen",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104337,
+              "name": "Philosophies of Praxis",
+              "count": 4
+            },
+            {
+              "id": 112061,
+              "name": "Crystalline Cyst Dust",
+              "count": 4
+            },
+            {
+              "id": 113032,
+              "name": "Mudra of the Malefic General",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104331,
+              "name": "Philosophies of Admonition",
+              "count": 6
+            },
+            {
+              "id": 112061,
+              "name": "Crystalline Cyst Dust",
+              "count": 6
+            },
+            {
+              "id": 113032,
+              "name": "Mudra of the Malefic General",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104334,
+              "name": "Philosophies of Ingenuity",
+              "count": 12
+            },
+            {
+              "id": 112061,
+              "name": "Crystalline Cyst Dust",
+              "count": 9
+            },
+            {
+              "id": 113032,
+              "name": "Mudra of the Malefic General",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104337,
+              "name": "Philosophies of Praxis",
+              "count": 16
+            },
+            {
+              "id": 112061,
+              "name": "Crystalline Cyst Dust",
+              "count": 12
+            },
+            {
+              "id": 113032,
+              "name": "Mudra of the Malefic General",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_E_PlayerGrass_01",
+          "filename_combat3": "Skill_S_PlayerGrass_01_HD",
+          "filename_passive1": "UI_Talent_U_PlayerGrass_01",
+          "filename_passive2": "UI_Talent_U_PlayerGrass_02"
+        },
+        "version": "3.0"
+      },
+      "constellations": {
+        "id": 708,
+        "name": "Traveler (Dendro)",
+        "c1": {
+          "name": "Symbiotic Creeper",
+          "descriptionRaw": "After <color=#FFD780FF>Razorgrass Blade</color> hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
+          "description": "After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler."
+        },
+        "c2": {
+          "name": "Green Resilience",
+          "descriptionRaw": "<color=#FFD780FF>Lea Lotus Lamp</color>'s duration is increased by 3s.",
+          "description": "Lea Lotus Lamp's duration is increased by 3s."
+        },
+        "c3": {
+          "name": "Whirling Weeds",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Razorgrass Blade</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Razorgrass Blade by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Treacle Grass",
+          "descriptionRaw": "After the <color=#FFD780FF>Lea Lotus Lamp</color> triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Ascension Talent \"Verdant Overgrowth.\"\nYou must first unlock the Ascension Talent \"Verdant Overgrowth.\"",
+          "description": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Ascension Talent \"Verdant Overgrowth.\"\nYou must first unlock the Ascension Talent \"Verdant Overgrowth.\""
+        },
+        "c5": {
+          "name": "Viridian Transience",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Surgent Manifestation</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Surgent Manifestation by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "Withering Aggregation",
+          "descriptionRaw": "The <color=#99FF88FF>Dendro DMG Bonus</color> of the character under the effect of Overflowing Lotuslight as created by the <color=#FFD780FF>Lea Lotus Lamp</color> is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
+          "description": "The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element."
+        },
+        "images": {
+          "constellation2": "Eff_UI_Talent_PlayerGirl_Grass",
+          "filename_c1": "UI_Talent_S_PlayerGrass_01",
+          "filename_c2": "UI_Talent_S_PlayerGrass_02",
+          "filename_c3": "UI_Talent_S_PlayerGrass_03",
+          "filename_c4": "UI_Talent_S_PlayerGrass_04",
+          "filename_c5": "UI_Talent_S_PlayerGrass_05",
+          "filename_c6": "UI_Talent_S_PlayerGrass_06",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Grass",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Grass"
+        },
+        "version": "3.0"
+      }
+    },
+    "Hydro": {
+      "element": "Hydro",
+      "talents": {
+        "id": 703,
+        "name": "Traveler (Hydro)",
+        "combat1": {
+          "name": "Foreign Stream",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Aquacrest Saber",
+          "descriptionRaw": "Unleashes a torrent that can cleanse the world.\n\n<color=#FFD780FF>Press</color>\nSends a Torrent Surge forward that will deal <color=#80C0FFFF>Hydro DMG</color> to opponents it comes into contact with.\n\n<color=#FFD780FF>Hold</color>\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing <color=#80C0FFFF>Hydro DMG</color> to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal <color=#80C0FFFF>Hydro DMG</color> to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned <color=#80C0FFFF>Hydro DMG</color>.\n\n<i>You studied the ripples in the water with Paimon.</i>",
+          "description": "Unleashes a torrent that can cleanse the world.\n\nPress\nSends a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\n\nHold\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing Hydro DMG to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\nArkhe: Pneuma\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned Hydro DMG.",
+          "flavorText": "You studied the ripples in the water with Paimon.",
+          "attributes": {
+            "labels": [
+              "Torrent Surge DMG|{param2:F1P}",
+              "Dewdrop DMG|{param1:F1P}",
+              "Spiritbreath Thorn DMG|{param3:F1P}",
+              "Spiritbreath Thorn Interval|{param4:F1}s",
+              "Suffusion HP Cost|{param5:F2P} Max HP",
+              "Suffusion DMG Bonus|{param6:F2P} Max HP",
+              "Hold Duration|Max {param9:F1}s",
+              "CD|{param8:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                0.328,
+                0.3526,
+                0.3772,
+                0.41,
+                0.4346,
+                0.4592,
+                0.492,
+                0.5248,
+                0.5576,
+                0.5904,
+                0.6232,
+                0.656,
+                0.697,
+                0.738,
+                0.779
+              ],
+              "param2": [
+                1.8928,
+                2.03476,
+                2.17672,
+                2.366,
+                2.50796,
+                2.64992,
+                2.8392,
+                3.02848,
+                3.21776,
+                3.40704,
+                3.59632,
+                3.7856,
+                4.0222,
+                4.2588,
+                4.4954
+              ],
+              "param3": [
+                0.328,
+                0.3526,
+                0.3772,
+                0.41,
+                0.4346,
+                0.4592,
+                0.492,
+                0.5248,
+                0.5576,
+                0.5904,
+                0.6232,
+                0.656,
+                0.697,
+                0.738,
+                0.779
+              ],
+              "param4": [
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9
+              ],
+              "param5": [
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04,
+                0.04
+              ],
+              "param6": [
+                0.0064,
+                0.00688,
+                0.00736,
+                0.008,
+                0.00848,
+                0.00896,
+                0.0096,
+                0.01024,
+                0.01088,
+                0.01152,
+                0.01216,
+                0.0128,
+                0.0136,
+                0.0144,
+                0.0152
+              ],
+              "param7": [
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5
+              ],
+              "param8": [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "param9": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Rising Waters",
+          "descriptionRaw": "Unleashes a slow-moving floating bubble that deals continuous <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\n\n<i>You studied the ebb and flow of the tides with Paimon.</i>",
+          "description": "Unleashes a slow-moving floating bubble that deals continuous Hydro DMG to nearby opponents.",
+          "flavorText": "You studied the ebb and flow of the tides with Paimon.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:F1P}",
+              "Duration|{param2:F1}s",
+              "CD|{param3:F1}s",
+              "Energy Cost|{param4:I}"
+            ],
+            "parameters": {
+              "param1": [
+                1.018664,
+                1.095064,
+                1.171464,
+                1.27333,
+                1.34973,
+                1.42613,
+                1.527996,
+                1.629862,
+                1.731729,
+                1.833595,
+                1.935462,
+                2.037328,
+                2.164661,
+                2.291994,
+                2.419327
+              ],
+              "param2": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "param3": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param4": [
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Spotless Waters",
+          "descriptionRaw": "After the Dewdrop fired by the Hold Mode of the <color=#FFD780FF>Aquacrest Saber</color> hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
+          "description": "After the Dewdrop fired by the Hold Mode of the Aquacrest Saber hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most."
+        },
+        "passive2": {
+          "name": "Clear Waters",
+          "descriptionRaw": "If HP has been consumed via Suffusion while using the Hold Mode <color=#FFD780FF>Aquacrest Saber</color>, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000.",
+          "description": "If HP has been consumed via Suffusion while using the Hold Mode Aquacrest Saber, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104338,
+              "name": "Teachings of Equity",
+              "count": 3
+            },
+            {
+              "id": 112080,
+              "name": "Transoceanic Pearl",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104342,
+              "name": "Guide to Justice",
+              "count": 2
+            },
+            {
+              "id": 112081,
+              "name": "Transoceanic Chunk",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104345,
+              "name": "Guide to Order",
+              "count": 4
+            },
+            {
+              "id": 112081,
+              "name": "Transoceanic Chunk",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104339,
+              "name": "Guide to Equity",
+              "count": 6
+            },
+            {
+              "id": 112081,
+              "name": "Transoceanic Chunk",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104342,
+              "name": "Guide to Justice",
+              "count": 9
+            },
+            {
+              "id": 112081,
+              "name": "Transoceanic Chunk",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104346,
+              "name": "Philosophies of Order",
+              "count": 4
+            },
+            {
+              "id": 112082,
+              "name": "Xenochromatic Crystal",
+              "count": 4
+            },
+            {
+              "id": 113046,
+              "name": "Worldspan Fern",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104340,
+              "name": "Philosophies of Equity",
+              "count": 6
+            },
+            {
+              "id": 112082,
+              "name": "Xenochromatic Crystal",
+              "count": 6
+            },
+            {
+              "id": 113046,
+              "name": "Worldspan Fern",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104343,
+              "name": "Philosophies of Justice",
+              "count": 12
+            },
+            {
+              "id": 112082,
+              "name": "Xenochromatic Crystal",
+              "count": 9
+            },
+            {
+              "id": 113046,
+              "name": "Worldspan Fern",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104346,
+              "name": "Philosophies of Order",
+              "count": 16
+            },
+            {
+              "id": 112082,
+              "name": "Xenochromatic Crystal",
+              "count": 12
+            },
+            {
+              "id": 113046,
+              "name": "Worldspan Fern",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_S_PlayerWater_01",
+          "filename_combat3": "Skill_E_PlayerWater_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerWater_05",
+          "filename_passive2": "UI_Talent_S_PlayerWater_06"
+        },
+        "version": "4.0"
+      },
+      "constellations": {
+        "id": 703,
+        "name": "Traveler (Hydro)",
+        "c1": {
+          "name": "Swelling Lake",
+          "descriptionRaw": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.\nYou must first unlock the Ascension Talent \"Spotless Waters.\"",
+          "description": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.\nYou must first unlock the Ascension Talent \"Spotless Waters.\""
+        },
+        "c2": {
+          "name": "Trickling Purity",
+          "descriptionRaw": "The Movement SPD of <color=#FFD780FF>Rising Waters</color>' bubble will be decreased by 30%, and its duration increased by 3s.",
+          "description": "The Movement SPD of Rising Waters' bubble will be decreased by 30%, and its duration increased by 3s."
+        },
+        "c3": {
+          "name": "Turbulent Ripples",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Aquacrest Saber</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Aquacrest Saber by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Pouring Descent",
+          "descriptionRaw": "When using <color=#FFD780FF>Aquacrest Saber</color>, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb <color=#80C0FFFF>Hydro DMG</color> with 250% effectiveness. It will persist until the Traveler finishes using the skill.\nOnce every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed.",
+          "description": "When using Aquacrest Saber, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb Hydro DMG with 250% effectiveness. It will persist until the Traveler finishes using the skill.\nOnce every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed."
+        },
+        "c5": {
+          "name": "Churning Whirlpool",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Rising Waters</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Rising Waters by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "Tides of Justice",
+          "descriptionRaw": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP.",
+          "description": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP."
+        },
+        "images": {
+          "constellation2": "Eff_UI_Talent_PlayerGirl_Water",
+          "filename_c1": "UI_Talent_S_PlayerWater_01",
+          "filename_c2": "UI_Talent_S_PlayerWater_02",
+          "filename_c3": "UI_Talent_U_PlayerWater_01",
+          "filename_c4": "UI_Talent_S_PlayerWater_03",
+          "filename_c5": "UI_Talent_U_PlayerWater_02",
+          "filename_c6": "UI_Talent_S_PlayerWater_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Water",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Water"
+        },
+        "version": "4.0"
+      }
+    },
+    "Pyro": {
+      "element": "Pyro",
+      "talents": {
+        "id": 702,
+        "name": "Traveler (Pyro)",
+        "combat1": {
+          "name": "Foreign Blaze",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Flowfire Blade",
+          "descriptionRaw": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\n\n<color=#FFD780FF>Tap</color>\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.\nWhen the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> to nearby opponents at intervals.\n\n<color=#FFD780FF>Hold</color>\nUnleash fire in a composed manner, dealing Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.\nWhen the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> based on the Traveler's ATK. This effect can occur once every 3s.\n\n<color=#FFD780FF>Nightsoul's Blessing: Traveler</color>\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points.\nBlazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.\n\n<i>Together, you and Paimon watched the shifting colors of the flowing flames.</i>",
+          "description": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\n\nTap\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.\nWhen the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned Pyro DMG to nearby opponents at intervals.\n\nHold\nUnleash fire in a composed manner, dealing Nightsoul-aligned AoE Pyro DMG to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.\nWhen the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned Pyro DMG based on the Traveler's ATK. This effect can occur once every 3s.\n\nNightsoul's Blessing: Traveler\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points.\nBlazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.",
+          "flavorText": "Together, you and Paimon watched the shifting colors of the flowing flames.",
+          "attributes": {
+            "labels": [
+              "Blazing Threshold|{param1:F1P}",
+              "Hold DMG|{param2:F1P}",
+              "Scorching Threshold|{param3:F1P}",
+              "Nightsoul Point Limit|{param4:F1}",
+              "CD|{param5:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                0.2808,
+                0.30186,
+                0.32292,
+                0.351,
+                0.37206,
+                0.39312,
+                0.4212,
+                0.44928,
+                0.47736,
+                0.50544,
+                0.53352,
+                0.5616,
+                0.5967,
+                0.6318,
+                0.6669
+              ],
+              "param2": [
+                0.988,
+                1.0621,
+                1.1362,
+                1.235,
+                1.3091,
+                1.3832,
+                1.482,
+                1.5808,
+                1.6796,
+                1.7784,
+                1.8772,
+                1.976,
+                2.0995,
+                2.223,
+                2.3465
+              ],
+              "param3": [
+                0.8144,
+                0.87548,
+                0.93656,
+                1.018,
+                1.07908,
+                1.14016,
+                1.2216,
+                1.30304,
+                1.38448,
+                1.46592,
+                1.54736,
+                1.6288,
+                1.7306,
+                1.8324,
+                1.9342
+              ],
+              "param4": [
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80
+              ],
+              "param5": [
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Plains Scorcher",
+          "descriptionRaw": "Condense the flames into a mark, dealing Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> to opponents up ahead. The Traveler restores 7 Nightsoul points per second for the next 4s.\n\n<i>Together, you and Paimon studied the principles behind an undying flame.</i>",
+          "description": "Condense the flames into a mark, dealing Nightsoul-aligned AoE Pyro DMG to opponents up ahead. The Traveler restores 7 Nightsoul points per second for the next 4s.",
+          "flavorText": "Together, you and Paimon studied the principles behind an undying flame.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:F1P}",
+              "CD|{param2:F1}s",
+              "Energy Cost|{param3:I}"
+            ],
+            "parameters": {
+              "param1": [
+                4.272,
+                4.5924,
+                4.9128,
+                5.34,
+                5.6604,
+                5.9808,
+                6.408,
+                6.8352,
+                7.2624,
+                7.6896,
+                8.1168,
+                8.544,
+                9.078,
+                9.612,
+                10.146
+              ],
+              "param2": [
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18
+              ],
+              "param3": [
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "True Flame of Incineration",
+          "descriptionRaw": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill <color=#FFD780FF>Flowfire Blade</color> after they hit opponents is increased.",
+          "description": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill Flowfire Blade after they hit opponents is increased."
+        },
+        "passive2": {
+          "name": "Embers Unspent",
+          "descriptionRaw": "After the current active character inside a <color=#FFD780FF>Blazing Threshold</color> or <color=#FFD780FF>Scorching Threshold</color> triggers a <color=#FF9999FF>Pyro-related reaction</color>, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy.",
+          "description": "After the current active character inside a Blazing Threshold or Scorching Threshold triggers a Pyro-related reaction, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104347,
+              "name": "Teachings of Contention",
+              "count": 3
+            },
+            {
+              "id": 112104,
+              "name": "Sentry's Wooden Whistle",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104351,
+              "name": "Guide to Kindling",
+              "count": 2
+            },
+            {
+              "id": 112105,
+              "name": "Warrior's Metal Whistle",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104354,
+              "name": "Guide to Conflict",
+              "count": 4
+            },
+            {
+              "id": 112105,
+              "name": "Warrior's Metal Whistle",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104348,
+              "name": "Guide to Contention",
+              "count": 6
+            },
+            {
+              "id": 112105,
+              "name": "Warrior's Metal Whistle",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104351,
+              "name": "Guide to Kindling",
+              "count": 9
+            },
+            {
+              "id": 112105,
+              "name": "Warrior's Metal Whistle",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104355,
+              "name": "Philosophies of Conflict",
+              "count": 4
+            },
+            {
+              "id": 112106,
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "count": 4
+            },
+            {
+              "id": 113063,
+              "name": "The Cornerstone of Stars and Flames",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104349,
+              "name": "Philosophies of Contention",
+              "count": 6
+            },
+            {
+              "id": 112106,
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "count": 6
+            },
+            {
+              "id": 113063,
+              "name": "The Cornerstone of Stars and Flames",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104352,
+              "name": "Philosophies of Kindling",
+              "count": 12
+            },
+            {
+              "id": 112106,
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "count": 9
+            },
+            {
+              "id": 113063,
+              "name": "The Cornerstone of Stars and Flames",
+              "count": 1
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104355,
+              "name": "Philosophies of Conflict",
+              "count": 16
+            },
+            {
+              "id": 112106,
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "count": 12
+            },
+            {
+              "id": 113063,
+              "name": "The Cornerstone of Stars and Flames",
+              "count": 1
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_S_PlayerFire_01",
+          "filename_combat3": "Skill_E_PlayerFire_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerFire_05",
+          "filename_passive2": "UI_Talent_S_PlayerFire_06"
+        },
+        "version": "5.3"
+      },
+      "constellations": {
+        "id": 702,
+        "name": "Traveler (Pyro)",
+        "c1": {
+          "name": "Starfire's Flowing Light",
+          "descriptionRaw": "While <color=#FFD780FF>Blazing Threshold</color> or <color=#FFD780FF>Scorching Threshold</color> are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG.",
+          "description": "While Blazing Threshold or Scorching Threshold are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG."
+        },
+        "c2": {
+          "name": "Ever-Lit Candle",
+          "descriptionRaw": "Within 12s of using the Elemental Skill <color=#FFD780FF>Flowfire Blade</color>, after nearby party members trigger a <color=#FF9999FF>Pyro-related reaction</color> on an opponent, the Traveler will regain 14 Nightsoul points. Each use of <color=#FFD780FF>Flowfire Blade</color> will restore at most 28 Nightsoul points in this way.",
+          "description": "Within 12s of using the Elemental Skill Flowfire Blade, after nearby party members trigger a Pyro-related reaction on an opponent, the Traveler will regain 14 Nightsoul points. Each use of Flowfire Blade will restore at most 28 Nightsoul points in this way."
+        },
+        "c3": {
+          "name": "Relayed Beacon",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Flowfire Blade</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Flowfire Blade by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Ravaging Flame",
+          "descriptionRaw": "After using the Elemental Burst <color=#FFD780FF>Plains Scorcher</color>, the Traveler gains 20% <color=#FF9999FF>Pyro DMG Bonus</color> for 9s.",
+          "description": "After using the Elemental Burst Plains Scorcher, the Traveler gains 20% Pyro DMG Bonus for 9s."
+        },
+        "c5": {
+          "name": "The Fire Inextinguishable",
+          "descriptionRaw": "Increases the Level of <color=#FFD780FF>Plains Scorcher</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of Plains Scorcher by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "The Sacred Flame Imperishable",
+          "descriptionRaw": "While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%.",
+          "description": "While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned Pyro DMG that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%."
+        },
+        "images": {
+          "filename_c1": "UI_Talent_S_PlayerFire_01",
+          "filename_c2": "UI_Talent_S_PlayerFire_02",
+          "filename_c3": "UI_Talent_U_PlayerFire_01",
+          "filename_c4": "UI_Talent_S_PlayerFire_03",
+          "filename_c5": "UI_Talent_U_PlayerFire_02",
+          "filename_c6": "UI_Talent_S_PlayerFire_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Fire",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Fire"
+        },
+        "version": "5.3"
+      }
+    },
+    "Cryo": {
+      "element": "Cryo",
+      "talents": {
+        "id": 705,
+        "name": "Traveler (Cryo)",
+        "combat1": {
+          "name": "Foreign Frostglint",
+          "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+          "attributes": {
+            "labels": [
+              "1-Hit DMG|{param1:F1P}",
+              "2-Hit DMG|{param2:F1P}",
+              "3-Hit DMG|{param3:F1P}",
+              "4-Hit DMG|{param4:F1P}",
+              "5-Hit DMG|{param5:F1P}",
+              "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+              "Charged Attack Stamina Cost|{param8:F1}",
+              "Plunge DMG|{param9:F1P}",
+              "Low/High Plunge DMG|{param10:P}/{param11:P}"
+            ],
+            "parameters": {
+              "param1": [
+                0.44462,
+                0.48081,
+                0.517,
+                0.5687,
+                0.60489,
+                0.64625,
+                0.70312,
+                0.75999,
+                0.81686,
+                0.8789,
+                0.94094,
+                1.00298,
+                1.06502,
+                1.12706,
+                1.1891
+              ],
+              "param2": [
+                0.4343,
+                0.46965,
+                0.505,
+                0.5555,
+                0.59085,
+                0.63125,
+                0.6868,
+                0.74235,
+                0.7979,
+                0.8585,
+                0.9191,
+                0.9797,
+                1.0403,
+                1.1009,
+                1.1615
+              ],
+              "param3": [
+                0.52976,
+                0.57288,
+                0.616,
+                0.6776,
+                0.72072,
+                0.77,
+                0.83776,
+                0.90552,
+                0.97328,
+                1.0472,
+                1.12112,
+                1.19504,
+                1.26896,
+                1.34288,
+                1.4168
+              ],
+              "param4": [
+                0.58308,
+                0.63054,
+                0.678,
+                0.7458,
+                0.79326,
+                0.8475,
+                0.92208,
+                0.99666,
+                1.07124,
+                1.1526,
+                1.23396,
+                1.31532,
+                1.39668,
+                1.47804,
+                1.5594
+              ],
+              "param5": [
+                0.70778,
+                0.76539,
+                0.823,
+                0.9053,
+                0.96291,
+                1.02875,
+                1.11928,
+                1.20981,
+                1.30034,
+                1.3991,
+                1.49786,
+                1.59662,
+                1.69538,
+                1.79414,
+                1.8929
+              ],
+              "param6": [
+                0.559,
+                0.6045,
+                0.65,
+                0.715,
+                0.7605,
+                0.8125,
+                0.884,
+                0.9555,
+                1.027,
+                1.105,
+                1.183,
+                1.261,
+                1.339,
+                1.417,
+                1.495
+              ],
+              "param7": [
+                0.7224,
+                0.7812,
+                0.84,
+                0.924,
+                0.9828,
+                1.05,
+                1.1424,
+                1.2348,
+                1.3272,
+                1.428,
+                1.5288,
+                1.6296,
+                1.7304,
+                1.8312,
+                1.932
+              ],
+              "param8": [
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "param9": [
+                0.639324,
+                0.691362,
+                0.7434,
+                0.81774,
+                0.869778,
+                0.92925,
+                1.011024,
+                1.092798,
+                1.174572,
+                1.26378,
+                1.352988,
+                1.442196,
+                1.531404,
+                1.620612,
+                1.70982
+              ],
+              "param10": [
+                1.278377,
+                1.382431,
+                1.486485,
+                1.635134,
+                1.739187,
+                1.858106,
+                2.02162,
+                2.185133,
+                2.348646,
+                2.527025,
+                2.705403,
+                2.883781,
+                3.062159,
+                3.240537,
+                3.418915
+              ],
+              "param11": [
+                1.596762,
+                1.726731,
+                1.8567,
+                2.04237,
+                2.172339,
+                2.320875,
+                2.525112,
+                2.729349,
+                2.933586,
+                3.15639,
+                3.379194,
+                3.601998,
+                3.824802,
+                4.047606,
+                4.27041
+              ]
+            }
+          }
+        },
+        "combat2": {
+          "name": "Ice Fog Piercer",
+          "descriptionRaw": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals <color=#99FFFFFF>Cryo DMG</color> to opponents up ahead and forms a Frostpierce Star next to the Traveler.\n\n<color=#FFD780FF>Frostpierce Star</color>\n· Follows your own party members around the field and periodically fires ice crystals at nearby opponents, dealing <color=#99FFFFFF>Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack. This effect can trigger once every 0.2s.\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} (max 8 stacks).\n· When not in combat, <color=#FFD780FF>Frostglow</color> expires after 30s.\n\n<i>You observed the formation of frost together with Paimon.</i>",
+          "description": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals Cryo DMG to opponents up ahead and forms a Frostpierce Star next to the Traveler.\n\nFrostpierce Star\n· Follows your own party members around the field and periodically fires ice crystals at nearby opponents, dealing Cryo DMG.\nRadiance: Stellar-Conduct: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack. This effect can trigger once every 0.2s.\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of **Frostglow** (max 8 stacks).\n· When not in combat, Frostglow expires after 30s.",
+          "flavorText": "You observed the formation of frost together with Paimon.",
+          "attributes": {
+            "labels": [
+              "Skill DMG|{param1:F1P}",
+              "Ice Crystal DMG|{param2:F1P}",
+              "Frostpierce Star Duration|{param4:F1}s",
+              "CD|{param3:F1}s"
+            ],
+            "parameters": {
+              "param1": [
+                0.9168,
+                0.98556,
+                1.05432,
+                1.146,
+                1.21476,
+                1.28352,
+                1.3752,
+                1.46688,
+                1.55856,
+                1.65024,
+                1.74192,
+                1.8336,
+                1.9482,
+                2.0628,
+                2.1774
+              ],
+              "param2": [
+                0.21392,
+                0.229964,
+                0.246008,
+                0.2674,
+                0.283444,
+                0.299488,
+                0.32088,
+                0.342272,
+                0.363664,
+                0.385056,
+                0.406448,
+                0.42784,
+                0.45458,
+                0.48132,
+                0.50806
+              ],
+              "param3": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param4": [
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12
+              ]
+            }
+          }
+        },
+        "combat3": {
+          "name": "Frostbound Javelin",
+          "descriptionRaw": "Generates an ice javelin with the power of Cryo, then directs it at enemies to deal multiple instances of <color=#99FFFFFF>Cryo DMG</color>.\nWhen cast, the Traveler consumes all existing stacks of <color=#FFD780FF>Frostglow</color>, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} are consumed, the number of DMG instances caused by the javelins is also increased.\n\n{LINK#N11500004}<color=#FFD780FF>Radiance: Stellar Glimmer</color>{/LINK}: DMG from the current Elemental Burst is changed to <color=#99FFFFFF>Cryo DMG</color> of the corresponding Stellar Glimmer reaction type.\n\n<i>You felt the keen edge of the icicles alongside Paimon.</i>",
+          "description": "Generates an ice javelin with the power of Cryo, then directs it at enemies to deal multiple instances of Cryo DMG.\nWhen cast, the Traveler consumes all existing stacks of Frostglow, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of **Frostglow** are consumed, the number of DMG instances caused by the javelins is also increased.\n\n**Radiance: Stellar Glimmer**: DMG from the current Elemental Burst is changed to Cryo DMG of the corresponding Stellar Glimmer reaction type.",
+          "flavorText": "You felt the keen edge of the icicles alongside Paimon.",
+          "attributes": {
+            "labels": [
+              "Ice Javelin DMG|{param1:F1P}/Strike",
+              "Frostglow DMG Bonus|{param2:F1P}",
+              "Stellar-Conduct Ice Javelin Single Strike DMG|{param8:F1P}",
+              "Stellar-Conduct Frostglow DMG Bonus|{param9:F1P}",
+              "Stellar Swirl Ice Javelin Single Strike DMG|{param10:F1P}",
+              "Stellar Swirl Frostglow DMG Bonus|{param11:F1P}",
+              "No. of Strikes in Attack|{param3:I}",
+              "Additional Frostglow Attack Strikes at Stack Max|{param4:I}",
+              "CD|{param6:F1}s",
+              "Energy Cost|{param7:I}"
+            ],
+            "parameters": {
+              "param1": [
+                0.55131,
+                0.592658,
+                0.634007,
+                0.689137,
+                0.730486,
+                0.771834,
+                0.826965,
+                0.882096,
+                0.937227,
+                0.992358,
+                1.047489,
+                1.10262,
+                1.171534,
+                1.240447,
+                1.309361
+              ],
+              "param2": [
+                0.027565,
+                0.029633,
+                0.0317,
+                0.034457,
+                0.036524,
+                0.038592,
+                0.041348,
+                0.044105,
+                0.046861,
+                0.049618,
+                0.052374,
+                0.055131,
+                0.058577,
+                0.062022,
+                0.065468
+              ],
+              "param3": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "param4": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "param5": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "param6": [
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "param7": [
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60
+              ],
+              "param8": [
+                0.36754,
+                0.395105,
+                0.422671,
+                0.459425,
+                0.48699,
+                0.514556,
+                0.55131,
+                0.588064,
+                0.624818,
+                0.661572,
+                0.698326,
+                0.73508,
+                0.781022,
+                0.826965,
+                0.872907
+              ],
+              "param9": [
+                0.018377,
+                0.019755,
+                0.021134,
+                0.022971,
+                0.02435,
+                0.025728,
+                0.027565,
+                0.029403,
+                0.031241,
+                0.033079,
+                0.034916,
+                0.036754,
+                0.039051,
+                0.041348,
+                0.043645
+              ],
+              "param10": [
+                0.55131,
+                0.592658,
+                0.634007,
+                0.689137,
+                0.730486,
+                0.771834,
+                0.826965,
+                0.882096,
+                0.937227,
+                0.992358,
+                1.047489,
+                1.10262,
+                1.171534,
+                1.240447,
+                1.309361
+              ],
+              "param11": [
+                0.027565,
+                0.029633,
+                0.0317,
+                0.034457,
+                0.036524,
+                0.038592,
+                0.041348,
+                0.044105,
+                0.046861,
+                0.049618,
+                0.052374,
+                0.055131,
+                0.058577,
+                0.062022,
+                0.065468
+              ]
+            }
+          }
+        },
+        "passive1": {
+          "name": "Ever-Keen Frost",
+          "descriptionRaw": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When a <color=#FFD780FF>Frostpierce Star</color> is on the field, DMG from the Traveler's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to <color=#99FFFFFF>Cryo DMG</color> that cannot be overridden by another elemental infusion, and DMG dealt is also increased by 80% of the Traveler's ATK.",
+          "description": "Radiance: Stellar-Conduct: When a Frostpierce Star is on the field, DMG from the Traveler's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to Cryo DMG that cannot be overridden by another elemental infusion, and DMG dealt is also increased by 80% of the Traveler's ATK."
+        },
+        "passive2": {
+          "name": "Lucent Ice",
+          "descriptionRaw": "The Traveler's Elemental Mastery is increased by 8% of their ATK. Up to 160 Elemental Mastery can be gained in this way.",
+          "description": "The Traveler's Elemental Mastery is increased by 8% of their ATK. Up to 160 Elemental Mastery can be gained in this way."
+        },
+        "passive3": {
+          "name": "Stellar Jubilee: Illusory Frostmirror",
+          "descriptionRaw": "The Traveler will enter the {LINK#N11330003}<color=#FFD780FF>Radiance: Stellar-Conduct</color>{/LINK} state when inside a <color=#FFD780FF>Polestar Field</color>, or the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
+          "description": "The Traveler will enter the **Radiance: Stellar-Conduct** state when inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way."
+        },
+        "costs": {
+          "lvl2": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 12500
+            },
+            {
+              "id": 104365,
+              "name": "Teachings of Charity",
+              "count": 3
+            },
+            {
+              "id": 112149,
+              "name": "Chimeric Core",
+              "count": 6
+            }
+          ],
+          "lvl3": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 17500
+            },
+            {
+              "id": 104369,
+              "name": "Guide to Fortitude",
+              "count": 2
+            },
+            {
+              "id": 112150,
+              "name": "Symbiotic Chimeric Nucleus",
+              "count": 3
+            }
+          ],
+          "lvl4": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 25000
+            },
+            {
+              "id": 104372,
+              "name": "Guide to Glory",
+              "count": 4
+            },
+            {
+              "id": 112150,
+              "name": "Symbiotic Chimeric Nucleus",
+              "count": 4
+            }
+          ],
+          "lvl5": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 30000
+            },
+            {
+              "id": 104366,
+              "name": "Guide to Charity",
+              "count": 6
+            },
+            {
+              "id": 112150,
+              "name": "Symbiotic Chimeric Nucleus",
+              "count": 6
+            }
+          ],
+          "lvl6": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 37500
+            },
+            {
+              "id": 104369,
+              "name": "Guide to Fortitude",
+              "count": 9
+            },
+            {
+              "id": 112150,
+              "name": "Symbiotic Chimeric Nucleus",
+              "count": 9
+            }
+          ],
+          "lvl7": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "id": 104373,
+              "name": "Philosophies of Glory",
+              "count": 4
+            },
+            {
+              "id": 112151,
+              "name": "Prime Chimeric Nexus",
+              "count": 4
+            },
+            {
+              "id": 113075,
+              "name": "Ascended Sample: Queen",
+              "count": 1
+            }
+          ],
+          "lvl8": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 260000
+            },
+            {
+              "id": 104367,
+              "name": "Philosophies of Charity",
+              "count": 6
+            },
+            {
+              "id": 112151,
+              "name": "Prime Chimeric Nexus",
+              "count": 6
+            },
+            {
+              "id": 113075,
+              "name": "Ascended Sample: Queen",
+              "count": 1
+            }
+          ],
+          "lvl9": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 450000
+            },
+            {
+              "id": 104370,
+              "name": "Philosophies of Fortitude",
+              "count": 12
+            },
+            {
+              "id": 112151,
+              "name": "Prime Chimeric Nexus",
+              "count": 9
+            },
+            {
+              "id": 113075,
+              "name": "Ascended Sample: Queen",
+              "count": 2
+            }
+          ],
+          "lvl10": [
+            {
+              "id": 202,
+              "name": "Mora",
+              "count": 700000
+            },
+            {
+              "id": 104373,
+              "name": "Philosophies of Glory",
+              "count": 16
+            },
+            {
+              "id": 112151,
+              "name": "Prime Chimeric Nexus",
+              "count": 12
+            },
+            {
+              "id": 113075,
+              "name": "Ascended Sample: Queen",
+              "count": 2
+            },
+            {
+              "id": 104319,
+              "name": "Crown of Insight",
+              "count": 1
+            }
+          ]
+        },
+        "images": {
+          "filename_combat1": "Skill_A_01",
+          "filename_combat2": "Skill_E_PlayerIce_01",
+          "filename_combat3": "Skill_S_PlayerIce_01_HD",
+          "filename_passive1": "UI_Talent_S_PlayerIce_05",
+          "filename_passive2": "UI_Talent_S_PlayerIce_06",
+          "filename_passive3": "UI_Talent_S_PlayerIce_07"
+        },
+        "version": "5.6"
+      },
+      "constellations": {
+        "id": 705,
+        "name": "Traveler (Cryo)",
+        "c1": {
+          "name": "Somber Freeze",
+          "descriptionRaw": "The Traveler regenerates 5 Elemental Energy when they deal Stellar Glimmer DMG. This effect can trigger once every 0.5s.",
+          "description": "The Traveler regenerates 5 Elemental Energy when they deal Stellar Glimmer DMG. This effect can trigger once every 0.5s."
+        },
+        "c2": {
+          "name": "Frostfall Reverberation",
+          "descriptionRaw": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an <color=#FFD780FF>ice crystal</color> fired by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color>.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
+          "description": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an ice crystal fired by the Elemental Skill **Ice Fog Piercer**.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration."
+        },
+        "c3": {
+          "name": "Glacial Shard",
+          "descriptionRaw": "Increases the Level of the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of the Elemental Burst **Frostbound Javelin** by 3.\nMaximum upgrade level is 15."
+        },
+        "c4": {
+          "name": "Enduring Ice",
+          "descriptionRaw": "The duration of the <color=#FFD780FF>Frostpierce Star</color> created by the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> is increased by 25%.",
+          "description": "The duration of the Frostpierce Star created by the Elemental Skill **Ice Fog Piercer** is increased by 25%."
+        },
+        "c5": {
+          "name": "Bittercold Fog",
+          "descriptionRaw": "Increases the Level of the Elemental Skill <color=#FFD780FF>{LINK#S10127}Ice Fog Piercer{/LINK}</color> by 3.\nMaximum upgrade level is 15.",
+          "description": "Increases the Level of the Elemental Skill **Ice Fog Piercer** by 3.\nMaximum upgrade level is 15."
+        },
+        "c6": {
+          "name": "Brumal Grimfrost",
+          "descriptionRaw": "Every stack of {LINK#N10050002}<color=#FFD780FF>Frostglow</color>{/LINK} consumed when using the Elemental Burst <color=#FFD780FF>{LINK#S10128}Frostbound Javelin{/LINK}</color> increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
+          "description": "Every stack of **Frostglow** consumed when using the Elemental Burst **Frostbound Javelin** increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way."
+        },
+        "images": {
+          "filename_c1": "UI_Talent_S_PlayerIce_01",
+          "filename_c2": "UI_Talent_S_PlayerIce_02",
+          "filename_c3": "UI_Talent_U_PlayerIce_01",
+          "filename_c4": "UI_Talent_S_PlayerIce_03",
+          "filename_c5": "UI_Talent_U_PlayerIce_02",
+          "filename_c6": "UI_Talent_S_PlayerIce_04",
+          "filename_constellation": "Eff_UI_Talent_PlayerBoy_Ice",
+          "filename_constellation2": "Eff_UI_Talent_PlayerGirl_Ice"
+        },
+        "version": "7.0"
+      }
+    }
+  }
+}

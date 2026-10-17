@@ -1,0 +1,315 @@
+{
+  "id": 14304,
+  "name": "Emerald Orb",
+  "description": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+  "rarity": 3,
+  "weaponType": "Catalyst",
+  "baseAttack": 39.8751,
+  "mainStat": "Elemental Mastery",
+  "baseStatText": "20",
+  "effectName": "Rapids",
+  "effectTemplate": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>{0}</color> for 12s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20% for 12s.",
+      "values": [
+        "20%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 25% for 12s.",
+      "values": [
+        "25%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 30% for 12s.",
+      "values": [
+        "30%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 35% for 12s.",
+      "values": [
+        "35%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 40% for 12s.",
+      "values": [
+        "40%"
+      ]
+    }
+  ],
+  "story": "A lightweight catalyst carved out of emerald-green jade. It is durable and affordable, which makes it a popular item all around.\nSmall but exquisitely made, it is colloquially referred to by the people of Liyue as the \"jade ball.\"\nIt is a highly efficient defensive Catalyst as well as a good-looking accessory.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Jade",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Jade_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Jade",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 2
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 4
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 6
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114016,
+        "name": "Divine Body from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 39.8751,
+      "specialized": 20.4
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 101.96063070000001,
+      "specialized": 36.0468
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 121.46063070000001,
+      "specialized": 36.0468
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 52.53
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 52.53
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 60.7716
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 60.7716
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 69.0132
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 69.0132
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 77.2344
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 77.2344
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 85.476
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 85.476
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 448.2215814,
+      "specialized": 93.7176
+    }
+  ],
+  "r1": {
+    "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20% for 12s.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 25% for 12s.",
+    "values": [
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 30% for 12s.",
+    "values": [
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 35% for 12s.",
+    "values": [
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 40% for 12s.",
+    "values": [
+      "40%"
+    ]
+  }
+}

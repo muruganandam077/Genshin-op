@@ -1,0 +1,178 @@
+{
+  "id": 15201,
+  "name": "Seasoned Hunter's Bow",
+  "description": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
+  "rarity": 2,
+  "weaponType": "Bow",
+  "baseAttack": 32.93,
+  "refinements": [],
+  "story": "A hunter must always be downwind, and must never walk upright on a mountain's ridge.\nIt matters not if their target is beast, monster or the wicked — this method remains the same.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Old",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Old_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Old",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 1
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 5
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 4
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 3
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 3
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 1
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 5
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 4
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 32.93,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 79.6906,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 91.3906,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    }
+  ]
+}

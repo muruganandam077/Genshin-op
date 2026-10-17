@@ -1,0 +1,335 @@
+{
+  "id": 12511,
+  "name": "Beacon of the Reed Sea",
+  "description": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
+  "rarity": 5,
+  "weaponType": "Claymore",
+  "baseAttack": 45.9364,
+  "mainStat": "CRIT Rate",
+  "baseStatText": "7.2%",
+  "effectName": "Desert Watch",
+  "effectTemplate": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <color=#99FFFFFF>{0}</color> for 8s. After the character takes DMG, their ATK will be increased by <color=#99FFFFFF>{1}</color> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <color=#99FFFFFF>{2}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 20% for 8s. After the character takes DMG, their ATK will be increased by 20% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 32%.",
+      "values": [
+        "20%",
+        "20%",
+        "32%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 25% for 8s. After the character takes DMG, their ATK will be increased by 25% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 40%.",
+      "values": [
+        "25%",
+        "25%",
+        "40%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 30% for 8s. After the character takes DMG, their ATK will be increased by 30% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 48%.",
+      "values": [
+        "30%",
+        "30%",
+        "48%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 35% for 8s. After the character takes DMG, their ATK will be increased by 35% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 56%.",
+      "values": [
+        "35%",
+        "35%",
+        "56%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 40% for 8s. After the character takes DMG, their ATK will be increased by 40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 64%.",
+      "values": [
+        "40%",
+        "40%",
+        "64%"
+      ]
+    }
+  ],
+  "story": "In the times when kingdoms sprang up like the mushrooms and collapsed like castles in the sand, when heroes rose like stars and fell like comets,\nAfter the Lord of Sand sank into the desert with dreams in his embrace, the blind wandering poet, of the once-privileged origin,\nTraveled across the vast sea of desert, and gathered its ballads from the scattered people of the desert.\n\nHe heard of the fall of his homeland, of the prince who blinded his eyes finally crushing the overwhelmed throne.\nHe heard of the legends of how the dancer aided one after another in becoming the king and made them obliterated by the sandstorm.\nHe heard the elegy of the clear springs that were replaced by flowing sands and the ancient cries of nations that collapsed into villages and tribes.\nHe heard of the story depicting the homeless prince's death, the fate of his swords, and the killer that traversed deep into the forest...\nNow, the ballads, uncontrollable like water yet intriguing like the flowing sand, had all been embedded in his heart.\nIn the searing sandstorms came forth the long-departed dream of the desert from the shards of ballads—\n\n\"On the other side of the sea of sand dunes once stood King Deshret's abode.\"\n\"The many streets and alleys were nothing less than paths of gold, converging towards the only throne.\"\n\"Like the eye that shone with a golden light and the noble heart, King Deshret was once the destination of all paths...\"\n\"But the searing dreams of gold were broken at last, and the great eye was dazzled by the sun and the sand.\"\n\"Fate sank like the sands of the ages into the dark depths, and the kingdom of flowing sands was crushed into golden dust.\"\n\nThe clock of fate never ceased for half-a-second for the folly of the king and the ordinary,\nThe trivial nations, the despicable king, were all finally devoured by the flowing sand...\nOnce, the paranoid prince built up forts outside the forest line to uphold the honor of the sand.\nBut eventually his soldiers and people scattered, and his name was lost in the desert wind.\nOn top of the ruins of the pool where the regalia of past executions of offenders was excavated,\nThose who had lost the dream of the desert, yet were unwilling to give up their vast sea of sand, gathered.\nIn the name of the Reed Sea that never existed, they connected with the dream that was promised to them...",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Deshret",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Deshret_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Deshret",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret_Awaken.png"
+  },
+  "version": "3.5",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114045,
+        "name": "Echo of Scorching Might",
+        "count": 5
+      },
+      {
+        "id": 112074,
+        "name": "Desiccated Shell",
+        "count": 5
+      },
+      {
+        "id": 112065,
+        "name": "Faded Red Satin",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114046,
+        "name": "Remnant Glow of Scorching Might",
+        "count": 5
+      },
+      {
+        "id": 112074,
+        "name": "Desiccated Shell",
+        "count": 18
+      },
+      {
+        "id": 112065,
+        "name": "Faded Red Satin",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114046,
+        "name": "Remnant Glow of Scorching Might",
+        "count": 9
+      },
+      {
+        "id": 112075,
+        "name": "Sturdy Shell",
+        "count": 9
+      },
+      {
+        "id": 112066,
+        "name": "Trimmed Red Silk",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114047,
+        "name": "Dream of Scorching Might",
+        "count": 5
+      },
+      {
+        "id": 112075,
+        "name": "Sturdy Shell",
+        "count": 18
+      },
+      {
+        "id": 112066,
+        "name": "Trimmed Red Silk",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114047,
+        "name": "Dream of Scorching Might",
+        "count": 9
+      },
+      {
+        "id": 112076,
+        "name": "Marked Shell",
+        "count": 14
+      },
+      {
+        "id": 112067,
+        "name": "Rich Red Brocade",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114048,
+        "name": "Olden Days of Scorching Might",
+        "count": 6
+      },
+      {
+        "id": 112076,
+        "name": "Marked Shell",
+        "count": 27
+      },
+      {
+        "id": 112067,
+        "name": "Rich Red Brocade",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.072
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.12722399999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.12722399999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.1854
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.1854
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.21448799999999998
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.21448799999999998
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.243576
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.243576
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.272592
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.272592
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.30168
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.30168
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.330768
+    }
+  ],
+  "r1": {
+    "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 20% for 8s. After the character takes DMG, their ATK will be increased by 20% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 32%.",
+    "values": [
+      "20%",
+      "20%",
+      "32%"
+    ]
+  },
+  "r2": {
+    "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 25% for 8s. After the character takes DMG, their ATK will be increased by 25% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 40%.",
+    "values": [
+      "25%",
+      "25%",
+      "40%"
+    ]
+  },
+  "r3": {
+    "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 30% for 8s. After the character takes DMG, their ATK will be increased by 30% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 48%.",
+    "values": [
+      "30%",
+      "30%",
+      "48%"
+    ]
+  },
+  "r4": {
+    "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 35% for 8s. After the character takes DMG, their ATK will be increased by 35% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 56%.",
+    "values": [
+      "35%",
+      "35%",
+      "56%"
+    ]
+  },
+  "r5": {
+    "description": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 40% for 8s. After the character takes DMG, their ATK will be increased by 40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 64%.",
+    "values": [
+      "40%",
+      "40%",
+      "64%"
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "id": 13432,
+  "name": "Tamayuratei no Ohanashi",
+  "description": "Once upon a time, there was a youkai that roamed Inazuma in the form of a lantern's flame. This must once have been one of its vessels.",
+  "rarity": 4,
+  "weaponType": "Polearm",
+  "baseAttack": 43.7349,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "6.7%",
+  "effectName": "Busybody's Running Light",
+  "effectTemplate": "Increase ATK by <color=#99FFFFFF>{0}</color> and Movement SPD by 10% for 10s when using an Elemental Skill.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increase ATK by 20% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+      "values": [
+        "20%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increase ATK by 25% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+      "values": [
+        "25%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increase ATK by 30% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+      "values": [
+        "30%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increase ATK by 35% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+      "values": [
+        "35%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increase ATK by 40% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+      "values": [
+        "40%"
+      ]
+    }
+  ],
+  "story": "Legend has it that even among the spectral flames that drift through the wilds, flickering away like phosphorescent cinders, the essence of an ancient Inazuman spirit may be found.\nDrawn to secrets like a moth to a flame, this invisible youkai took the latter's form, flitting from hearth to brazier,\nAnd amidst the crackling firewood, stole stories from the mouths of those gathered around, chatting and clutching their warm cups of tea.\nIt later recounted all these interesting tales at banquets of wandering spirits,\nFor amusing the great and the good while they drank and made merry was precisely what the Otogishu existed for.\n\n\"Ah, what a wonderful evening. May the years ahead be filled with many a night as happy as this.\"\nThus sighed Hakushin, chief amongst kitsune, perched high up on the seat of honor, surrounded by an entourage of her kin.\n\"Time, oh time, if only we could stop it here,\" she mused, and as she did so, raised her sake cup,\nConferring the title of \"Tamayuratei\" upon the lowly, unknown youkai on the stage.\n\nBut life seldom goes as we wish it, just as prayers born of anguish are frequently left unanswered.\nThe fleeting melancholy that came upon the Hakushin chief proved prophetic; for as we all know, the day came when a dark, corrosive tide engulfed the land.\nGone were those nights when a hundred youkai larked with such abandon — only weeping and wailing could be heard by the lamplight.\nAmid a battlefield of such cruel devastation, was there still a place for one who had once inspired joy through playful banter?\nYet remembering the great one to whom it owed its name, despite its frailty, the little youkai felt compelled to act.\nIn those days when shadows blotted out the sky, its very soul was ablaze as it roamed the land, darting from fire to fire.\nIts eloquence, once employed in the telling of frivolous tales, it now devoted to the precise relaying of battle reports and accounts of enemy movements.\n\nYet, as time went on, such ceaseless exertions took an irreparable toll.\nDividing its essence again and again, the youkai nearly expended its entire spirit.\nNo longer could it utter such clever words from within its lantern,\nAnd even its most cherished memories were scattered.\n\nToday, it is said that the bewildered youkai has forgotten all,\nOnly appearing on the most lively of occasions, when large crowds gather to hear the most fantastic of tales.\nPerhaps it is stirred by the atmosphere such storytellers create,\nAllowing it to recall, if but momentarily, a past it can never reclaim.",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Pole_Aoandon",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Aoandon_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Aoandon",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon_Awaken.png"
+  },
+  "version": "5.4",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114033,
+        "name": "Mask of the Wicked Lieutenant",
+        "count": 3
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 3
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114034,
+        "name": "Mask of the Tiger's Bite",
+        "count": 3
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 12
+      },
+      {
+        "id": 112044,
+        "name": "Old Handguard",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114034,
+        "name": "Mask of the Tiger's Bite",
+        "count": 6
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 6
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114035,
+        "name": "Mask of the One-Horned",
+        "count": 3
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 12
+      },
+      {
+        "id": 112045,
+        "name": "Kageuchi Handguard",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114035,
+        "name": "Mask of the One-Horned",
+        "count": 6
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 9
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114036,
+        "name": "Mask of the Kijin",
+        "count": 4
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 18
+      },
+      {
+        "id": 112046,
+        "name": "Famed Handguard",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.066667
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.30626819800000005
+    }
+  ],
+  "r1": {
+    "description": "Increase ATK by 20% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Increase ATK by 25% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+    "values": [
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Increase ATK by 30% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+    "values": [
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Increase ATK by 35% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+    "values": [
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Increase ATK by 40% and Movement SPD by 10% for 10s when using an Elemental Skill.",
+    "values": [
+      "40%"
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": 15304,
+  "name": "Slingshot",
+  "description": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+  "rarity": 3,
+  "weaponType": "Bow",
+  "baseAttack": 37.6075,
+  "mainStat": "CRIT Rate",
+  "baseStatText": "6.8%",
+  "effectName": "Slingshot",
+  "effectTemplate": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <color=#99FFFFFF>{0}</color>. Otherwise, decreases DMG by 10%.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
+      "values": [
+        "36%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 42%. Otherwise, decreases DMG by 10%.",
+      "values": [
+        "42%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 48%. Otherwise, decreases DMG by 10%.",
+      "values": [
+        "48%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 54%. Otherwise, decreases DMG by 10%.",
+      "values": [
+        "54%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, decreases DMG by 10%.",
+      "values": [
+        "60%"
+      ]
+    }
+  ],
+  "story": "One who wished to improve the range and accuracy of slingshots discovered that\nPower increases range, but costs accuracy.\nSo slingshot rocks were replaced with long wooden poles that sported feathers for stability.\nThe slingshot's limbs were lengthened and the ends recurved to increase pull.\nIt then dawned on him that he had made a bow.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Sling",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Sling_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Sling",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 2
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114016,
+        "name": "Divine Body from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 0.068
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 0.120156
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 0.120156
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.17510000000000003
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.17510000000000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.20257200000000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.20257200000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.23004400000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.23004400000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.257448
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.257448
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.28492000000000006
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.28492000000000006
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 0.31239200000000006
+    }
+  ],
+  "r1": {
+    "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
+    "values": [
+      "36%"
+    ]
+  },
+  "r2": {
+    "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 42%. Otherwise, decreases DMG by 10%.",
+    "values": [
+      "42%"
+    ]
+  },
+  "r3": {
+    "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 48%. Otherwise, decreases DMG by 10%.",
+    "values": [
+      "48%"
+    ]
+  },
+  "r4": {
+    "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 54%. Otherwise, decreases DMG by 10%.",
+    "values": [
+      "54%"
+    ]
+  },
+  "r5": {
+    "description": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, decreases DMG by 10%.",
+    "values": [
+      "60%"
+    ]
+  }
+}

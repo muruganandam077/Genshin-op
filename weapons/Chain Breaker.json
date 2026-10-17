@@ -1,0 +1,323 @@
+{
+  "id": 15431,
+  "name": "Chain Breaker",
+  "description": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan.",
+  "rarity": 4,
+  "weaponType": "Bow",
+  "baseAttack": 43.7349,
+  "mainStat": "ATK",
+  "baseStatText": "6%",
+  "effectName": "Flower-Feather Song",
+  "effectTemplate": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <color=#99FFFFFF>{0}</color> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <color=#99FFFFFF>{1}</color> Elemental Mastery.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery.",
+      "values": [
+        "4.8%",
+        "24"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 30 Elemental Mastery.",
+      "values": [
+        "6%",
+        "30"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 7.2% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 36 Elemental Mastery.",
+      "values": [
+        "7.2%",
+        "36"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 8.4% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 42 Elemental Mastery.",
+      "values": [
+        "8.4%",
+        "42"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 48 Elemental Mastery.",
+      "values": [
+        "9.6%",
+        "48"
+      ]
+    }
+  ],
+  "story": "",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_Isikhulu",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Isikhulu_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Isikhulu",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Isikhulu.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Isikhulu_Awaken.png"
+  },
+  "version": "5.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114069,
+        "name": "Night-Wind's Mystic Consideration",
+        "count": 3
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 3
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 3
+      },
+      {
+        "id": 112095,
+        "name": "Feathery Fin",
+        "count": 12
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 6
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 6
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 3
+      },
+      {
+        "id": 112096,
+        "name": "Lunar Fin",
+        "count": 12
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 6
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 9
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114072,
+        "name": "Night-Wind's Mystic Revelation",
+        "count": 4
+      },
+      {
+        "id": 112097,
+        "name": "Chasmlight Fin",
+        "count": 18
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.06
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.10601999999999999
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.10601999999999999
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.1545
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.1545
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.17874
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.17874
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.20298
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.20298
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.22716
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.22716
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.2514
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.2514
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.27564
+    }
+  ],
+  "r1": {
+    "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery.",
+    "values": [
+      "4.8%",
+      "24"
+    ]
+  },
+  "r2": {
+    "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 30 Elemental Mastery.",
+    "values": [
+      "6%",
+      "30"
+    ]
+  },
+  "r3": {
+    "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 7.2% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 36 Elemental Mastery.",
+    "values": [
+      "7.2%",
+      "36"
+    ]
+  },
+  "r4": {
+    "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 8.4% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 42 Elemental Mastery.",
+    "values": [
+      "8.4%",
+      "42"
+    ]
+  },
+  "r5": {
+    "description": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 48 Elemental Mastery.",
+    "values": [
+      "9.6%",
+      "48"
+    ]
+  }
+}

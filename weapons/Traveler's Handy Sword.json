@@ -1,0 +1,315 @@
+{
+  "id": 11303,
+  "name": "Traveler's Handy Sword",
+  "description": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+  "rarity": 3,
+  "weaponType": "Sword",
+  "baseAttack": 39.8751,
+  "mainStat": "DEF",
+  "baseStatText": "6.4%",
+  "effectName": "Journey",
+  "effectTemplate": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>{0}</color> HP.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Each Elemental Orb or Particle collected restores 1% HP.",
+      "values": [
+        "1%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Each Elemental Orb or Particle collected restores 1.25% HP.",
+      "values": [
+        "1.25%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Each Elemental Orb or Particle collected restores 1.5% HP.",
+      "values": [
+        "1.5%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Each Elemental Orb or Particle collected restores 1.75% HP.",
+      "values": [
+        "1.75%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Each Elemental Orb or Particle collected restores 2% HP.",
+      "values": [
+        "2%"
+      ]
+    }
+  ],
+  "story": "A reliable and balanced sword made of fine steel.\nThe one downside is that the partial-tang design renders it less durable than its full-tang counterparts.\nThat said, the partial tang creates space in the hilt for hidden knives, scissors, tinder, and other objects.\nHence the name, Traveler's Handy Sword. It contains all sorts of handy items for travelers.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Traveler",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Traveler_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Traveler",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 2
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 8
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 4
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 8
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 6
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 12
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 39.8751,
+      "specialized": 0.063733
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 101.96063070000001,
+      "specialized": 0.112616211
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 121.46063070000001,
+      "specialized": 0.112616211
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 0.164112475
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 206.61467060000004,
+      "specialized": 0.164112475
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 0.189860607
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 258.97175300000004,
+      "specialized": 0.189860607
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 0.215608739
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 311.1490852,
+      "specialized": 0.215608739
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 0.241293138
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 363.38654230000003,
+      "specialized": 0.241293138
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 0.26704127
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 415.4841243,
+      "specialized": 0.26704127
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 448.2215814,
+      "specialized": 0.29278940200000003
+    }
+  ],
+  "r1": {
+    "description": "Each Elemental Orb or Particle collected restores 1% HP.",
+    "values": [
+      "1%"
+    ]
+  },
+  "r2": {
+    "description": "Each Elemental Orb or Particle collected restores 1.25% HP.",
+    "values": [
+      "1.25%"
+    ]
+  },
+  "r3": {
+    "description": "Each Elemental Orb or Particle collected restores 1.5% HP.",
+    "values": [
+      "1.5%"
+    ]
+  },
+  "r4": {
+    "description": "Each Elemental Orb or Particle collected restores 1.75% HP.",
+    "values": [
+      "1.75%"
+    ]
+  },
+  "r5": {
+    "description": "Each Elemental Orb or Particle collected restores 2% HP.",
+    "values": [
+      "2%"
+    ]
+  }
+}

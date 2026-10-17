@@ -1,0 +1,315 @@
+{
+  "id": 11304,
+  "name": "Dark Iron Sword",
+  "description": "A perfectly ordinary iron sword, just slightly darker than most.",
+  "rarity": 3,
+  "weaponType": "Sword",
+  "baseAttack": 38.7413,
+  "mainStat": "Elemental Mastery",
+  "baseStatText": "31",
+  "effectName": "Overloaded",
+  "effectTemplate": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>{0}</color> for 12s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 20% for 12s.",
+      "values": [
+        "20%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 25% for 12s.",
+      "values": [
+        "25%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 30% for 12s.",
+      "values": [
+        "30%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 35% for 12s.",
+      "values": [
+        "35%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 40% for 12s.",
+      "values": [
+        "40%"
+      ]
+    }
+  ],
+  "story": "\"Why is your sword lying on the ground?\"\n\"I'm sun-tanning the sword to make it darker.\"\n\"Why?\"\n\"Good question, kid. What's the darkest thing you can think of?\"\n\"Crows?\"\n\"...Sure. What else?\"\n\"Hm... Cooking pots!\"\n\"Good. Keep going. What's underneath the cooking pot?\"\n\"Fire!\"\n\"And where does the fire come from?\"\nThe girl thought for a bit.\n\"Coal! Coal is the darkest thing of all!\"\n\"That's right! Coal, or carbon, is what makes iron stronger. But I figure I can just darken the sword by tanning it instead.\"\nWith that, he flipped the sword to the other side.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Darker",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Darker_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Darker",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 2
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114016,
+        "name": "Divine Body from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 30.6
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 54.0702
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 54.0702
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 78.79500000000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 78.79500000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 91.15740000000001
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 91.15740000000001
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 103.5198
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 103.5198
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 115.8516
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 115.8516
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 128.21400000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 128.21400000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 140.5764
+    }
+  ],
+  "r1": {
+    "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 20% for 12s.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 25% for 12s.",
+    "values": [
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 30% for 12s.",
+    "values": [
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 35% for 12s.",
+    "values": [
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 40% for 12s.",
+    "values": [
+      "40%"
+    ]
+  }
+}

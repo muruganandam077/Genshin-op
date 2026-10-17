@@ -1,0 +1,325 @@
+{
+  "id": 14406,
+  "name": "Prototype Amber",
+  "description": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky.",
+  "rarity": 4,
+  "weaponType": "Catalyst",
+  "baseAttack": 42.401,
+  "mainStat": "HP",
+  "baseStatText": "9%",
+  "effectName": "Gilding",
+  "effectTemplate": "Using an Elemental Burst regenerates <color=#99FFFFFF>{0}</color> Energy every 2s for 6s. All party members will regenerate <color=#99FFFFFF>{1}</color> HP every 2s for this duration.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration.",
+      "values": [
+        "4",
+        "4%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Using an Elemental Burst regenerates 4.5 Energy every 2s for 6s. All party members will regenerate 4.5% HP every 2s for this duration.",
+      "values": [
+        "4.5",
+        "4.5%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Using an Elemental Burst regenerates 5 Energy every 2s for 6s. All party members will regenerate 5% HP every 2s for this duration.",
+      "values": [
+        "5",
+        "5%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Using an Elemental Burst regenerates 5.5 Energy every 2s for 6s. All party members will regenerate 5.5% HP every 2s for this duration.",
+      "values": [
+        "5.5",
+        "5.5%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Using an Elemental Burst regenerates 6 Energy every 2s for 6s. All party members will regenerate 6% HP every 2s for this duration.",
+      "values": [
+        "6",
+        "6%"
+      ]
+    }
+  ],
+  "story": "An ancient catalyst from Liyue's arsenal. The batch number has faded and no records exist to confirm the date of production.\nThe disc represents the cosmos and thus takes a circular form. At the center is a piece of Cor Purum, representing a heavenly body suspended in the firmament.\n\nAfter the great chaos subsided, sinister forces still remained in the world. Thus, people abandoned traditional martial arts and tools and espoused the supernatural arts.\nBut the techniques used in catalyst production were antiquated, having remained unchanged in over a century. Thus, the catalysts of that age were fragile and broke on first use.\nThe thaumaturges flocked to Liyue and pleaded with Yun Hui, head of the house of Yun, to design a new type of catalyst for them.\nYun Hui proceeded to add a catalyst to the then-new series of improved weapon designs known as \"the prototypes.\"\n\nThe disc is made of wood and rare ore. The Cor Purum in the center was a gift from the thaumaturges.\nCor Purum is produced by firing Cor Lapis in an urn for seven days squared (that is, forty-nine days) and then steeping it in fresh water drawn from a mountain spring for a further seven days squared.\nThe dual purification of fire and water renders Cor Purum unbreakable, and the thaumaturges also believe it allows the stone to act as a vessel for primordial cosmic energy. A catalyst with Cor Purum at its core can channel cosmic energy with the turning of the disc. Twelve full turns works the energy into its purest form.\n\nYun Hui observed that the Cor Purum had a warm, golden glow like that of amber. After discussion with the thaumaturges, he proposed to name the catalyst \"Prototype Amber.\"\nThereafter, all catalysts made in Liyue were modeled on Yun Hui's prototype.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Proto",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Proto_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Proto",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 3
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 3
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 3
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 12
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 6
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 6
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 3
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 12
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 6
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 9
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114020,
+        "name": "Mist Veiled Primo Elixir",
+        "count": 4
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 18
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration.",
+    "values": [
+      "4",
+      "4%"
+    ]
+  },
+  "r2": {
+    "description": "Using an Elemental Burst regenerates 4.5 Energy every 2s for 6s. All party members will regenerate 4.5% HP every 2s for this duration.",
+    "values": [
+      "4.5",
+      "4.5%"
+    ]
+  },
+  "r3": {
+    "description": "Using an Elemental Burst regenerates 5 Energy every 2s for 6s. All party members will regenerate 5% HP every 2s for this duration.",
+    "values": [
+      "5",
+      "5%"
+    ]
+  },
+  "r4": {
+    "description": "Using an Elemental Burst regenerates 5.5 Energy every 2s for 6s. All party members will regenerate 5.5% HP every 2s for this duration.",
+    "values": [
+      "5.5",
+      "5.5%"
+    ]
+  },
+  "r5": {
+    "description": "Using an Elemental Burst regenerates 6 Energy every 2s for 6s. All party members will regenerate 6% HP every 2s for this duration.",
+    "values": [
+      "6",
+      "6%"
+    ]
+  }
+}

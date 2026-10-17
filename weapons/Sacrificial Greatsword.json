@@ -1,0 +1,325 @@
+{
+  "id": 12403,
+  "name": "Sacrificial Greatsword",
+  "description": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+  "rarity": 4,
+  "weaponType": "Claymore",
+  "baseAttack": 43.7349,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "6.7%",
+  "effectName": "Composed",
+  "effectTemplate": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>{0}</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>{1}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+      "values": [
+        "40%",
+        "30"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+      "values": [
+        "50%",
+        "26"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+      "values": [
+        "60%",
+        "22s"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+      "values": [
+        "70%",
+        "19"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+      "values": [
+        "80%",
+        "16s"
+      ]
+    }
+  ],
+  "story": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThe sword tells a story of war, and was used in the enactment of war tales.\nOriginally just a prop, its blade has been hardened by the passage of time.\n\nThis sword once belonged to the Imunlaukr Clan, a clan of brave and gifted warriors who fought hard and died young.\nIn sacrificial ceremonies, they would enact duels between brave warriors stained black with blood.\n\nIn the eyes of the Imunlaukr Clan, combat existed not for protection, for glory, or for gaining territory.\nRather, it was for the amusement of the gods, high up in the heavens, for whom little else could serve to entertain.\nMonsters and outlaws, they fought them all the same, with no regard for whether this time they would return to their beloveds afterwards.\nFor none of that mattered. What mattered was to roar, loud and clear, in the heat of bloody battle. That was duty fulfilled.\n\nSuch hot blood running through the veins should not have been conducive to a long history for the Imunlaukr Clan.\nFor their fight was one without end, and without hope of victory.\nAnd yet, as the snow slowly melted and Mondstadt began to take shape, gradually they realized: They had found something to fight for at last.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Fossil",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Fossil_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Fossil",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 3
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 3
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 12
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 6
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 6
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 3
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 12
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 6
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 9
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 4
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 18
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.066667
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.30626819800000005
+    }
+  ],
+  "r1": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+    "values": [
+      "40%",
+      "30"
+    ]
+  },
+  "r2": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+    "values": [
+      "50%",
+      "26"
+    ]
+  },
+  "r3": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+    "values": [
+      "60%",
+      "22s"
+    ]
+  },
+  "r4": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+    "values": [
+      "70%",
+      "19"
+    ]
+  },
+  "r5": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+    "values": [
+      "80%",
+      "16s"
+    ]
+  }
+}

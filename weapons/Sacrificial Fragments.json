@@ -1,0 +1,325 @@
+{
+  "id": 14403,
+  "name": "Sacrificial Fragments",
+  "description": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
+  "rarity": 4,
+  "weaponType": "Catalyst",
+  "baseAttack": 41.0671,
+  "mainStat": "Elemental Mastery",
+  "baseStatText": "48",
+  "effectName": "Composed",
+  "effectTemplate": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>{0}</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>{1}</color>s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+      "values": [
+        "40%",
+        "30"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+      "values": [
+        "50%",
+        "26"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+      "values": [
+        "60%",
+        "22s"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+      "values": [
+        "70%",
+        "19"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+      "values": [
+        "80%",
+        "16"
+      ]
+    }
+  ],
+  "story": "In the early days, the people of Mondstadt had a tradition of building theaters on top of windy cliffs to please the gods.\nRituals took the form of performances, for they believed the gods enjoyed stories and ballads.\nThis script is millennia old, and is no longer legible.\n\nLong ago, a war waged between the Lord of Storm and the Great Wolf King of the North. Mondstadt was engulfed in blizzards, and the snow stung like sand.\nA group who could bear the cold no longer built a shrine high on a clifftop in the east. There, they prayed for divine mercy and protection.\n\nThe wind blows for a moment, but the ravages of time are constant, unrelenting and irreversible.\nA god of the winds may move between the pages of a book, but in the end the merciless god of time will eat away at them until not a single legible word remains.\n\nYet, time's assault and that of the wind often take their toll the same upon the heart.\nPerhaps that is why later generations presumed the shrine to have always been to the wind, and the wind alone.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Fossil",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Fossil_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Fossil",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 12
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 6
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 12
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 9
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 18
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 41.0671,
+      "specialized": 48
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 99.2591807,
+      "specialized": 84.816
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 125.15918070000001,
+      "specialized": 84.816
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 123.60000000000001
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 123.60000000000001
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 142.99200000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 142.99200000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 162.38400000000001
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 162.38400000000001
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 181.728
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 181.728
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 201.12
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 201.12
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 454.36315250000007,
+      "specialized": 220.512
+    }
+  ],
+  "r1": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+    "values": [
+      "40%",
+      "30"
+    ]
+  },
+  "r2": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+    "values": [
+      "50%",
+      "26"
+    ]
+  },
+  "r3": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+    "values": [
+      "60%",
+      "22s"
+    ]
+  },
+  "r4": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+    "values": [
+      "70%",
+      "19"
+    ]
+  },
+  "r5": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+    "values": [
+      "80%",
+      "16"
+    ]
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "id": 11427,
+  "name": "The Dockhand's Assistant",
+  "description": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
+  "rarity": 4,
+  "weaponType": "Sword",
+  "baseAttack": 42.401,
+  "mainStat": "HP",
+  "baseStatText": "9%",
+  "effectName": "Sea Shanty",
+  "effectTemplate": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <color=#99FFFFFF>{0}</color> Elemental Mastery, and 2s after the effect occurs, <color=#99FFFFFF>{1}</color> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+      "values": [
+        "40",
+        "2"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 50 Elemental Mastery, and 2s after the effect occurs, 2.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+      "values": [
+        "50",
+        "2.5"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 60 Elemental Mastery, and 2s after the effect occurs, 3 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+      "values": [
+        "60",
+        "3"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 70 Elemental Mastery, and 2s after the effect occurs, 3.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+      "values": [
+        "70",
+        "3.5"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 80 Elemental Mastery, and 2s after the effect occurs, 4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+      "values": [
+        "80",
+        "4"
+      ]
+    }
+  ],
+  "story": "A once-popular tool during the days when Fontaine was more dependent on manual labor.\nThe blade might not have been strong enough for prolonged, intense use,\nBut it made up for this by allowing the blunt section to be broken off at the user's convenience.\n\nDock workers often used it to cut through thin materials and untie knotted cables.\nAlthough the use of this type of weapon was always heavily regulated and no blade never truly belonged to the user,\nIt was widely circulated under the tables, and was once hailed as the blade of the people.\nIt was perfect for self-preservation in less friendly natural environments, as well as for cutting paths through aquatic plants.\nLegend has it that many people also discovered new uses for it during the purge.\nAs society advanced and more regulations were put into place, this type of blade gradually ceased to appear in public.\n\nAlthough such blades were not owned by their wielders,\nThose who depended on them saw them as extensions of their limbs,\nAnd so they often inscribed their names onto the hilts and blades to avoid losing them.\nThe name inscribed on this blade belongs to one of Poisson's former mayors.",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Mechanic",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Mechanic_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Mechanic",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic_Awaken.png"
+  },
+  "version": "4.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114053,
+        "name": "Dross of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112092,
+        "name": "Old Operative's Pocket Watch",
+        "count": 3
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112092,
+        "name": "Old Operative's Pocket Watch",
+        "count": 12
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114054,
+        "name": "Sublimation of Pure Sacred Dewdrop",
+        "count": 6
+      },
+      {
+        "id": 112093,
+        "name": "Operative's Standard Pocket Watch",
+        "count": 6
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 3
+      },
+      {
+        "id": 112093,
+        "name": "Operative's Standard Pocket Watch",
+        "count": 12
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114055,
+        "name": "Spring of Pure Sacred Dewdrop",
+        "count": 6
+      },
+      {
+        "id": 112094,
+        "name": "Operative's Constancy",
+        "count": 9
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114056,
+        "name": "Essence of Pure Sacred Dewdrop",
+        "count": 4
+      },
+      {
+        "id": 112094,
+        "name": "Operative's Constancy",
+        "count": 18
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "40",
+      "2"
+    ]
+  },
+  "r2": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 50 Elemental Mastery, and 2s after the effect occurs, 2.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "50",
+      "2.5"
+    ]
+  },
+  "r3": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 60 Elemental Mastery, and 2s after the effect occurs, 3 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "60",
+      "3"
+    ]
+  },
+  "r4": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 70 Elemental Mastery, and 2s after the effect occurs, 3.5 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "70",
+      "3.5"
+    ]
+  },
+  "r5": {
+    "description": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 80 Elemental Mastery, and 2s after the effect occurs, 4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "values": [
+      "80",
+      "4"
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": 12303,
+  "name": "White Iron Greatsword",
+  "description": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+  "rarity": 3,
+  "weaponType": "Claymore",
+  "baseAttack": 38.7413,
+  "mainStat": "DEF",
+  "baseStatText": "9.6%",
+  "effectName": "Cull the Weak",
+  "effectTemplate": "Defeating an opponent restores <color=#99FFFFFF>{0}</color> HP.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Defeating an opponent restores 8% HP.",
+      "values": [
+        "8%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Defeating an opponent restores 10% HP.",
+      "values": [
+        "10%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Defeating an opponent restores 12% HP.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Defeating an opponent restores 14% HP.",
+      "values": [
+        "14%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Defeating an opponent restores 16% HP.",
+      "values": [
+        "16%"
+      ]
+    }
+  ],
+  "story": "A lightweight greatsword made of white iron with a silver sheen.\nWhen swung rapidly, the flashes of light can blind the enemy.\nHowever, this sword is not usually used as a weapon.\nAccording to the way of warriors of old, when a comrade falls in battle, polished weapons will line the ground where they fell.\nThough such rituals as these are no longer in fashion, some few still remember what they mean...",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Tin",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Tin_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Tin",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 2
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 8
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 4
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 8
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 6
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 12
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.0956
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.1689252
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.1689252
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.24617000000000003
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.24617000000000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.2847924
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.2847924
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.3234148
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.3234148
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.36194160000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.36194160000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.40056400000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.40056400000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.43918640000000003
+    }
+  ],
+  "r1": {
+    "description": "Defeating an opponent restores 8% HP.",
+    "values": [
+      "8%"
+    ]
+  },
+  "r2": {
+    "description": "Defeating an opponent restores 10% HP.",
+    "values": [
+      "10%"
+    ]
+  },
+  "r3": {
+    "description": "Defeating an opponent restores 12% HP.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r4": {
+    "description": "Defeating an opponent restores 14% HP.",
+    "values": [
+      "14%"
+    ]
+  },
+  "r5": {
+    "description": "Defeating an opponent restores 16% HP.",
+    "values": [
+      "16%"
+    ]
+  }
+}

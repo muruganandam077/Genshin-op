@@ -1,0 +1,178 @@
+{
+  "id": 11201,
+  "name": "Silver Sword",
+  "description": "A sword for exorcising demons. Everyone knows it's made of a silver alloy, not pure silver.",
+  "rarity": 2,
+  "weaponType": "Sword",
+  "baseAttack": 32.93,
+  "refinements": [],
+  "story": "Despite how the folk belief would have it, silver does not actually have any special ability to exorcise.\nIt is the pure heart of the wandering exorcist that is the true bane of evil.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Silver",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Silver_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Silver",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 1
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 1
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 1
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 5
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 3
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 3
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 3
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 1
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 5
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 4
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 32.93,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 79.6906,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 91.3906,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    }
+  ]
+}

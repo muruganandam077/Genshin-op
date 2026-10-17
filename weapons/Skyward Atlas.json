@@ -1,0 +1,325 @@
+{
+  "id": 14501,
+  "name": "Skyward Atlas",
+  "description": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+  "rarity": 5,
+  "weaponType": "Catalyst",
+  "baseAttack": 47.537,
+  "mainStat": "ATK",
+  "baseStatText": "7.2%",
+  "effectName": "Wandering Clouds",
+  "effectTemplate": "Increases Elemental DMG Bonus by <color=#99FFFFFF>{0}</color>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <color=#99FFFFFF>{1}</color> ATK DMG. Can only occur once every 30s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s.",
+      "values": [
+        "12%",
+        "160%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases Elemental DMG Bonus by 15%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 200% ATK DMG. Can only occur once every 30s.",
+      "values": [
+        "15%",
+        "200%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases Elemental DMG Bonus by 18%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 240% ATK DMG. Can only occur once every 30s.",
+      "values": [
+        "18%",
+        "240%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases Elemental DMG Bonus by 21%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 280% ATK DMG. Can only occur once every 30s.",
+      "values": [
+        "21%",
+        "280%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s.",
+      "values": [
+        "24%",
+        "320%"
+      ]
+    }
+  ],
+  "story": "An atlas of wind.\nA copy of the atlas pertaining to the weather of the northern regions, presented in the form of poems and images.\nIt consists of 100 thousand odes, each dedicated to a single cloud or wind and calling it by name.\nThe cloud atlas gave form to the winds, and odes infused them with personality.\nThe myriad formless winds are now friends and family in the eyes of Barbatos.\n\nLegends tell that in ancient times, Barbatos summoned the four winds with the original version.\nHe thawed the snow, drove away vicious beasts, summoned rainfall, and created Mondstadt.\nHe permitted the atlas to be shared and copied among the people, giving it the name of Cloud Atlas.\nSadly, nothing survives the test of time. Certain drawings and odes were missing in the copies that survived.\nHowever, the knowledge passed on in the form of ballads and legends among the general public.\n\nThe histories of the thousand winds were not lost, for Barbatos still holds them.\nWhen Barbatos stood against the shadowy wings of the evil dragon Durin,\nHe sang to the thousand winds and called upon the Wind Dragon.\nHe who holds this atlas wields the true names of the thousand winds and all of their powers.\n\nNow the skies above Mondstadt are calm and blue.\nBarbatos and Dvalin have found a new place to call home.\nThe atlas, meanwhile, has been entrusted to one worthy of the honor.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Dvalin",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Dvalin_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Dvalin",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 5
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 5
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 5
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 18
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 9
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 9
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 5
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 18
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 9
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 14
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 6
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 27
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 47.537,
+      "specialized": 0.072
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 133.293748,
+      "specialized": 0.12722399999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 164.393748,
+      "specialized": 0.12722399999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.1854
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.1854
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.21448799999999998
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.21448799999999998
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.243576
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.243576
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.272592
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.272592
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.30168
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.30168
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 674.3345459999999,
+      "specialized": 0.330768
+    }
+  ],
+  "r1": {
+    "description": "Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s.",
+    "values": [
+      "12%",
+      "160%"
+    ]
+  },
+  "r2": {
+    "description": "Increases Elemental DMG Bonus by 15%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 200% ATK DMG. Can only occur once every 30s.",
+    "values": [
+      "15%",
+      "200%"
+    ]
+  },
+  "r3": {
+    "description": "Increases Elemental DMG Bonus by 18%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 240% ATK DMG. Can only occur once every 30s.",
+    "values": [
+      "18%",
+      "240%"
+    ]
+  },
+  "r4": {
+    "description": "Increases Elemental DMG Bonus by 21%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 280% ATK DMG. Can only occur once every 30s.",
+    "values": [
+      "21%",
+      "280%"
+    ]
+  },
+  "r5": {
+    "description": "Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s.",
+    "values": [
+      "24%",
+      "320%"
+    ]
+  }
+}

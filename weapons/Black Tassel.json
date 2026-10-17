@@ -1,0 +1,315 @@
+{
+  "id": 13303,
+  "name": "Black Tassel",
+  "description": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
+  "rarity": 3,
+  "weaponType": "Polearm",
+  "baseAttack": 37.6075,
+  "mainStat": "HP",
+  "baseStatText": "10.2%",
+  "effectName": "Bane of the Soft",
+  "effectTemplate": "Increases DMG against slimes by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases DMG against slimes by 40%.",
+      "values": [
+        "40%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases DMG against slimes by 50%.",
+      "values": [
+        "50%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases DMG against slimes by 60%.",
+      "values": [
+        "60%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases DMG against slimes by 70%.",
+      "values": [
+        "70%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases DMG against slimes by 80%.",
+      "values": [
+        "80%"
+      ]
+    }
+  ],
+  "story": "One night, a Millelith officer drank with a poet, and brought his signature white-tasseled halberd with him.\nThe poet's ink was spilled.\nAnd the halberd's white tassel was dyed black.\n\"'Tis but a tale of polearm wielder and poet.\"\n\"Unrelated to mine own black-tasseled polearm.\"\nThe old smith smacked his apprentice.\nHe demanded that he dye the newly made polearm's tassel black.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Pole_Noire",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Noire_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Noire",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 2
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 4
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 2
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 8
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 6
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114024,
+        "name": "Chunk of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 0.102133
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 0.18046901099999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 0.18046901099999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.262992475
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 0.262992475
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.304254207
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 0.304254207
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.345515939
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 0.345515939
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.386675538
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 0.386675538
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.42793727000000004
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 0.42793727000000004
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 0.46919900200000003
+    }
+  ],
+  "r1": {
+    "description": "Increases DMG against slimes by 40%.",
+    "values": [
+      "40%"
+    ]
+  },
+  "r2": {
+    "description": "Increases DMG against slimes by 50%.",
+    "values": [
+      "50%"
+    ]
+  },
+  "r3": {
+    "description": "Increases DMG against slimes by 60%.",
+    "values": [
+      "60%"
+    ]
+  },
+  "r4": {
+    "description": "Increases DMG against slimes by 70%.",
+    "values": [
+      "70%"
+    ]
+  },
+  "r5": {
+    "description": "Increases DMG against slimes by 80%.",
+    "values": [
+      "80%"
+    ]
+  }
+}

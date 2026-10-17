@@ -1,0 +1,315 @@
+{
+  "id": 12305,
+  "name": "Debate Club",
+  "description": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+  "rarity": 3,
+  "weaponType": "Claymore",
+  "baseAttack": 38.7413,
+  "mainStat": "ATK",
+  "baseStatText": "7.7%",
+  "effectName": "Blunt Conclusion",
+  "effectTemplate": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to <color=#99FFFFFF>{0}</color> of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+      "values": [
+        "60%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 75% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+      "values": [
+        "75%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 90% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+      "values": [
+        "90%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 105% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+      "values": [
+        "105%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 120% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+      "values": [
+        "120%"
+      ]
+    }
+  ],
+  "story": "A persuasive tool, sure to turn the tide of a heated argument in the wielder's favor. Guaranteed to add weight to one's words.\nUseful in any argument, no matter who the opponent, to convince them to listen to reason.\nIn short, people listen to pearls of wisdom.\nUltimately, production was forcibly ended due to mass protests.\nThe needs of the many outweigh the needs of the one.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Reasoning",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Reasoning_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Reasoning",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 2
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 2
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 2
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 8
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 4
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 2
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 8
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 4
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114020,
+        "name": "Mist Veiled Primo Elixir",
+        "count": 3
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.0766
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.35190040000000006
+    }
+  ],
+  "r1": {
+    "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "values": [
+      "60%"
+    ]
+  },
+  "r2": {
+    "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 75% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "values": [
+      "75%"
+    ]
+  },
+  "r3": {
+    "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 90% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "values": [
+      "90%"
+    ]
+  },
+  "r4": {
+    "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 105% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "values": [
+      "105%"
+    ]
+  },
+  "r5": {
+    "description": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 120% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "values": [
+      "120%"
+    ]
+  }
+}

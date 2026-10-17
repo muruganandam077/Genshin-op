@@ -1,0 +1,315 @@
+{
+  "id": 13402,
+  "name": "Prototype Starglitter",
+  "description": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+  "rarity": 4,
+  "weaponType": "Polearm",
+  "baseAttack": 42.401,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "10%",
+  "effectName": "Magic Affinity",
+  "effectTemplate": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <color=#99FFFFFF>{0}</color> for 12s. Max 2 stacks.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks.",
+      "values": [
+        "8%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 10% for 12s. Max 2 stacks.",
+      "values": [
+        "10%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 12% for 12s. Max 2 stacks.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 14% for 12s. Max 2 stacks.",
+      "values": [
+        "14%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 16% for 12s. Max 2 stacks.",
+      "values": [
+        "16%"
+      ]
+    }
+  ],
+  "story": "An ancient prototype pole weapon from Liyue's arsenal. The batch number has faded and no records exist to confirm the date of production.\nThe pole is made of black steel inlaid with gold. A lightning motif runs along the body, featuring streaks of lightning interspersed with stars. The addition of gold leaf gives it an exquisite finish.\n\nBy the time the monster threat was quelled, the remaining troops were few and far between, and each joined the civilian community where they were based. Though peace now prevailed, it sparked a martial arts renaissance that spread throughout the land.\nDemand for all kinds of weaponry spiked, especially for superior quality items, and manufacturers could not keep pace. To find a solution, Yun Hui of the house of Yun met with master craftsman Han Wu and the two conducted intensive research behind closed doors.\nBy the time they emerged, both men's beards had grown by twelve inches. Their new weapon designs, \"the prototypes,\" were finally ready to revolutionize weaponry manufacturing in Liyue. It was time to do away with the shackles of the past that plagued their craft.\n\nThe first pole built to the new specifications had a black-and-gold appearance. The spike at the tip was two inches longer than the previous standard. It was truly a deadly weapon, but one with a composed and commanding presence.\nIt was left to bask overnight in the moonlight. At the first light of dawn, the tip shone with the cold, piercing light of a star against the dim sky.\n\nAt this ethereal sight, Yun Hui's mind was flooded with memories of his father's glory, for his father's name made reference to the stars. Greatly moved, he decided to dedicate the weapon to his father's memory.\nFor this reason the weapon became known as \"Starglitter\" among later practitioners of the halberd arts in Liyue.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Pole_Proto",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Proto_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Proto",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 3
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 6
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 6
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 3
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 6
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 9
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114024,
+        "name": "Chunk of Aerosiderite",
+        "count": 4
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 18
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.1
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.1767
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.1767
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.45940000000000003
+    }
+  ],
+  "r1": {
+    "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks.",
+    "values": [
+      "8%"
+    ]
+  },
+  "r2": {
+    "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 10% for 12s. Max 2 stacks.",
+    "values": [
+      "10%"
+    ]
+  },
+  "r3": {
+    "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 12% for 12s. Max 2 stacks.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r4": {
+    "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 14% for 12s. Max 2 stacks.",
+    "values": [
+      "14%"
+    ]
+  },
+  "r5": {
+    "description": "After using an Elemental Skill, increases Normal and Charged Attack DMG by 16% for 12s. Max 2 stacks.",
+    "values": [
+      "16%"
+    ]
+  }
+}

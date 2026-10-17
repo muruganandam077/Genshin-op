@@ -1,0 +1,315 @@
+{
+  "id": 13301,
+  "name": "White Tassel",
+  "description": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+  "rarity": 3,
+  "weaponType": "Polearm",
+  "baseAttack": 38.7413,
+  "mainStat": "CRIT Rate",
+  "baseStatText": "5.1%",
+  "effectName": "Sharp",
+  "effectTemplate": "Increases Normal Attack DMG by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases Normal Attack DMG by 24%.",
+      "values": [
+        "24%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases Normal Attack DMG by 30%.",
+      "values": [
+        "30%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases Normal Attack DMG by 36%.",
+      "values": [
+        "36%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases Normal Attack DMG by 42%.",
+      "values": [
+        "42%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases Normal Attack DMG by 48%.",
+      "values": [
+        "48%"
+      ]
+    }
+  ],
+  "story": "The Millelith Soldiers are renowned the world over for their skilled use of polearm weapons.\nThe signature white-tasseled halberd they wield is mass-produced at the Blackcliff Forge.\nIt is a weapon that has stood the test of countless bloody battles over centuries of history.\nFor even when the smoke of the battlefield stained the tassel a murky shade of gray, it would wave proudly and defiantly like a flag in the wind.\n\nThe army once had in its ranks a legendary master of the polearm.\nHe could hit his target from miles away without staining its tassel.\n\"The legend is that of the polearm's bearer...\"\n\"Not the polearm itself, which was entirely ordinary.\"\nThe old smith smacked his apprentice.\nHe demanded a white tassel for the newly made polearm.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Pole_Ruby",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Ruby_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Ruby",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 2
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112032,
+        "name": "Recruit's Insignia",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 4
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 2
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 8
+      },
+      {
+        "id": 112033,
+        "name": "Sergeant's Insignia",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 6
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114016,
+        "name": "Divine Body from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112034,
+        "name": "Lieutenant's Insignia",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.051
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.09011699999999999
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.09011699999999999
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.131325
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.131325
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.151929
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.151929
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.172533
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.172533
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.19308599999999998
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.19308599999999998
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.21369000000000002
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.21369000000000002
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.234294
+    }
+  ],
+  "r1": {
+    "description": "Increases Normal Attack DMG by 24%.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r2": {
+    "description": "Increases Normal Attack DMG by 30%.",
+    "values": [
+      "30%"
+    ]
+  },
+  "r3": {
+    "description": "Increases Normal Attack DMG by 36%.",
+    "values": [
+      "36%"
+    ]
+  },
+  "r4": {
+    "description": "Increases Normal Attack DMG by 42%.",
+    "values": [
+      "42%"
+    ]
+  },
+  "r5": {
+    "description": "Increases Normal Attack DMG by 48%.",
+    "values": [
+      "48%"
+    ]
+  }
+}

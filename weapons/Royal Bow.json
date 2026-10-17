@@ -1,0 +1,315 @@
+{
+  "id": 15404,
+  "name": "Royal Bow",
+  "description": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+  "rarity": 4,
+  "weaponType": "Bow",
+  "baseAttack": 42.401,
+  "mainStat": "ATK",
+  "baseStatText": "9%",
+  "effectName": "Focus",
+  "effectTemplate": "Upon damaging an opponent, increases CRIT Rate by <color=#99FFFFFF>{0}</color>. Max 5 stacks. A CRIT Hit removes all stacks.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+      "values": [
+        "8%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
+      "values": [
+        "10%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
+      "values": [
+        "14%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+      "values": [
+        "16%"
+      ]
+    }
+  ],
+  "story": "A longbow used by a noble who ruled over Mondstadt. It was crafted with premium materials and master craftsmanship.\nFor that reason, generations later, it is still as powerful as ever.\nHunting was once a pastime of the nobles.\nThey demonstrated their strength in the natural world, and shared the spoils with the people in benevolence.\nUnfortunately, benevolence was lost, and with it, their reign.\n\nAfter the uprising, the Lawrence Clan that had long ruled Mondstadt was overthrown.\nIn the name of benevolent governance, the newly established Knights of Favonius deemed that protracted investigations would be unnecessary.\nThe Lawrence Clan was promptly cast out from Mondstadt, never to return.\n\n\"On the road bound to our exile, I watched my father sigh with grief: at the betrayal of the people, at the end of a glorious era, at the final chapter of history.\"\n\"We watched the people who were once our subjects rejoicing in the open country as we bid farewell to our homeland.\"\n\"Only years later did I realize: it was we, the Lawrence Clan, who had betrayed, who had ended a glorious era, and who had closed the history books. Only now was Mondstadt as it always should have been.\"\n\nVennessa was but the final push that toppled a crumbling tower. Before her, the flames of fury already burned bright, and occasionally the flickering flames had shone through the thick smoke of secrecy:\nThe phantom thief praised in secret by the people. The woman who could see death. The Wanderer's Troupe intent on revolution.\nThe spirit of resistance is in Mondstadters' blood.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Theocrat",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Theocrat_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Theocrat",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 3
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 12
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 6
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 12
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 9
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 18
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "values": [
+      "8%"
+    ]
+  },
+  "r2": {
+    "description": "Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "values": [
+      "10%"
+    ]
+  },
+  "r3": {
+    "description": "Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r4": {
+    "description": "Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "values": [
+      "14%"
+    ]
+  },
+  "r5": {
+    "description": "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "values": [
+      "16%"
+    ]
+  }
+}

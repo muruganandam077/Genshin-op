@@ -1,0 +1,335 @@
+{
+  "id": 11501,
+  "name": "Aquila Favonia",
+  "description": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
+  "rarity": 5,
+  "weaponType": "Sword",
+  "baseAttack": 47.537,
+  "mainStat": "Physical DMG Bonus",
+  "baseStatText": "9%",
+  "effectName": "Falcon's Defiance",
+  "effectTemplate": "ATK is increased by <color=#99FFFFFF>{0}</color>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <color=#99FFFFFF>{1}</color> of ATK and dealing <color=#99FFFFFF>{2}</color> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+      "values": [
+        "20%",
+        "100%",
+        "200%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "ATK is increased by 25%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 115% of ATK and dealing 230% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+      "values": [
+        "25%",
+        "115%",
+        "230%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "ATK is increased by 30%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 130% of ATK and dealing 260% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+      "values": [
+        "30%",
+        "130%",
+        "260%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "ATK is increased by 35%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 145% of ATK and dealing 290% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+      "values": [
+        "35%",
+        "145%",
+        "290%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "ATK is increased by 40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 160% of ATK and dealing 320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+      "values": [
+        "40%",
+        "160%",
+        "320%"
+      ]
+    }
+  ],
+  "story": "All knew the falcon's protection was a blessing of Favonius.\nFew knew the blessing of Favonius was from a distant tribe.\n\nUnder the tyranny of the old nobles, Mondstadt cried for freedom.\nEnslaved was the exiled foreign fighter in the land of wind.\nYet she knelt not before injustice and deception, but set a shining example.\nFor she overthrew the barbaric nobles and established a chivalric order and the Church.\nBlessed was she to eventually walk with the gods.\n\nThis was her sword that witnessed all her hardships and feats.\nA testament to her achievement in spreading justice across Mondstadt.\nYou can feel her unrelenting spirit when swinging this sword:\n\nJustice for the oppressed.\nFreedom for the shackled.\nWisdom for the deceived.\nLet the wind of justice and freedom lead.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Falcon",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Falcon",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 5
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 18
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 9
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 9
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 5
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 18
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 9
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 14
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 6
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 27
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 47.537,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 133.293748,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 164.393748,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 674.3345459999999,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    "values": [
+      "20%",
+      "100%",
+      "200%"
+    ]
+  },
+  "r2": {
+    "description": "ATK is increased by 25%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 115% of ATK and dealing 230% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    "values": [
+      "25%",
+      "115%",
+      "230%"
+    ]
+  },
+  "r3": {
+    "description": "ATK is increased by 30%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 130% of ATK and dealing 260% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    "values": [
+      "30%",
+      "130%",
+      "260%"
+    ]
+  },
+  "r4": {
+    "description": "ATK is increased by 35%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 145% of ATK and dealing 290% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    "values": [
+      "35%",
+      "145%",
+      "290%"
+    ]
+  },
+  "r5": {
+    "description": "ATK is increased by 40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 160% of ATK and dealing 320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+    "values": [
+      "40%",
+      "160%",
+      "320%"
+    ]
+  }
+}

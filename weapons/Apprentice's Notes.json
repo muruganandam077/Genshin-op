@@ -1,0 +1,178 @@
+{
+  "id": 14101,
+  "name": "Apprentice's Notes",
+  "description": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful.",
+  "rarity": 1,
+  "weaponType": "Catalyst",
+  "baseAttack": 23.245,
+  "refinements": [],
+  "story": "With words, this book records learning, experiments, and incantations.\nWith the spaces between words, it records a student's striving.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Apprentice",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Apprentice",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 0
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 1
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 1
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 1
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 4
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 2
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 2
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 2
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 2
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 1
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 3
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 23.245,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 56.252900000000004,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 67.9529,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 113.16517,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 113.16517,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 141.32263,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 141.32263,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 169.29413,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 169.29413,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 185.42615999999998,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 185.42615999999998,
+      "specialized": 0
+    }
+  ]
+}

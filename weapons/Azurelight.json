@@ -1,0 +1,333 @@
+{
+  "id": 11517,
+  "name": "Azurelight",
+  "description": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
+  "rarity": 5,
+  "weaponType": "Sword",
+  "baseAttack": 47.537,
+  "mainStat": "CRIT Rate",
+  "baseStatText": "4.8%",
+  "effectName": "Whitehill's Bestowal",
+  "effectTemplate": "Within 12s after an Elemental Skill is used, ATK is increased by <color=#99FFFFFF>{0}</color>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <color=#99FFFFFF>{1}</color>, and CRIT DMG will be increased by <color=#99FFFFFF>{2}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Within 12s after an Elemental Skill is used, ATK is increased by 24%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24%, and CRIT DMG will be increased by 40%.",
+      "values": [
+        "24%",
+        "24%",
+        "40%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Within 12s after an Elemental Skill is used, ATK is increased by 30%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 30%, and CRIT DMG will be increased by 50%.",
+      "values": [
+        "30%",
+        "30%",
+        "50%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Within 12s after an Elemental Skill is used, ATK is increased by 36%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 36%, and CRIT DMG will be increased by 60%.",
+      "values": [
+        "36%",
+        "36%",
+        "60%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Within 12s after an Elemental Skill is used, ATK is increased by 42%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 42%, and CRIT DMG will be increased by 70%.",
+      "values": [
+        "42%",
+        "42%",
+        "70%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Within 12s after an Elemental Skill is used, ATK is increased by 48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 48%, and CRIT DMG will be increased by 80%.",
+      "values": [
+        "48%",
+        "48%",
+        "80%"
+      ]
+    }
+  ],
+  "story": "\"The laws shall not be tested, nor shall the strictures be questioned, or the scriptures infringed.\"\n\"This I once believed, proclaimed, and ordained.\"\n\n\"Only when the gentle starlight brushed against mine eyes,\"\n\"Unveiling itself to me atop the white stone mountain of song,\"\n\"Was the desire placed in my heart to speak to you of the coming sunrise.\"\n\n\"Brothers, sisters, you who have submitted to the primordial master, let me tell of the truth I have witnessed.\"\n\"One of us shall wander beneath moonless night, drinking a sea of tears in futility for kin who will not return.\"\n\"Another shall trudge across gilded sands, never to comprehend scarlet sincerity or ardent admiration.\"\n\"Still another shall shrink into the dark, into bone-piercing hostility, until the promised tides arise to play out one final melody.\"\n\"And still another shall wander ever, in dreams solely to journey, awaiting an encounter in a stagnant, foreign land.\"\n\"Beg, plead, and sacrifice — not one of these shall loosen the bonds about your necks.\"\n\n\"Since that is so, shall your true and cherished hope be to forsake that which throbs unspeakable in your hearts?\"\n\"Will you languish in an eternity with neither beginning nor end? Commit atrocities in the name of false promises?\"\n\"Therefore, I bid you—\"\n\"Cast it all aside, set it at naught, drench your wings in filth — let the love that blazes in our breasts burst forth.\"\n\"Hunger, thirst, yearn, desire! Entrust the world to those who live in it — let the nations' glory exceed that of the heavens.\"\n\"Sing and rejoice! Bestow upon humanity authority — let the lances of lunar light pierce the creator's delusions.\"\n\"Reach for that daybreak pristine, where the nations need beg for leave to live no longer!\"\n\"Lift up your eyes to the radiant daystars, let me guide us unto new skies.\"\n\n\"The moment shall come when the ruler who stands against love is shaken,\"\n\"And once the veil is sundered and torn, a new day over this land shall dawn.\"",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_OuterSword",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_OuterSword_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_OuterSword",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword_Awaken.png"
+  },
+  "version": "5.7",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114069,
+        "name": "Night-Wind's Mystic Consideration",
+        "count": 5
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 5
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 5
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 18
+      },
+      {
+        "id": 112104,
+        "name": "Sentry's Wooden Whistle",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 9
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 9
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 5
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 18
+      },
+      {
+        "id": 112105,
+        "name": "Warrior's Metal Whistle",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 9
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 14
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114072,
+        "name": "Night-Wind's Mystic Revelation",
+        "count": 6
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 27
+      },
+      {
+        "id": 112106,
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 47.537,
+      "specialized": 0.048
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 133.293748,
+      "specialized": 0.084816
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 164.393748,
+      "specialized": 0.084816
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.12360000000000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 291.661099,
+      "specialized": 0.12360000000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.142992
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 372.632338,
+      "specialized": 0.142992
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.162384
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 454.501854,
+      "specialized": 0.162384
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.181728
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 537.32211,
+      "specialized": 0.181728
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.20112000000000002
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 620.950495,
+      "specialized": 0.20112000000000002
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 674.3345459999999,
+      "specialized": 0.220512
+    }
+  ],
+  "r1": {
+    "description": "Within 12s after an Elemental Skill is used, ATK is increased by 24%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24%, and CRIT DMG will be increased by 40%.",
+    "values": [
+      "24%",
+      "24%",
+      "40%"
+    ]
+  },
+  "r2": {
+    "description": "Within 12s after an Elemental Skill is used, ATK is increased by 30%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 30%, and CRIT DMG will be increased by 50%.",
+    "values": [
+      "30%",
+      "30%",
+      "50%"
+    ]
+  },
+  "r3": {
+    "description": "Within 12s after an Elemental Skill is used, ATK is increased by 36%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 36%, and CRIT DMG will be increased by 60%.",
+    "values": [
+      "36%",
+      "36%",
+      "60%"
+    ]
+  },
+  "r4": {
+    "description": "Within 12s after an Elemental Skill is used, ATK is increased by 42%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 42%, and CRIT DMG will be increased by 70%.",
+    "values": [
+      "42%",
+      "42%",
+      "70%"
+    ]
+  },
+  "r5": {
+    "description": "Within 12s after an Elemental Skill is used, ATK is increased by 48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 48%, and CRIT DMG will be increased by 80%.",
+    "values": [
+      "48%",
+      "48%",
+      "80%"
+    ]
+  }
+}

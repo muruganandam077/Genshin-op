@@ -1,0 +1,1625 @@
+{
+  "Aether": {
+    "name": "Aether",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": null,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Aino": {
+    "name": "Aino",
+    "element": "Varies",
+    "burstEnergyCost": 50,
+    "burstCooldownSeconds": 13.5,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Albedo": {
+    "name": "Albedo",
+    "element": "Geo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "1 particle per Transient Blossom tick (approx. 67% chance, 1.2s ICD)",
+    "particleIcd": "1.2s",
+    "batteryTier": "A",
+    "notes": "Solar Isotoma proc has a 67% chance to generate 1 Geo particle with a 1.2s ICD. Excellent passive Geo battery.",
+    "teamRotations": []
+  },
+  "Alhaitham": {
+    "name": "Alhaitham",
+    "element": "Dendro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "1 particle per Chisel-Light Mirror projection attack (1.6s ICD, up to 6 total)",
+    "particleIcd": "1.6s",
+    "batteryTier": "A",
+    "notes": "Mirror projection strikes generate 1 Dendro particle with a 1.6s ICD.",
+    "teamRotations": [
+      {
+        "teamName": "Alhaitham Quickbloom",
+        "teammates": [
+          "Alhaitham",
+          "Nahida",
+          "Yelan",
+          "Kuki Shinobu"
+        ],
+        "rotationLength": "20s",
+        "erRequirements": {
+          "Alhaitham": "130-140%",
+          "Nahida": "140-160%",
+          "Yelan": "180-200%",
+          "Kuki Shinobu": "Full EM"
+        },
+        "rotationSteps": [
+          "Nahida Hold E -> Q (Mark enemies + Shrine of Maya EM buff)",
+          "Yelan E -> Q -> N1",
+          "Kuki Shinobu E",
+          "Alhaitham Q -> (Wait 2s for 3 Mirror generation)",
+          "Alhaitham 2x N3D -> E -> 2x N3D -> Plunge/Charged Attack -> 2x N3D",
+          "Repeat rotation"
+        ],
+        "rotationNotes": "Maintain 3 Chisel-Light Mirrors as long as possible by staggering Elemental Skill and Plunge/Charged Attack."
+      }
+    ]
+  },
+  "Aloy": {
+    "name": "Aloy",
+    "element": "Varies",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Alyosha": {
+    "name": "Alyosha",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Amber": {
+    "name": "Amber",
+    "element": "Varies",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Arataki Itto": {
+    "name": "Arataki Itto",
+    "element": "Geo",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "3 ~ 4 (avg 3.5) on Ushi hit",
+    "particleIcd": "10s",
+    "batteryTier": "B",
+    "notes": "Masatsu Zetsugi: Akaushi Burst generates 3-4 Geo particles when Ushi hits an opponent. 10s CD.",
+    "teamRotations": []
+  },
+  "Arlecchino": {
+    "name": "Arlecchino",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "5 particles",
+    "particleIcd": "30s base",
+    "batteryTier": "A",
+    "notes": "Generates 5 Pyro particles when All Is Ash hits an enemy. 30s CD (reduced by consuming Blood-Debt).",
+    "teamRotations": [
+      {
+        "teamName": "Arlecchino Vape",
+        "teammates": [
+          "Arlecchino",
+          "Yelan",
+          "Kaedehara Kazuha",
+          "Bennett"
+        ],
+        "rotationLength": "20s",
+        "erRequirements": {
+          "Arlecchino": "100-110%",
+          "Yelan": "190-210%",
+          "Kaedehara Kazuha": "160-170%",
+          "Bennett": "220%+"
+        },
+        "rotationSteps": [
+          "Arlecchino E (Apply Blood-Debt Directive to enemies)",
+          "Zhongli/Kazuha Hold E -> Swirl Pyro",
+          "Yelan E -> Q -> N1",
+          "Bennett Q -> E",
+          "Arlecchino Charged Attack (Absorb Blood-Debt to gain Bond of Life)",
+          "Arlecchino Normal Attack string (6-8s sustained Pyro infusion)",
+          "Arlecchino Q only as emergency heal -> Repeat"
+        ],
+        "rotationNotes": "Allow at least 5 seconds for Blood-Debt Directives to mature into Blood-Debt Dues to absorb the maximum 145% Bond of Life."
+      }
+    ]
+  },
+  "Baizhu": {
+    "name": "Baizhu",
+    "element": "Dendro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "3 ~ 4 (avg 3.5)",
+    "particleIcd": "10s",
+    "batteryTier": "A",
+    "notes": "Universal Diagnosis Gossamer Sprite generates 3-4 Dendro particles upon returning. 10s CD.",
+    "teamRotations": []
+  },
+  "Barbara": {
+    "name": "Barbara",
+    "element": "Hydro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "0 particles",
+    "particleIcd": "None (0 particles)",
+    "batteryTier": "F",
+    "notes": "Let the Show Begin does NOT generate any elemental particles. Relies entirely on external battery or Favonius Codex.",
+    "teamRotations": []
+  },
+  "Beidou": {
+    "name": "Beidou",
+    "element": "Electro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Tap: 2 particles | Perfect Counter: 4 particles",
+    "particleIcd": "7.5s",
+    "batteryTier": "A",
+    "notes": "Tidecaller generates 2 particles on simple cast, but 4 particles upon achieving a full perfect parry counter. 7.5s CD.",
+    "teamRotations": []
+  },
+  "Bennett": {
+    "name": "Bennett",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 ~ 3 (avg 2.25)",
+    "particleIcd": "4s / 2s in burst",
+    "batteryTier": "S",
+    "notes": "Press: 2-3 particles (approx. 2.25 avg) on 4s CD (2s in burst). Hold 1: 3 particles on 7.5s CD. Hold 2: 3 particles on 10s CD. Prime battery for Xiangling.",
+    "teamRotations": []
+  },
+  "Candace": {
+    "name": "Candace",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Charlotte": {
+    "name": "Charlotte",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Tap: 3 particles (12s CD) | Hold: 5 particles (18s CD)",
+    "particleIcd": "12s / 18s",
+    "batteryTier": "A",
+    "notes": "Framing: Freezing Point Composition generates substantial Cryo energy upon holding full snapshot. 18s CD.",
+    "teamRotations": []
+  },
+  "Chasca": {
+    "name": "Chasca",
+    "element": "Anemo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "4 ~ 5 particles",
+    "particleIcd": "15s",
+    "batteryTier": "A",
+    "notes": "Generates 4-5 particles during Nightsoul transmission and Shadowhunt volley. 15s CD.",
+    "teamRotations": []
+  },
+  "Chevreuse": {
+    "name": "Chevreuse",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Chiori": {
+    "name": "Chiori",
+    "element": "Geo",
+    "burstEnergyCost": 50,
+    "burstCooldownSeconds": 13.5,
+    "skillParticleGeneration": "1 ~ 2 per Sode automaton sweep (1.2s ICD, ~4-5 total)",
+    "particleIcd": "3s",
+    "batteryTier": "A",
+    "notes": "Sode automaton attacks generate 1-2 Geo particles with an internal cooldown. Double Sode does not double particle frequency.",
+    "teamRotations": []
+  },
+  "Chongyun": {
+    "name": "Chongyun",
+    "element": "Cryo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "15s",
+    "batteryTier": "A",
+    "notes": "Chonghua's Layered Frost generates 4 Cryo particles on strike. 15s CD.",
+    "teamRotations": []
+  },
+  "Citlali": {
+    "name": "Citlali",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Clorinde": {
+    "name": "Clorinde",
+    "element": "Electro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "1 particle per Impale the Night pierce (up to 4-5 total)",
+    "particleIcd": "2s",
+    "batteryTier": "B",
+    "notes": "Thrusts during Night Vigil state generate 1 particle with a 2s ICD.",
+    "teamRotations": []
+  },
+  "Collei": {
+    "name": "Collei",
+    "element": "Dendro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "3 particles",
+    "particleIcd": "12s",
+    "batteryTier": "B",
+    "notes": "Floral Brush generates 3 Dendro particles on boomerang hit. 12s CD.",
+    "teamRotations": []
+  },
+  "Columbina": {
+    "name": "Columbina",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Cyno": {
+    "name": "Cyno",
+    "element": "Electro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Normal: 3 particles (7.5s CD) | Burst State: 1 ~ 2 particles (3s CD)",
+    "particleIcd": "3s in burst",
+    "batteryTier": "B",
+    "notes": "Secret Rite: Chasmic Soulfarer produces fewer particles in burst mode (1.33 avg), but on a rapid 3s CD.",
+    "teamRotations": []
+  },
+  "Dahlia": {
+    "name": "Dahlia",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Dehya": {
+    "name": "Dehya",
+    "element": "Pyro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "1 particle per coordinated attack (up to 4-5 total)",
+    "particleIcd": "2.5s",
+    "batteryTier": "B",
+    "notes": "Fiery Sanctum coordinated strikes have a 50% chance to generate 1 particle per trigger (2.5s ICD).",
+    "teamRotations": []
+  },
+  "Diluc": {
+    "name": "Diluc",
+    "element": "Pyro",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "1 ~ 2 per Searing Onslaught cast (avg 4 total)",
+    "particleIcd": "Per combo strike",
+    "batteryTier": "A",
+    "notes": "Each of the 3 skill combo casts has a chance to generate 1-2 particles, averaging ~4 particles per 10s cycle.",
+    "teamRotations": []
+  },
+  "Diona": {
+    "name": "Diona",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Press: 2 particles (6s CD) | Hold: 4 ~ 5 particles (avg 4.5, 15s CD)",
+    "particleIcd": "15s (Hold)",
+    "batteryTier": "S",
+    "notes": "Hold skill fires 5 Icy Paws. With Sacrificial Bow, she generates up to 9-10 Cryo particles, making her a top-tier battery for Ayaka/Eula.",
+    "teamRotations": []
+  },
+  "Dori": {
+    "name": "Dori",
+    "element": "Electro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "2 particles",
+    "particleIcd": "9s",
+    "batteryTier": "A",
+    "notes": "Spirit-Warding Lamp generates 2 particles. Her Jinni burst provides significant flat energy recovery to active character.",
+    "teamRotations": []
+  },
+  "Durin": {
+    "name": "Durin",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Emilie": {
+    "name": "Emilie",
+    "element": "Dendro",
+    "burstEnergyCost": 50,
+    "burstCooldownSeconds": 13.5,
+    "skillParticleGeneration": "1 particle per Lumidouce Case breath attack (2.5s ICD, up to 8 total)",
+    "particleIcd": "2.5s",
+    "batteryTier": "A",
+    "notes": "Lumidouce Case generates 1 Dendro particle periodically when hitting burning or scented targets.",
+    "teamRotations": []
+  },
+  "Escoffier": {
+    "name": "Escoffier",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Eula": {
+    "name": "Eula",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Tap: 1 ~ 2 (avg 1.5, 4s CD) | Hold: 2 ~ 3 (avg 2.5, 10s CD)",
+    "particleIcd": "4s / 10s",
+    "batteryTier": "C",
+    "notes": "Low personal particle generation relative to her 80 energy burst cost. Demands an external Cryo battery like Diona/Rosaria or Raiden.",
+    "teamRotations": []
+  },
+  "Faruzan": {
+    "name": "Faruzan",
+    "element": "Anemo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "2 particles per Pressurized Collapse vortex hit",
+    "particleIcd": "5.5s",
+    "batteryTier": "C (Pre-C6) / S (C6)",
+    "notes": "Requires firing Hurricane Arrow after skill to create vortex that generates 2 Anemo particles. 5.5s ICD. Pre-C6 has severe energy constraints.",
+    "teamRotations": []
+  },
+  "Fischl": {
+    "name": "Fischl",
+    "element": "Electro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "0.67 particles per Oz attack hit (~1 particle per 1.5s, up to 7-9 total)",
+    "particleIcd": "1s",
+    "batteryTier": "S",
+    "notes": "Oz generates 1 Electro particle on roughly every 1.5 attacks with a 1s ICD. One of the game's finest off-field batteries.",
+    "teamRotations": []
+  },
+  "Flins": {
+    "name": "Flins",
+    "element": "Varies",
+    "burstEnergyCost": 30,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Freminet": {
+    "name": "Freminet",
+    "element": "Cryo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 particles on Shattering Pressure strike",
+    "particleIcd": "10s",
+    "batteryTier": "B",
+    "notes": "Generates 2 particles on level 0-4 pressure release. 10s CD.",
+    "teamRotations": []
+  },
+  "Furina": {
+    "name": "Furina",
+    "element": "Hydro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "1 particle per Salon Member hit (avg 1 every 2.5s, ~7-8 per 30s rotation)",
+    "particleIcd": "2.5s",
+    "batteryTier": "A",
+    "notes": "Salon Solitaire members have an independent 2.5s particle generation ICD on hit. Consistent sustained off-field battery.",
+    "teamRotations": [
+      {
+        "teamName": "Neuvillette Hypercarry",
+        "teammates": [
+          "Neuvillette",
+          "Furina",
+          "Kaedehara Kazuha",
+          "Zhongli"
+        ],
+        "rotationLength": "22s",
+        "erRequirements": {
+          "Neuvillette": "120-130%",
+          "Furina": "170-190%",
+          "Kaedehara Kazuha": "160-170%",
+          "Zhongli": "100-120%"
+        },
+        "rotationSteps": [
+          "Zhongli Hold E (Universal 20% RES Shred + Shield)",
+          "Furina E -> Q (Summon Salon Solitaire + Activate Let the People Rejoice)",
+          "Kaedehara Kazuha tEP -> Q (Double Hydro Swirl + Buff)",
+          "Neuvillette E -> Charged Attack (Equitable Judgment)",
+          "Neuvillette Q -> 2x Charged Attacks",
+          "Kaedehara Kazuha tEP -> Reset Furina pets"
+        ],
+        "rotationNotes": "Neuvillette's HP fluctuations rapidly stack Fanfare points for Furina, maximizing her universal damage multiplier."
+      },
+      {
+        "teamName": "Furina Double Hydro Hyperbloom",
+        "teammates": [
+          "Alhaitham",
+          "Furina",
+          "Yelan",
+          "Kuki Shinobu"
+        ],
+        "rotationLength": "20s",
+        "erRequirements": {
+          "Alhaitham": "130-140%",
+          "Furina": "160-180%",
+          "Yelan": "180-200%",
+          "Kuki Shinobu": "Full EM (100% ER sufficient)"
+        },
+        "rotationSteps": [
+          "Furina E -> Q",
+          "Yelan E -> Q -> N1",
+          "Kuki Shinobu E (Sanctifying Ring for healing & hyperbloom triggers)",
+          "Alhaitham Q -> (Wait 2s for 3 Mirrors) -> 2x N3D -> E -> 2x N3D -> Plunge",
+          "Repeat cycle"
+        ],
+        "rotationNotes": "Extremely high single-target DPS combining raw Hydro/Dendro application with accelerated Fanfare stacking."
+      }
+    ]
+  },
+  "Gaming": {
+    "name": "Gaming",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 particles",
+    "particleIcd": "3s",
+    "batteryTier": "A",
+    "notes": "Bestial Ascent plunge hit generates 2 particles with 3s ICD. In burst mode Man Chai resets skill for rapid particle generation.",
+    "teamRotations": []
+  },
+  "Ganyu": {
+    "name": "Ganyu",
+    "element": "Cryo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 particles on flower placement + 2 particles on flower explosion (4 total)",
+    "particleIcd": "Per cast / expiration",
+    "batteryTier": "A",
+    "notes": "Trail of the Qilin generates 2 particles upon cast, and 2 more when the ice lotus expires or is destroyed. 10s CD.",
+    "teamRotations": []
+  },
+  "Gorou": {
+    "name": "Gorou",
+    "element": "Geo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "2 particles",
+    "particleIcd": "10s",
+    "batteryTier": "B",
+    "notes": "Inuzuka All-Round Defense generates 2 Geo particles on cast. 10s CD. Favonius Warbow recommended.",
+    "teamRotations": []
+  },
+  "Hu Tao": {
+    "name": "Hu Tao",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 ~ 3 (avg 2.5)",
+    "particleIcd": "5s",
+    "batteryTier": "B",
+    "notes": "Blood Blossom damage ticks generate 2-3 Pyro particles. Cannot generate particles from skill activation alone. 5s particle ICD.",
+    "teamRotations": [
+      {
+        "teamName": "Hu Tao Double Hydro",
+        "teammates": [
+          "Hu Tao",
+          "Xingqiu",
+          "Yelan",
+          "Zhongli"
+        ],
+        "rotationLength": "21s",
+        "erRequirements": {
+          "Hu Tao": "110-120%",
+          "Xingqiu": "170-180%",
+          "Yelan": "180-190%",
+          "Zhongli": "100%"
+        },
+        "rotationSteps": [
+          "Zhongli Hold E (Shield + RES Shred)",
+          "Xingqiu Q -> N1 -> E -> E",
+          "Yelan E -> Q -> N1",
+          "Hu Tao E -> 8-9x N2C + Jump/Dash Cancel -> Q (Burst before skill expires)",
+          "Zhongli refresh shield -> Repeat"
+        ],
+        "rotationNotes": "Double Hydro resonance grants +25% Max HP, boosting Hu Tao, Yelan, and Zhongli shield simultaneously."
+      }
+    ]
+  },
+  "Iansan": {
+    "name": "Iansan",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Ifa": {
+    "name": "Ifa",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Illuga": {
+    "name": "Illuga",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Ineffa": {
+    "name": "Ineffa",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Jahoda": {
+    "name": "Jahoda",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Jean": {
+    "name": "Jean",
+    "element": "Anemo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "2 ~ 3 (avg 2.67)",
+    "particleIcd": "6s",
+    "batteryTier": "A",
+    "notes": "Gale Blade generates 2-3 particles on a very short 6s CD.",
+    "teamRotations": []
+  },
+  "Kachina": {
+    "name": "Kachina",
+    "element": "Geo",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "1 particle per Turbo Twirler slam (2s ICD, up to 4 total)",
+    "particleIcd": "2s",
+    "batteryTier": "B",
+    "notes": "Turbo Twirler independent or riding slams generate 1 particle with a 2s ICD.",
+    "teamRotations": []
+  },
+  "Kaedehara Kazuha": {
+    "name": "Kaedehara Kazuha",
+    "element": "Anemo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Press: 3 particles (6s CD) | Hold: 4 particles (9s CD)",
+    "particleIcd": "6s / 9s",
+    "batteryTier": "S",
+    "notes": "Chihayaburu is one of the premier Anemo battery skills. Generates high particle volume with low cooldown.",
+    "teamRotations": []
+  },
+  "Kaeya": {
+    "name": "Kaeya",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Kamisato Ayaka": {
+    "name": "Kamisato Ayaka",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "4 ~ 5 (avg 4.5)",
+    "particleIcd": "10s",
+    "batteryTier": "A",
+    "notes": "Hyouka generates 4-5 Cryo particles on cast. 10s CD.",
+    "teamRotations": [
+      {
+        "teamName": "Ayaka Premium Freeze (MSR)",
+        "teammates": [
+          "Kamisato Ayaka",
+          "Shenhe",
+          "Kaedehara Kazuha",
+          "Sangonomiya Kokomi"
+        ],
+        "rotationLength": "20s",
+        "erRequirements": {
+          "Kamisato Ayaka": "130-140%",
+          "Shenhe": "180-200%",
+          "Kaedehara Kazuha": "160-170%",
+          "Sangonomiya Kokomi": "160-180% (Thrilling Tales)"
+        },
+        "rotationSteps": [
+          "Shenhe Press E -> Q (Icy Quills + Cryo/Physical Shred)",
+          "Kaedehara Kazuha tEP -> Q (Cryo Swirl + Grouping)",
+          "Kokomi E (Apply Hydro with Bake-Kurage)",
+          "Ayaka Dash -> N1 -> E -> Q (Kamisato Art: Soumetsu)",
+          "Shenhe Press E (Refresh Icy Quills while Ayaka burst is spinning)",
+          "Ayaka N2CD combos -> Repeat"
+        ],
+        "rotationNotes": "Ensure Kokomi carries Thrilling Tales of Dragon Slayers and switches directly to Ayaka before her burst."
+      }
+    ]
+  },
+  "Kamisato Ayato": {
+    "name": "Kamisato Ayato",
+    "element": "Hydro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "1 ~ 2 (avg 4.5 across Shunsuiken duration)",
+    "particleIcd": "1.9s",
+    "batteryTier": "B",
+    "notes": "Shunsuiken strikes have a chance to generate 1-2 particles with a 1.9s ICD during Takimeguri Kanka state.",
+    "teamRotations": []
+  },
+  "Kaveh": {
+    "name": "Kaveh",
+    "element": "Dendro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "2 particles",
+    "particleIcd": "6s",
+    "batteryTier": "B",
+    "notes": "Artistic Ingenuity radial scan generates 2 particles on 6s CD.",
+    "teamRotations": []
+  },
+  "Keqing": {
+    "name": "Keqing",
+    "element": "Electro",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "2 ~ 3 (avg 2.5)",
+    "particleIcd": "7.5s",
+    "batteryTier": "B",
+    "notes": "Stellar Restoration slash generates 2-3 particles. 7.5s CD.",
+    "teamRotations": []
+  },
+  "Kinich": {
+    "name": "Kinich",
+    "element": "Dendro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "1 particle per Scalespiker Cannon shot (approx. 5 total)",
+    "particleIcd": "2.5s",
+    "batteryTier": "A",
+    "notes": "Canopy Hunter cannon shots during Nightsoul state generate 1 particle per blast. 2.5s ICD.",
+    "teamRotations": []
+  },
+  "Kirara": {
+    "name": "Kirara",
+    "element": "Dendro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Press: 3 particles | Hold: 3 particles (plus 1 per Urgent Neko Parcel crash, max 4)",
+    "particleIcd": "8s",
+    "batteryTier": "A",
+    "notes": "Meow-teor Kick generates 3 particles on press. 8s CD.",
+    "teamRotations": []
+  },
+  "Klee": {
+    "name": "Klee",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "Per charge",
+    "batteryTier": "A",
+    "notes": "Generates 4 Pyro particles when Jumpy Dumpty or its mines hit an enemy. 20s CD per charge.",
+    "teamRotations": []
+  },
+  "Kujou Sara": {
+    "name": "Kujou Sara",
+    "element": "Electro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "3 particles per Tengu Juuraku ambush explosion",
+    "particleIcd": "10s",
+    "batteryTier": "A",
+    "notes": "Tengu Stormcall generates 3 particles. Also restores flat energy to allies based on her ER.",
+    "teamRotations": []
+  },
+  "Kuki Shinobu": {
+    "name": "Kuki Shinobu",
+    "element": "Electro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "0.45 particles per Grass Ring pulse (~45% chance per pulse, ~3-4 total)",
+    "particleIcd": "1.5s",
+    "batteryTier": "B",
+    "notes": "Sanctifying Ring pulses have a 45% chance to drop 1 Electro particle with a 1.5s ICD.",
+    "teamRotations": []
+  },
+  "Lan Yan": {
+    "name": "Lan Yan",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Lauma": {
+    "name": "Lauma",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Layla": {
+    "name": "Layla",
+    "element": "Cryo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "1 ~ 2 per Nightstar volley (avg 3-4 across shield duration)",
+    "particleIcd": "3s",
+    "batteryTier": "B",
+    "notes": "Nightstars fired from the Curtain of Slumber shield generate 1-2 particles with a 3s ICD.",
+    "teamRotations": []
+  },
+  "Linnea": {
+    "name": "Linnea",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Lisa": {
+    "name": "Lisa",
+    "element": "Varies",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Lohen": {
+    "name": "Lohen",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Lumine": {
+    "name": "Lumine",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": null,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Lynette": {
+    "name": "Lynette",
+    "element": "Anemo",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "12s",
+    "batteryTier": "B",
+    "notes": "Enigma Thrust generates 4 Anemo particles upon hitting marked enemy. 12s CD.",
+    "teamRotations": []
+  },
+  "Lyney": {
+    "name": "Lyney",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "5 particles",
+    "particleIcd": "15s",
+    "batteryTier": "A",
+    "notes": "Generates 5 Pyro particles on Bewildering Lights hit. 15s CD.",
+    "teamRotations": []
+  },
+  "Manekin": {
+    "name": "Manekin",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": null,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Manekina": {
+    "name": "Manekina",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": null,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Mavuika": {
+    "name": "Mavuika",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Mika": {
+    "name": "Mika",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Mona": {
+    "name": "Mona",
+    "element": "Hydro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "3 ~ 4 (avg 3.33) upon phantom explosion",
+    "particleIcd": "12s",
+    "batteryTier": "B",
+    "notes": "Generates particles when Mirror Reflection of Doom explodes on hit. 12s CD.",
+    "teamRotations": []
+  },
+  "Mualani": {
+    "name": "Mualani",
+    "element": "Hydro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "4 particles (1 per Sharky's Bite, max 4)",
+    "particleIcd": "Per bite",
+    "batteryTier": "B",
+    "notes": "Sharky's Bite generates 1 Hydro particle with a short cooldown, generating up to 4 particles per skill cast.",
+    "teamRotations": []
+  },
+  "Nahida": {
+    "name": "Nahida",
+    "element": "Dendro",
+    "burstEnergyCost": 50,
+    "burstCooldownSeconds": 13.5,
+    "skillParticleGeneration": "3 particles per Tri-Karma Purification hit (7s ICD)",
+    "particleIcd": "7s",
+    "batteryTier": "S",
+    "notes": "Tri-Karma Purification triggers generate 3 Dendro particles on a 7s particle ICD. Outstanding consistent off-field battery.",
+    "teamRotations": []
+  },
+  "Navia": {
+    "name": "Navia",
+    "element": "Geo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "3 ~ 4 per Rosula Gunshot (avg 3.5, up to 7 with 2 charges)",
+    "particleIcd": "9s per charge",
+    "batteryTier": "A",
+    "notes": "Ceremonial Crystalshot generates 3-4 Geo particles per blast. 9s CD with 2 charges banked.",
+    "teamRotations": [
+      {
+        "teamName": "Navia Geo Quickswap",
+        "teammates": [
+          "Navia",
+          "Chiori",
+          "Xiangling",
+          "Bennett"
+        ],
+        "rotationLength": "18-20s",
+        "erRequirements": {
+          "Navia": "120-130%",
+          "Chiori": "120-130%",
+          "Xiangling": "200-220%",
+          "Bennett": "220%+"
+        },
+        "rotationSteps": [
+          "Navia Q (Continuous cannon bombardment for Crystal Shrapnel stacks)",
+          "Chiori E -> E (Quickswap to Bennett)",
+          "Bennett Q -> E",
+          "Xiangling Q -> E",
+          "Navia Hold E (Fire 6-shrapnel Rosula Gunshot) -> 4s Normal attacks",
+          "Navia second Hold E (Second 6-shrapnel blast) -> Repeat"
+        ],
+        "rotationNotes": "Collecting 3+ Crystallize shards guarantees 100% bullet spread hit, maximizing skill multiplier."
+      }
+    ]
+  },
+  "Nefer": {
+    "name": "Nefer",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Neuvillette": {
+    "name": "Neuvillette",
+    "element": "Hydro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "4 particles + 3 Sourcewater Droplets",
+    "particleIcd": "12s",
+    "batteryTier": "A",
+    "notes": "Generates 4 Hydro particles on O Tears, I Shall Repay hit. 12s CD. Also creates 3 Sourcewater Droplets for instant charged attack.",
+    "teamRotations": [
+      {
+        "teamName": "Neuvillette Premium Hypercarry",
+        "teammates": [
+          "Neuvillette",
+          "Furina",
+          "Kaedehara Kazuha",
+          "Baizhu"
+        ],
+        "rotationLength": "21s",
+        "erRequirements": {
+          "Neuvillette": "120%",
+          "Furina": "170%",
+          "Kaedehara Kazuha": "160%",
+          "Baizhu": "180-200%"
+        },
+        "rotationSteps": [
+          "Furina E -> Q",
+          "Neuvillette E (Generate first 3 Droplets)",
+          "Kaedehara Kazuha tEP -> Q (Hydro Swirl)",
+          "Baizhu E -> Q (Teamwide healing for instant Fanfare cap + shield)",
+          "Neuvillette Absorbs Droplets -> Charged Attack 1",
+          "Neuvillette Q (Spawn 6 Droplets) -> Charged Attack 2 & 3",
+          "Repeat"
+        ],
+        "rotationNotes": "Baizhu's teamwide burst heal instantly caps Furina Fanfare at 300 stacks, granting maximum team DMG bonus."
+      }
+    ]
+  },
+  "Nicole": {
+    "name": "Nicole",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Nilou": {
+    "name": "Nilou",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Ningguang": {
+    "name": "Ningguang",
+    "element": "Geo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "3 ~ 4 particles upon Jade Screen cast (6s particle ICD)",
+    "particleIcd": "6s",
+    "batteryTier": "A",
+    "notes": "Jade Screen generates 3-4 Geo particles on hit. Note: Has an internal 6s cooldown on particle generation even if screen is reset by C2.",
+    "teamRotations": []
+  },
+  "Noelle": {
+    "name": "Noelle",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Odette": {
+    "name": "Odette",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Ororon": {
+    "name": "Ororon",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Prune": {
+    "name": "Prune",
+    "element": "Varies",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Qiqi": {
+    "name": "Qiqi",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "0 particles",
+    "particleIcd": "None (0 particles)",
+    "batteryTier": "F",
+    "notes": "Adeptus Art: Herald of Frost does NOT generate any elemental particles whatsoever. Needs Favonius or Sacrificial Sword.",
+    "teamRotations": []
+  },
+  "Raiden Shogun": {
+    "name": "Raiden Shogun",
+    "element": "Electro",
+    "burstEnergyCost": 90,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "0.5 particles per Eye of Stormy Judgment strike (50% chance, 0.9s ICD)",
+    "particleIcd": "0.9s",
+    "batteryTier": "SSS (Universal Team Battery)",
+    "notes": "Generates 1 Electro particle with a 50% chance per coordinated attack (0.9s ICD). In addition, her Burst restores ~25 flat energy to the entire team.",
+    "teamRotations": [
+      {
+        "teamName": "Raiden National (Rational)",
+        "teammates": [
+          "Raiden Shogun",
+          "Xiangling",
+          "Xingqiu",
+          "Bennett"
+        ],
+        "rotationLength": "21s",
+        "erRequirements": {
+          "Raiden Shogun": "220-250%",
+          "Xiangling": "180-200%",
+          "Xingqiu": "170-190%",
+          "Bennett": "200-220%"
+        },
+        "rotationSteps": [
+          "Raiden Shogun E (Eye of Stormy Judgment)",
+          "Xingqiu Q -> N1 -> E -> E (Sacrificial Sword proc)",
+          "Bennett Q -> E (Cast burst then skill to funnel into Xiangling)",
+          "Xiangling Q -> E (Snapshot Bennett burst ATK buff)",
+          "Raiden Shogun Q -> 3x N3C + N1C (Attack string while restoring team energy)",
+          "Bennett E -> funnel particles into Xiangling",
+          "Repeat rotation immediately on cooldown"
+        ],
+        "rotationNotes": "Benchmark Genshin rotation. Raiden regenerates ~25 flat energy for all allies, lowering team ER requirements significantly."
+      },
+      {
+        "teamName": "Raiden Hypercarry",
+        "teammates": [
+          "Raiden Shogun",
+          "Kujou Sara",
+          "Kaedehara Kazuha",
+          "Bennett"
+        ],
+        "rotationLength": "20s",
+        "erRequirements": {
+          "Raiden Shogun": "220-240%",
+          "Kujou Sara": "180-200%",
+          "Kaedehara Kazuha": "160-180%",
+          "Bennett": "220%+"
+        },
+        "rotationSteps": [
+          "Raiden Shogun E",
+          "Kaedehara Kazuha tEP -> Q (Swirl Electro to trigger VV + Elemental DMG Bonus)",
+          "Bennett Q -> E",
+          "Kujou Sara E -> Q (Provides ATK buff + C6 60% Electro Crit DMG)",
+          "Raiden Shogun Q -> 3x N3C + N1C",
+          "Kazuha tEP -> Bennett E -> Repeat"
+        ],
+        "rotationNotes": "All team buffs must be funneled into Raiden before she casts Musou Shinsetsu."
+      }
+    ]
+  },
+  "Razor": {
+    "name": "Razor",
+    "element": "Varies",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Rosaria": {
+    "name": "Rosaria",
+    "element": "Cryo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "3 particles",
+    "particleIcd": "6s",
+    "batteryTier": "S",
+    "notes": "Ravaging Confession produces 3 Cryo particles on its two-strike dash. Very short 6s CD allows frequent funneling.",
+    "teamRotations": []
+  },
+  "Sandrone": {
+    "name": "Sandrone",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Sangonomiya Kokomi": {
+    "name": "Sangonomiya Kokomi",
+    "element": "Hydro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "0 ~ 1 per Bake-Kurage ripple (approx. 67% chance, ~4-5 total)",
+    "particleIcd": "Per pulse",
+    "batteryTier": "B",
+    "notes": "Each pulse has a 67% chance to generate 1 particle. 20s CD (refreshable by burst).",
+    "teamRotations": []
+  },
+  "Sayu": {
+    "name": "Sayu",
+    "element": "Anemo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Tap: 2 particles | Hold: up to 6 particles across roll duration",
+    "particleIcd": "3s",
+    "batteryTier": "B",
+    "notes": "Yoohoo Art: Fuuin Dash generates 1 particle every ~3s during roll plus 1 on Whirlwind Kick.",
+    "teamRotations": []
+  },
+  "Sethos": {
+    "name": "Sethos",
+    "element": "Electro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "2 particles on skill hit",
+    "particleIcd": "8s",
+    "batteryTier": "B",
+    "notes": "Ancient Rite: The Thundering Sands generates 2 particles and refunds energy upon triggering Electro reactions.",
+    "teamRotations": []
+  },
+  "Shenhe": {
+    "name": "Shenhe",
+    "element": "Cryo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "Press: 3 particles (10s CD) | Hold: 4 particles (15s CD)",
+    "particleIcd": "10s / 15s",
+    "batteryTier": "A",
+    "notes": "Spring Spirit Summoning produces valuable Cryo particles while granting Icy Quills. C1 grants an extra charge.",
+    "teamRotations": []
+  },
+  "Shikanoin Heizou": {
+    "name": "Shikanoin Heizou",
+    "element": "Anemo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "2 ~ 3 particles (based on Declension stacks)",
+    "particleIcd": "10s",
+    "batteryTier": "B",
+    "notes": "Heartstopper Strike generates 2-3 Anemo particles. 10s CD.",
+    "teamRotations": []
+  },
+  "Sigewinne": {
+    "name": "Sigewinne",
+    "element": "Hydro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "18s",
+    "batteryTier": "B",
+    "notes": "Bouncing bubble generates 4 Hydro particles over its bounces. 18s CD.",
+    "teamRotations": []
+  },
+  "Skirk": {
+    "name": "Skirk",
+    "element": "Varies",
+    "burstEnergyCost": null,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Sucrose": {
+    "name": "Sucrose",
+    "element": "Anemo",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "4 particles per Astable Anemohypostasis Creation - 6308",
+    "particleIcd": "15s per charge",
+    "batteryTier": "S",
+    "notes": "Generates 4 Anemo particles per cast on 15s CD. C1 adds a second charge; Sacrificial Fragments allows up to 3 casts (12 particles).",
+    "teamRotations": []
+  },
+  "Tartaglia": {
+    "name": "Tartaglia",
+    "element": "Hydro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "1 particle per Riptide Slash hit (avg 1 every 3s)",
+    "particleIcd": "3s",
+    "batteryTier": "B",
+    "notes": "Riptide Slash generates 1 Hydro particle with a 3s ICD.",
+    "teamRotations": []
+  },
+  "Thoma": {
+    "name": "Thoma",
+    "element": "Pyro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "3 ~ 4 (avg 3.5)",
+    "particleIcd": "15s",
+    "batteryTier": "B",
+    "notes": "Generates 3-4 particles on Blazing Blessing hit. 15s CD. High burst cost makes Favonius Lance recommended.",
+    "teamRotations": []
+  },
+  "Tighnari": {
+    "name": "Tighnari",
+    "element": "Dendro",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "3 ~ 4 (avg 3.5)",
+    "particleIcd": "12s",
+    "batteryTier": "A",
+    "notes": "Vijnana-Phala Mine generates 3-4 Dendro particles upon casting. 12s CD.",
+    "teamRotations": []
+  },
+  "Varesa": {
+    "name": "Varesa",
+    "element": "Varies",
+    "burstEnergyCost": 30,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Varka": {
+    "name": "Varka",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Venti": {
+    "name": "Venti",
+    "element": "Anemo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Press: 3 particles (6s CD) | Hold: 4 particles (15s CD)",
+    "particleIcd": "6s",
+    "batteryTier": "S",
+    "notes": "Skyward Sonnet press generates 3 particles on 6s CD. Burst also restores 15 energy to absorbed element users via passive.",
+    "teamRotations": []
+  },
+  "Vesna": {
+    "name": "Vesna",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Vodyanitsa": {
+    "name": "Vodyanitsa",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Wanderer": {
+    "name": "Wanderer",
+    "element": "Anemo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "1 particle per Windfavored normal/charged attack hit (up to 5 total)",
+    "particleIcd": "2s",
+    "batteryTier": "B",
+    "notes": "Generates 1 Anemo particle with a 2s ICD while in Windfavored state. 6s CD.",
+    "teamRotations": []
+  },
+  "Wriothesley": {
+    "name": "Wriothesley",
+    "element": "Cryo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 10,
+    "skillParticleGeneration": "1 particle per Enhanced Normal Attack (2s ICD, ~4-5 total)",
+    "particleIcd": "2s",
+    "batteryTier": "B",
+    "notes": "Icefang Rush mode normal strikes generate 1 Cryo particle with a 2s ICD.",
+    "teamRotations": []
+  },
+  "Xiangling": {
+    "name": "Xiangling",
+    "element": "Pyro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "1 per Guoba breath hit (up to 4 total)",
+    "particleIcd": "Per breath hit",
+    "batteryTier": "C",
+    "notes": "Guoba spits flame 4 times; each hit generates 1 Pyro particle if it hits an enemy. CD 12s. Often requires Bennett particle funneling.",
+    "teamRotations": []
+  },
+  "Xianyun": {
+    "name": "Xianyun",
+    "element": "Anemo",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "5 particles",
+    "particleIcd": "12s",
+    "batteryTier": "A",
+    "notes": "Generates 5 Anemo particles upon landing Driftcloud Wave. 12s CD.",
+    "teamRotations": []
+  },
+  "Xiao": {
+    "name": "Xiao",
+    "element": "Anemo",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "3 particles per Lemniscatic Wind Cycling cast",
+    "particleIcd": "10s (0 in burst)",
+    "batteryTier": "B",
+    "notes": "Generates 3 Anemo particles per cast (10s CD). IMPORTANT: Does NOT generate particles during his Elemental Burst (Bane of All Evil). Pre-funneling required.",
+    "teamRotations": []
+  },
+  "Xilonen": {
+    "name": "Xilonen",
+    "element": "Geo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "15s",
+    "batteryTier": "A",
+    "notes": "Yohual's Scratch generates 4 Geo particles during Nightsoul transmission kick. 15s CD.",
+    "teamRotations": []
+  },
+  "Xingqiu": {
+    "name": "Xingqiu",
+    "element": "Hydro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "5 particles",
+    "particleIcd": "21s",
+    "batteryTier": "S",
+    "notes": "Generates 5 Hydro particles on Fatal Rainscreen strike. 21s CD. Sacrificial Sword allows generating 10 particles in rapid succession.",
+    "teamRotations": []
+  },
+  "Xinyan": {
+    "name": "Xinyan",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Yae Miko": {
+    "name": "Yae Miko",
+    "element": "Electro",
+    "burstEnergyCost": 90,
+    "burstCooldownSeconds": 22,
+    "skillParticleGeneration": "1 particle per Sesshou Sakura lightning hit (2.5s ICD, up to 5 total)",
+    "particleIcd": "2.5s",
+    "batteryTier": "B",
+    "notes": "Totem strikes share a 2.5s particle generation ICD.",
+    "teamRotations": []
+  },
+  "Yanfei": {
+    "name": "Yanfei",
+    "element": "Pyro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "3 particles",
+    "particleIcd": "9s",
+    "batteryTier": "B",
+    "notes": "Generates 3 Pyro particles on Signed Edict hit. 9s CD.",
+    "teamRotations": []
+  },
+  "Yaoyao": {
+    "name": "Yaoyao",
+    "element": "Dendro",
+    "burstEnergyCost": 80,
+    "burstCooldownSeconds": 20,
+    "skillParticleGeneration": "1 particle per Radish explosion on enemy hit (1.5s ICD, up to 4-5 total)",
+    "particleIcd": "1.5s",
+    "batteryTier": "B",
+    "notes": "Yuegui radishes generate 1 particle upon exploding against hostile targets with a 1.5s ICD.",
+    "teamRotations": []
+  },
+  "Yelan": {
+    "name": "Yelan",
+    "element": "Hydro",
+    "burstEnergyCost": 70,
+    "burstCooldownSeconds": 18,
+    "skillParticleGeneration": "4 particles",
+    "particleIcd": "10s",
+    "batteryTier": "A",
+    "notes": "Generates 4 Hydro particles on Lingering Lifeline explosion. 10s CD. C1 grants an additional charge (8 particles total).",
+    "teamRotations": []
+  },
+  "Yoimiya": {
+    "name": "Yoimiya",
+    "element": "Pyro",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "4 particles total (avg 1 particle per 4 hit triggers)",
+    "particleIcd": "2s",
+    "batteryTier": "B",
+    "notes": "During Niwabi Fire-Dance, normal attack hits generate 1 particle with a 2s ICD, typically 4 particles across normal sequence.",
+    "teamRotations": []
+  },
+  "Yumemizuki Mizuki": {
+    "name": "Yumemizuki Mizuki",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  },
+  "Yun Jin": {
+    "name": "Yun Jin",
+    "element": "Geo",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Press: 2 particles (9s CD) | Charge 1: 2.5 particles | Charge 2: 3 particles",
+    "particleIcd": "9s",
+    "batteryTier": "B",
+    "notes": "Opening Flourish produces up to 3 Geo particles on full charge. 9s CD.",
+    "teamRotations": []
+  },
+  "Zhongli": {
+    "name": "Zhongli",
+    "element": "Geo",
+    "burstEnergyCost": 40,
+    "burstCooldownSeconds": 12,
+    "skillParticleGeneration": "0 ~ 1 per Stele resonance pulse (approx. 50% chance, 1.5s ICD)",
+    "particleIcd": "1.5s",
+    "batteryTier": "B",
+    "notes": "Stone Stele resonance waves have a 50% chance to drop 1 Geo particle per tick. Inconsistent if boss destroys stele.",
+    "teamRotations": []
+  },
+  "Zibai": {
+    "name": "Zibai",
+    "element": "Varies",
+    "burstEnergyCost": 60,
+    "burstCooldownSeconds": 15,
+    "skillParticleGeneration": "Standard elemental particle drop",
+    "particleIcd": "Standard",
+    "batteryTier": "Standard",
+    "notes": "Generates elemental particles upon Elemental Skill connection with standard 1.5-2.0s ICD.",
+    "teamRotations": []
+  }
+}

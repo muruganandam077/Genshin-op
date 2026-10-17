@@ -1,0 +1,335 @@
+{
+  "id": 13501,
+  "name": "Staff of Homa",
+  "description": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+  "rarity": 5,
+  "weaponType": "Polearm",
+  "baseAttack": 45.9364,
+  "mainStat": "CRIT DMG",
+  "baseStatText": "14.4%",
+  "effectName": "Reckless Cinnabar",
+  "effectTemplate": "HP increased by <color=#99FFFFFF>{0}</color>. Additionally, provides an ATK Bonus based on <color=#99FFFFFF>{1}</color> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <color=#99FFFFFF>{2}</color> of Max HP.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP.",
+      "values": [
+        "20%",
+        "0.8%",
+        "1%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "HP increased by 25%. Additionally, provides an ATK Bonus based on 1% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.2% of Max HP.",
+      "values": [
+        "25%",
+        "1%",
+        "1.2%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "HP increased by 30%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.4% of Max HP.",
+      "values": [
+        "30%",
+        "1.2%",
+        "1.4%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "HP increased by 35%. Additionally, provides an ATK Bonus based on 1.4% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.6% of Max HP.",
+      "values": [
+        "35%",
+        "1.4%",
+        "1.6%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP.",
+      "values": [
+        "40%",
+        "1.6%",
+        "1.8%"
+      ]
+    }
+  ],
+  "story": "To cleanse by fire all that is impure, to allow the impurities to rise with the flames unto the all-accommodating high heavens.\nThese rites would see fresh tinder lit during the rainy seasons, and wolf smoke would arise from those fires as prayers for blessings and the defeat of evil.\n\nThese blazing rituals were especially commonplace during that ancient period of strife.\nFor the dreams and delusions of the silent corpses of gods would produce evil miasmas,\nSnatching away the citizens who were no longer theirs, and those who never were theirs also.\n\nThen, a merciful doctor heard a whisper from within the flame as fierce as the red sunset,\nFrom within the crackling and snapping of withered grass.\n\"Only an unbound flame can purify the filth of this world.\"\n\"Lift up this scarlet firewood. With it, you shall repel every demon.\"\n\nSo the doctor took up that devilishly red staff, igniting all that was impure.\nThose who have passed, unable to bear deep sadness, but who have since become shrouded by ill karma and calamity,\nThey shall be reduced to ashen butterflies in this flame, and receive relief from their misfortunes and hurts.\nAs for the doctor who lit those countless flames, legend has it that they, too, were reduced to smoke in the shape of a lovely butterfly.\n\nThough these rites have been forgotten over time and with the coming of peace,\nThose with fire in their hearts can still hear these whispered words from flickering flames when they find themselves faced with an imposing darkness:\n\"Only an unbound flame can purify this world.\"",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Pole_Homa",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Homa_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Homa",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa_Awaken.png"
+  },
+  "version": "1.3",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114021,
+        "name": "Grain of Aerosiderite",
+        "count": 5
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 5
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 5
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 18
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114022,
+        "name": "Piece of Aerosiderite",
+        "count": 9
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 9
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 5
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 18
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114023,
+        "name": "Bit of Aerosiderite",
+        "count": 9
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 14
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114024,
+        "name": "Chunk of Aerosiderite",
+        "count": 6
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 27
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.144
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.25444799999999995
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.25444799999999995
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.3708
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.3708
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.42897599999999997
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.42897599999999997
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.487152
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.487152
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.545184
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.545184
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.60336
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.60336
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.661536
+    }
+  ],
+  "r1": {
+    "description": "HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP.",
+    "values": [
+      "20%",
+      "0.8%",
+      "1%"
+    ]
+  },
+  "r2": {
+    "description": "HP increased by 25%. Additionally, provides an ATK Bonus based on 1% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.2% of Max HP.",
+    "values": [
+      "25%",
+      "1%",
+      "1.2%"
+    ]
+  },
+  "r3": {
+    "description": "HP increased by 30%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.4% of Max HP.",
+    "values": [
+      "30%",
+      "1.2%",
+      "1.4%"
+    ]
+  },
+  "r4": {
+    "description": "HP increased by 35%. Additionally, provides an ATK Bonus based on 1.4% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.6% of Max HP.",
+    "values": [
+      "35%",
+      "1.4%",
+      "1.6%"
+    ]
+  },
+  "r5": {
+    "description": "HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP.",
+    "values": [
+      "40%",
+      "1.6%",
+      "1.8%"
+    ]
+  }
+}

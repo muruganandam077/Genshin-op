@@ -1,0 +1,313 @@
+{
+  "id": 11431,
+  "name": "Flute of Ezpitzal",
+  "description": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
+  "rarity": 4,
+  "weaponType": "Sword",
+  "baseAttack": 41.0671,
+  "mainStat": "DEF",
+  "baseStatText": "15%",
+  "effectName": "Smoke-and-Mirror Mystery",
+  "effectTemplate": "Using an Elemental Skill increases DEF by <color=#99FFFFFF>{0}</color> for 15s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Using an Elemental Skill increases DEF by 16% for 15s.",
+      "values": [
+        "16%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Using an Elemental Skill increases DEF by 20% for 15s.",
+      "values": [
+        "20%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Using an Elemental Skill increases DEF by 24% for 15s.",
+      "values": [
+        "24%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Using an Elemental Skill increases DEF by 28% for 15s.",
+      "values": [
+        "28%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Using an Elemental Skill increases DEF by 32% for 15s.",
+      "values": [
+        "32%"
+      ]
+    }
+  ],
+  "story": "",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Isikhulu",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Isikhulu_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Isikhulu",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu_Awaken.png"
+  },
+  "version": "5.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114061,
+        "name": "Blazing Sacrificial Heart's Terror",
+        "count": 3
+      },
+      {
+        "id": 112098,
+        "name": "Ruined Hilt",
+        "count": 3
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 3
+      },
+      {
+        "id": 112098,
+        "name": "Ruined Hilt",
+        "count": 12
+      },
+      {
+        "id": 112101,
+        "name": "Juvenile Fang",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114062,
+        "name": "Blazing Sacrificial Heart's Hesitance",
+        "count": 6
+      },
+      {
+        "id": 112099,
+        "name": "Splintered Hilt",
+        "count": 6
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 3
+      },
+      {
+        "id": 112099,
+        "name": "Splintered Hilt",
+        "count": 12
+      },
+      {
+        "id": 112102,
+        "name": "Seasoned Fang",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114063,
+        "name": "Blazing Sacrificial Heart's Resolve",
+        "count": 6
+      },
+      {
+        "id": 112100,
+        "name": "Still-Smoldering Hilt",
+        "count": 9
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114064,
+        "name": "Blazing Sacrificial Heart's Splendor",
+        "count": 4
+      },
+      {
+        "id": 112100,
+        "name": "Still-Smoldering Hilt",
+        "count": 18
+      },
+      {
+        "id": 112103,
+        "name": "Tyrant's Fang",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 41.0671,
+      "specialized": 0.150133
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 99.2591807,
+      "specialized": 0.26528501099999996
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 125.15918070000001,
+      "specialized": 0.26528501099999996
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 0.386592475
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 209.67979820000002,
+      "specialized": 0.386592475
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 0.447246207
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 264.244634,
+      "specialized": 0.447246207
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 0.507899939
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 318.5220001,
+      "specialized": 0.507899939
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 0.568403538
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 372.6529636,
+      "specialized": 0.568403538
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 0.62905727
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 426.5607258,
+      "specialized": 0.62905727
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 454.36315250000007,
+      "specialized": 0.689711002
+    }
+  ],
+  "r1": {
+    "description": "Using an Elemental Skill increases DEF by 16% for 15s.",
+    "values": [
+      "16%"
+    ]
+  },
+  "r2": {
+    "description": "Using an Elemental Skill increases DEF by 20% for 15s.",
+    "values": [
+      "20%"
+    ]
+  },
+  "r3": {
+    "description": "Using an Elemental Skill increases DEF by 24% for 15s.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r4": {
+    "description": "Using an Elemental Skill increases DEF by 28% for 15s.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r5": {
+    "description": "Using an Elemental Skill increases DEF by 32% for 15s.",
+    "values": [
+      "32%"
+    ]
+  }
+}

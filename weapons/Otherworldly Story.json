@@ -1,0 +1,315 @@
+{
+  "id": 14303,
+  "name": "Otherworldly Story",
+  "description": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+  "rarity": 3,
+  "weaponType": "Catalyst",
+  "baseAttack": 38.7413,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "8.5%",
+  "effectName": "Energy Shower",
+  "effectTemplate": "Each Elemental Orb or Particle collected restores <color=#99FFFFFF>{0}</color> HP.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
+      "values": [
+        "1%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Each Elemental Orb or Particle collected restores 1.25% HP.",
+      "values": [
+        "1.25%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Each Elemental Orb or Particle collected restores 1.5% HP.",
+      "values": [
+        "1.5%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Each Elemental Orb or Particle collected restores 1.75% HP.",
+      "values": [
+        "1.75%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Each Elemental Orb or Particle collected restores 2% HP.",
+      "values": [
+        "2%"
+      ]
+    }
+  ],
+  "story": "A mediocre work of fiction telling the tale of an ordinary fellow who finds himself in another world after death.\nThat world is filled with dangers. Steel monsters as vast as galaxies lurk beneath the ground and devour people in the thousands.\nBut there also exist powerful beings who can make rooms comfortable in any season and turn night into day with a snap of their fingers. This is a story as groundless as it is meaningless.\nIt only shares one thing in common with the real world: most of the precious metals are owned by a handful of individuals, who keep them locked up in the vault.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Lightnov",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Lightnov_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Lightnov",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 2
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 8
+      },
+      {
+        "id": 112005,
+        "name": "Damaged Mask",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 2
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 8
+      },
+      {
+        "id": 112006,
+        "name": "Stained Mask",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 4
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 3
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Ominous Mask",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.085
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.150195
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.150195
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.21887500000000004
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.21887500000000004
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.253215
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.253215
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.287555
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.287555
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.32181000000000004
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.32181000000000004
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.3561500000000001
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.3561500000000001
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.39049000000000006
+    }
+  ],
+  "r1": {
+    "description": "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
+    "values": [
+      "1%"
+    ]
+  },
+  "r2": {
+    "description": "Each Elemental Orb or Particle collected restores 1.25% HP.",
+    "values": [
+      "1.25%"
+    ]
+  },
+  "r3": {
+    "description": "Each Elemental Orb or Particle collected restores 1.5% HP.",
+    "values": [
+      "1.5%"
+    ]
+  },
+  "r4": {
+    "description": "Each Elemental Orb or Particle collected restores 1.75% HP.",
+    "values": [
+      "1.75%"
+    ]
+  },
+  "r5": {
+    "description": "Each Elemental Orb or Particle collected restores 2% HP.",
+    "values": [
+      "2%"
+    ]
+  }
+}

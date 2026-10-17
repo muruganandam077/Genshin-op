@@ -1,0 +1,315 @@
+{
+  "id": 12407,
+  "name": "Whiteblind",
+  "description": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+  "rarity": 4,
+  "weaponType": "Claymore",
+  "baseAttack": 42.401,
+  "mainStat": "DEF",
+  "baseStatText": "11.3%",
+  "effectName": "Infusion Blade",
+  "effectTemplate": "On hit, Normal or Charged Attacks increase ATK and DEF by <color=#99FFFFFF>{0}</color> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+      "values": [
+        "6%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 7.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+      "values": [
+        "7.5%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 9% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+      "values": [
+        "9%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 10.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+      "values": [
+        "10.5%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+      "values": [
+        "12%"
+      ]
+    }
+  ],
+  "story": "The whole world flocks to the commercial port of Liyue, much to the city's pride.\nWith the tides of people also come exotic treasures.\nThis greatsword is expertly made with the finest materials. It is unique in that the edge closest to the wielder has been left dull.\nThe dull edge is said to have been used as the hilt, enabling the wielder to switch forms by constantly shifting hand positions in combat.\n\nThough it is rarely acknowledged, this greatsword was in fact a foreign bladesmith's labor of love.\nThe bladesmith knew himself to be dull of wits, and was anxious that this blade should not follow suit. Hence, he worked painstakingly on sharpening and balancing his beloved blade.\nSparks flew as the bladesmith worked through many sleepless nights.\nThe sword was recast and re-tempered countless times.\nAll the while his mind was consumed with the hope of his lover's return, as well as his untold anxiety for her well-being.\n\n\"After the war is over...\"\nThe bladesmith would ponder briefly, each time he paused for breath.\n\"Will this blade still be of use to her?\"\n\"Will she even make it home safely?\"\nThese thoughts would linger in his mind for but a moment before he cast them aside and refocused his full attention on the blade.\nIndulging irresolvable anxieties was a futile endeavor — better to focus his faculties on creating the perfect welcome-home gift.\n\nFinally, the day came when the triumphant expeditionary force entered the city gates, their monstrous foes defeated at last.\nBut the bladesmith had not had time to carve his lover's name onto the blade's body.\nWith no time to lose, he grabbed the sword and rushed to meet his lover on the occasion of her return.\nUnfortunately, what would transpire next was to be an unbearable anticlimax.\n\nAs the warrior removed her helmet, long, soft hair flowed down. She was growing her hair out, and hence would never need to wield a blade again for the rest of her days.\nMeanwhile, she had brought her lover a gift, too: A shiny new hunting bow.\n\"Romance is dead! I wasted all these years making you this greatsword, and now you don't even need it!\"\nThe bladesmith was thoroughly miserable and would not stop complaining about the unfairness of it all. But his efforts had by no means been in vain — at least he had finally succeeded in making a blade of the very finest quality.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Exotic",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Exotic_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Exotic",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114013,
+        "name": "Luminous Sands from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112029,
+        "name": "Hunter's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114014,
+        "name": "Lustrous Stone from Guyun",
+        "count": 6
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 6
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 3
+      },
+      {
+        "id": 112030,
+        "name": "Agent's Sacrificial Knife",
+        "count": 12
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114015,
+        "name": "Relic from Guyun",
+        "count": 6
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 9
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114016,
+        "name": "Divine Body from Guyun",
+        "count": 4
+      },
+      {
+        "id": 112031,
+        "name": "Inspector's Sacrificial Knife",
+        "count": 18
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.1126
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.1989642
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.1989642
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.289945
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.289945
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.33543540000000005
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.33543540000000005
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.38092580000000004
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.38092580000000004
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.4263036
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.4263036
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.47179400000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.47179400000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.5172844000000001
+    }
+  ],
+  "r1": {
+    "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+    "values": [
+      "6%"
+    ]
+  },
+  "r2": {
+    "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 7.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+    "values": [
+      "7.5%"
+    ]
+  },
+  "r3": {
+    "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 9% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+    "values": [
+      "9%"
+    ]
+  },
+  "r4": {
+    "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 10.5% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+    "values": [
+      "10.5%"
+    ]
+  },
+  "r5": {
+    "description": "On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+    "values": [
+      "12%"
+    ]
+  }
+}

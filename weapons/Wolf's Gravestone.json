@@ -1,0 +1,325 @@
+{
+  "id": 12502,
+  "name": "Wolf's Gravestone",
+  "description": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+  "rarity": 5,
+  "weaponType": "Claymore",
+  "baseAttack": 45.9364,
+  "mainStat": "ATK",
+  "baseStatText": "10.8%",
+  "effectName": "Wolfish Tracker",
+  "effectTemplate": "Increases ATK by <color=#99FFFFFF>{0}</color>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <color=#99FFFFFF>{1}</color> for 12s. Can only occur once every 30s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40% for 12s. Can only occur once every 30s.",
+      "values": [
+        "20%",
+        "40%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases ATK by 25%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 50% for 12s. Can only occur once every 30s.",
+      "values": [
+        "25%",
+        "50%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases ATK by 30%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 60% for 12s. Can only occur once every 30s.",
+      "values": [
+        "30%",
+        "60%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases ATK by 35%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 70% for 12s. Can only occur once every 30s.",
+      "values": [
+        "35%",
+        "70%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases ATK by 40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 80% for 12s. Can only occur once every 30s.",
+      "values": [
+        "40%",
+        "80%"
+      ]
+    }
+  ],
+  "story": "The Knight of Boreas' journey ended at the city of Barbatos.\nWandering souls attract each other, boundless freedom begets only anxiety.\n\nUpon entering the city, the Knight of Boreas' companion bade him farewell in silence.\nFor the free-spirited Wolf resented the stone walls and lamplight, and yearned for the open wilds.\n\nThe Knight of Boreas' heart remained free, though his flesh was inside the prison-like city.\nMeanwhile, the windborne Wolf roamed the forest in the flesh, while his heart remained loyal to the Knight.\n\nThe Knight of Boreas rode again to hunt. The Wolf followed his scent into battle.\nStill one were they, the Wolf and the Knight.\n\nThough one they were, death comes for beasts sooner than men.\nLaying down his sword as a gravestone, the Knight of Boreas buried the Wolf in the remote countryside.\nThe Knight of Boreas then left the city behind, living instead the wandering life of a lone wolf.\n\nYet the eternal wolf spirit remained here,\nWatching over the land the Knight once protected.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Wolfmound",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Wolfmound_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Wolfmound",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 5
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112023,
+        "name": "Chaos Device",
+        "count": 18
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 9
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 9
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112024,
+        "name": "Chaos Circuit",
+        "count": 18
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 9
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 14
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112025,
+        "name": "Chaos Core",
+        "count": 27
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.108
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.19083599999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.19083599999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.2781
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.2781
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.321732
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.321732
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.365364
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.365364
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.408888
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.408888
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.45252000000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.45252000000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.49615200000000004
+    }
+  ],
+  "r1": {
+    "description": "Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40% for 12s. Can only occur once every 30s.",
+    "values": [
+      "20%",
+      "40%"
+    ]
+  },
+  "r2": {
+    "description": "Increases ATK by 25%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 50% for 12s. Can only occur once every 30s.",
+    "values": [
+      "25%",
+      "50%"
+    ]
+  },
+  "r3": {
+    "description": "Increases ATK by 30%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 60% for 12s. Can only occur once every 30s.",
+    "values": [
+      "30%",
+      "60%"
+    ]
+  },
+  "r4": {
+    "description": "Increases ATK by 35%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 70% for 12s. Can only occur once every 30s.",
+    "values": [
+      "35%",
+      "70%"
+    ]
+  },
+  "r5": {
+    "description": "Increases ATK by 40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 80% for 12s. Can only occur once every 30s.",
+    "values": [
+      "40%",
+      "80%"
+    ]
+  }
+}

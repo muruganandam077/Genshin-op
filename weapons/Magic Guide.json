@@ -1,0 +1,315 @@
+{
+  "id": 14301,
+  "name": "Magic Guide",
+  "description": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
+  "rarity": 3,
+  "weaponType": "Catalyst",
+  "baseAttack": 37.6075,
+  "mainStat": "Elemental Mastery",
+  "baseStatText": "41",
+  "effectName": "Bane of Storm and Tide",
+  "effectTemplate": "Increases DMG against opponents affected by Hydro or Electro by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases DMG against opponents affected by Hydro or Electro by 12%.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases DMG against opponents affected by Hydro or Electro by 15%.",
+      "values": [
+        "15%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases DMG against opponents affected by Hydro or Electro by 18%.",
+      "values": [
+        "18%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases DMG against opponents affected by Hydro or Electro by 21%.",
+      "values": [
+        "21%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases DMG against opponents affected by Hydro or Electro by 24%.",
+      "values": [
+        "24%"
+      ]
+    }
+  ],
+  "story": "This version of the Magic Guide generated much controversy when published.\nIn addition to the defiance of basic common sense seen in Chapter VII: Principles of the Anemo Element,\nerrors can also be observed even concerning the basic principles of the Hydro and Electro elements.\nEvidently, the book was not peer-reviewed before publishing.\nNevertheless, the book is still the most authoritative guide to magic in existence.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Intro",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Intro_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Intro",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 2
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 2
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 2
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 8
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 4
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 4
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 2
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 8
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 4
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 6
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 3
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 12
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 37.6075,
+      "specialized": 40.8
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 85.5570625,
+      "specialized": 72.0936
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 105.0570625,
+      "specialized": 72.0936
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 105.06
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 170.67668,
+      "specialized": 105.06
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 121.5432
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 212.214675,
+      "specialized": 121.5432
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 138.0264
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 253.08855749999998,
+      "specialized": 138.0264
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 154.4688
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 293.686365,
+      "specialized": 154.4688
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 170.952
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 333.845705,
+      "specialized": 170.952
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 354.37940000000003,
+      "specialized": 187.4352
+    }
+  ],
+  "r1": {
+    "description": "Increases DMG against opponents affected by Hydro or Electro by 12%.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Increases DMG against opponents affected by Hydro or Electro by 15%.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Increases DMG against opponents affected by Hydro or Electro by 18%.",
+    "values": [
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Increases DMG against opponents affected by Hydro or Electro by 21%.",
+    "values": [
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Increases DMG against opponents affected by Hydro or Electro by 24%.",
+    "values": [
+      "24%"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": 12201,
+  "name": "Old Merc's Pal",
+  "description": "A battle-tested greatsword that has seen better days and worse.",
+  "rarity": 2,
+  "weaponType": "Claymore",
+  "baseAttack": 32.93,
+  "refinements": [],
+  "story": "He would often mention the experiences that he had in his youth as an adventurer.\nThey were always the same old long-winded, annoying tall tales.\nBut this old greatsword seems to silently say,\n\"Well, it is a bit over the top, yes. But I was there too, you know.\"",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Oyaji",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Oyaji_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Oyaji",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 1
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 5
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 4
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 3
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 3
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 1
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 5
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 4
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 32.93,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 79.6906,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 91.3906,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 150.60738,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 185.62181999999999,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 220.37282,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 243.22624000000002,
+      "specialized": 0
+    }
+  ]
+}

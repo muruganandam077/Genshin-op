@@ -1,0 +1,1634 @@
+{
+  "id": 10000148,
+  "name": "Alyosha",
+  "title": "Swift-Striding Hound",
+  "description": "A \"professional hunter\" and master of the Snezhnayan snowfields. A fierce, distinct \"idealism\" burns beneath his calm demeanor.",
+  "rarity": 4,
+  "element": "Electro",
+  "weaponType": "Polearm",
+  "substat": "Energy Recharge",
+  "gender": "Male",
+  "bodyType": "BODY_BOY",
+  "affiliation": "Snezhnaya",
+  "birthday": "February 9",
+  "constellationName": "Canis Borzoides",
+  "cv": {
+    "english": "Kevin Andrew Rivera",
+    "chinese": "王辅平",
+    "japanese": "佐藤元",
+    "korean": "Kim Hye-sung"
+  },
+  "images": {
+    "filename_icon": "UI_AvatarIcon_Alyosha",
+    "filename_iconCard": "UI_AvatarIcon_Alyosha_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_Alyosha",
+    "filename_gachaSplash": "UI_Gacha_AvatarImg_Alyosha",
+    "filename_gachaSlice": "UI_Gacha_AvatarIcon_Alyosha",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alyosha.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Alyosha.png",
+    "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/08/07/b866d5fd9adbd2f66874e54208db1107_7133689933484329253.png"
+  },
+  "version": "7.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104141,
+        "name": "Vajrada Amethyst Sliver",
+        "count": 1
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 3
+      },
+      {
+        "id": 112149,
+        "name": "Chimeric Core",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104142,
+        "name": "Vajrada Amethyst Fragment",
+        "count": 3
+      },
+      {
+        "id": 113091,
+        "name": "Severed Tail of the Sky-Roamer",
+        "count": 2
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 10
+      },
+      {
+        "id": 112149,
+        "name": "Chimeric Core",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104142,
+        "name": "Vajrada Amethyst Fragment",
+        "count": 6
+      },
+      {
+        "id": 113091,
+        "name": "Severed Tail of the Sky-Roamer",
+        "count": 4
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 20
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104143,
+        "name": "Vajrada Amethyst Chunk",
+        "count": 3
+      },
+      {
+        "id": 113091,
+        "name": "Severed Tail of the Sky-Roamer",
+        "count": 8
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 30
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104143,
+        "name": "Vajrada Amethyst Chunk",
+        "count": 6
+      },
+      {
+        "id": 113091,
+        "name": "Severed Tail of the Sky-Roamer",
+        "count": 12
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 45
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104144,
+        "name": "Vajrada Amethyst Gemstone",
+        "count": 6
+      },
+      {
+        "id": 113091,
+        "name": "Severed Tail of the Sky-Roamer",
+        "count": 20
+      },
+      {
+        "id": 101276,
+        "name": "Flockingweed",
+        "count": 60
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 24
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1002.9701,
+      "attack": 22.26,
+      "defense": 58.94175,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2576.6301869,
+      "attack": 57.18594,
+      "defense": 151.42135575,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3325.9001869,
+      "attack": 73.81569,
+      "defense": 195.45385575,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5514.179921999999,
+      "attack": 122.382825,
+      "defense": 324.05293499999993,
+      "specialized": 0.0667
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5514.179921999999,
+      "attack": 122.382825,
+      "defense": 324.05293499999993,
+      "specialized": 0.0667
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7052.4679246000005,
+      "attack": 156.524087,
+      "defense": 414.4538205,
+      "specialized": 0.1333
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 7052.4679246000005,
+      "attack": 156.524087,
+      "defense": 414.4538205,
+      "specialized": 0.1333
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8413.2974272,
+      "attack": 186.72672,
+      "defense": 494.425956,
+      "specialized": 0.1333
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 8413.2974272,
+      "attack": 186.72672,
+      "defense": 494.425956,
+      "specialized": 0.1333
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9773.1237597,
+      "attack": 216.9071,
+      "defense": 574.3391497499999,
+      "specialized": 0.2
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 9773.1237597,
+      "attack": 216.9071,
+      "defense": 574.3391497499999,
+      "specialized": 0.2
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11133.9531623,
+      "attack": 247.10973,
+      "defense": 654.31128525,
+      "specialized": 0.2667
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 11133.9531623,
+      "attack": 247.10973,
+      "defense": 654.31128525,
+      "specialized": 0.2667
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "hp": 11962.4064649,
+      "attack": 265.49649,
+      "defense": 702.99717075,
+      "specialized": 0.2667
+    }
+  ],
+  "passives": [
+    {
+      "slot": "passive1",
+      "name": "Awakened by the Baying Hounds",
+      "descriptionRaw": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
+      "description": "When **Tugarin** attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK."
+    },
+    {
+      "slot": "passive2",
+      "name": "Suffer the Winter Wheat Will",
+      "descriptionRaw": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way.",
+      "description": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way."
+    },
+    {
+      "slot": "passive3",
+      "name": "Into the Fray",
+      "descriptionRaw": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%.",
+      "description": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a **Polestar Field**.\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the **Hunter's Mark** is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%."
+    },
+    {
+      "slot": "passive4",
+      "name": "Treetop Watch",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Snezhnaya</color> on the mini-map, and this effect also applies in the Shadow Realm.",
+      "description": "Displays the location of nearby resources unique to Snezhnaya on the mini-map, and this effect also applies in the Shadow Realm."
+    }
+  ],
+  "combatTalents": [
+    {
+      "slot": "combat1",
+      "name": "Skirmishing Spear",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes and applies the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the opponent hit by the final strike.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes and applies the **Hunter's Mark** to the opponent hit by the final strike.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:F1P}/{param10:F1P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.47816,
+            0.51708,
+            0.556,
+            0.6116,
+            0.65052,
+            0.695,
+            0.75616,
+            0.81732,
+            0.87848,
+            0.9452,
+            1.01192,
+            1.07864,
+            1.14536,
+            1.21208,
+            1.2788
+          ],
+          "param2": [
+            0.4816,
+            0.5208,
+            0.56,
+            0.616,
+            0.6552,
+            0.7,
+            0.7616,
+            0.8232,
+            0.8848,
+            0.952,
+            1.0192,
+            1.0864,
+            1.1536,
+            1.2208,
+            1.288
+          ],
+          "param3": [
+            0.34228,
+            0.37014,
+            0.398,
+            0.4378,
+            0.46566,
+            0.4975,
+            0.54128,
+            0.58506,
+            0.62884,
+            0.6766,
+            0.72436,
+            0.77212,
+            0.81988,
+            0.86764,
+            0.9154
+          ],
+          "param4": [
+            0.3182,
+            0.3441,
+            0.37,
+            0.407,
+            0.4329,
+            0.4625,
+            0.5032,
+            0.5439,
+            0.5846,
+            0.629,
+            0.6734,
+            0.7178,
+            0.7622,
+            0.8066,
+            0.851
+          ],
+          "param5": [
+            0.75852,
+            0.82026,
+            0.882,
+            0.9702,
+            1.03194,
+            1.1025,
+            1.19952,
+            1.29654,
+            1.39356,
+            1.4994,
+            1.60524,
+            1.71108,
+            1.81692,
+            1.92276,
+            2.0286
+          ],
+          "param6": [
+            1.11026,
+            1.20063,
+            1.291,
+            1.4201,
+            1.51047,
+            1.61375,
+            1.75576,
+            1.89777,
+            2.03978,
+            2.1947,
+            2.34962,
+            2.50454,
+            2.65946,
+            2.81438,
+            2.9693
+          ],
+          "param7": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    {
+      "slot": "combat2",
+      "name": "Thunderbolt Strike",
+      "descriptionRaw": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect to the hit opponents.\n\n<color=#FFD780FF>Tapping</color>\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\n\n<color=#FFD780FF>Holding</color>\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\n\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
+      "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the **Hunter's Mark** effect to the hit opponents.\n\nTapping\nFires at opponents in front of him, dealing AoE Electro DMG.\n\nHolding\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.",
+      "flavorText": "The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:F1P}",
+          "Hold DMG|{param2:F1P}",
+          "CD|{param3:F1}s",
+          "Hunter's Mark Duration|{param4:F1}s",
+          "Hunter's Precision ATK Bonus|{param5:F1P}",
+          "Hunter's Precision Duration|{param6:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.8672,
+            3.08224,
+            3.29728,
+            3.584,
+            3.79904,
+            4.01408,
+            4.3008,
+            4.58752,
+            4.87424,
+            5.16096,
+            5.44768,
+            5.7344,
+            6.0928,
+            6.4512,
+            6.8096
+          ],
+          "param2": [
+            3.584,
+            3.8528,
+            4.1216,
+            4.48,
+            4.7488,
+            5.0176,
+            5.376,
+            5.7344,
+            6.0928,
+            6.4512,
+            6.8096,
+            7.168,
+            7.616,
+            8.064,
+            8.512
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            0.1166,
+            0.1272,
+            0.1378,
+            0.1484,
+            0.159,
+            0.1696,
+            0.1802,
+            0.1908,
+            0.2014,
+            0.212,
+            0.22472,
+            0.23744,
+            0.25016,
+            0.26288,
+            0.2756
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "slot": "combat3",
+      "name": "Hunter's Advance",
+      "descriptionRaw": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\n\n<color=#FFD780FF>Fulgurite Hunting Field</color>\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that enters the field.\n\n<color=#FFD780FF>Tugarin</color>\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing <color=#FFACFFFF>Electro DMG</color>.\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\n\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
+      "description": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\n\nFulgurite Hunting Field\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of AoE Electro DMG to any opponent that enters the field.\n\nTugarin\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing Electro DMG.\n· If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.",
+      "flavorText": "Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+      "attributes": {
+        "labels": [
+          "Fulgurite Hunting Field DMG|{param1:F1P}",
+          "Tugarin DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.7496,
+            0.80582,
+            0.86204,
+            0.937,
+            0.99322,
+            1.04944,
+            1.1244,
+            1.19936,
+            1.27432,
+            1.34928,
+            1.42424,
+            1.4992,
+            1.5929,
+            1.6866,
+            1.7803
+          ],
+          "param2": [
+            0.502232,
+            0.539899,
+            0.577567,
+            0.62779,
+            0.665457,
+            0.703125,
+            0.753348,
+            0.803571,
+            0.853794,
+            0.904018,
+            0.954241,
+            1.004464,
+            1.067243,
+            1.130022,
+            1.192801
+          ],
+          "param3": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "param4": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param5": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    }
+  ],
+  "talentUpgradeCosts": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104368,
+        "name": "Teachings of Fortitude",
+        "count": 3
+      },
+      {
+        "id": 112149,
+        "name": "Chimeric Core",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104369,
+        "name": "Guide to Fortitude",
+        "count": 2
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104369,
+        "name": "Guide to Fortitude",
+        "count": 4
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104369,
+        "name": "Guide to Fortitude",
+        "count": 6
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104369,
+        "name": "Guide to Fortitude",
+        "count": 9
+      },
+      {
+        "id": 112150,
+        "name": "Symbiotic Chimeric Nucleus",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104370,
+        "name": "Philosophies of Fortitude",
+        "count": 4
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 4
+      },
+      {
+        "id": 113083,
+        "name": "Elixir of the Heretic",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104370,
+        "name": "Philosophies of Fortitude",
+        "count": 6
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 6
+      },
+      {
+        "id": 113083,
+        "name": "Elixir of the Heretic",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104370,
+        "name": "Philosophies of Fortitude",
+        "count": 12
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 9
+      },
+      {
+        "id": 113083,
+        "name": "Elixir of the Heretic",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104370,
+        "name": "Philosophies of Fortitude",
+        "count": 16
+      },
+      {
+        "id": 112151,
+        "name": "Prime Chimeric Nexus",
+        "count": 12
+      },
+      {
+        "id": 113083,
+        "name": "Elixir of the Heretic",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Crown of Insight",
+        "count": 1
+      }
+    ]
+  },
+  "constellations": [
+    {
+      "level": "C1",
+      "name": "Frostvale Thunderclap",
+      "descriptionRaw": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an <color=#FFACFFFF>Electro-related reaction</color> on an opponent. This effect can trigger once every 18s.",
+      "description": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction on an opponent. This effect can trigger once every 18s."
+    },
+    {
+      "level": "C2",
+      "name": "Howl From Afar",
+      "descriptionRaw": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, he will also apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to a target. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
+      "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\nAdditionally, each time **Tugarin** attacks the opponent, he will also apply the **Hunter's Mark** to a target. This effect does not activate existing Hunter's Marks."
+    },
+    {
+      "level": "C3",
+      "name": "Friendly Call",
+      "descriptionRaw": "Increases the Level of the Elemental Skill <color=#FFD780FF>Thunderbolt Strike</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Skill Thunderbolt Strike by 3.\nMaximum upgrade level is 15."
+    },
+    {
+      "level": "C4",
+      "name": "Harvest the Spoils",
+      "descriptionRaw": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+      "description": "When **Tugarin** attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
+    },
+    {
+      "level": "C5",
+      "name": "When the Nightbird Falls Silent",
+      "descriptionRaw": "Increases the Level of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Burst Hunter's Advance by 3.\nMaximum upgrade level is 15."
+    },
+    {
+      "level": "C6",
+      "name": "Standard Reclaimed",
+      "descriptionRaw": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by <color=#FFD780FF>Hunter's Precision</color> will also have their Elemental Mastery increased by 100 if they are on the field.",
+      "description": "The Hunter's Precision effect obtained from activating a **Hunter's Mark** can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100 if they are on the field."
+    }
+  ],
+  "rawTalents": {
+    "id": 14801,
+    "name": "Alyosha",
+    "combat1": {
+      "name": "Skirmishing Spear",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 4 consecutive spear strikes and applies the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the opponent hit by the final strike.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes and applies the **Hunter's Mark** to the opponent hit by the final strike.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+          "4-Hit DMG|{param5:F1P}",
+          "Charged Attack DMG|{param6:F1P}",
+          "Charged Attack Stamina Cost|{param7:F1}",
+          "Plunge DMG|{param8:F1P}",
+          "Low/High Plunge DMG|{param9:F1P}/{param10:F1P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.47816,
+            0.51708,
+            0.556,
+            0.6116,
+            0.65052,
+            0.695,
+            0.75616,
+            0.81732,
+            0.87848,
+            0.9452,
+            1.01192,
+            1.07864,
+            1.14536,
+            1.21208,
+            1.2788
+          ],
+          "param2": [
+            0.4816,
+            0.5208,
+            0.56,
+            0.616,
+            0.6552,
+            0.7,
+            0.7616,
+            0.8232,
+            0.8848,
+            0.952,
+            1.0192,
+            1.0864,
+            1.1536,
+            1.2208,
+            1.288
+          ],
+          "param3": [
+            0.34228,
+            0.37014,
+            0.398,
+            0.4378,
+            0.46566,
+            0.4975,
+            0.54128,
+            0.58506,
+            0.62884,
+            0.6766,
+            0.72436,
+            0.77212,
+            0.81988,
+            0.86764,
+            0.9154
+          ],
+          "param4": [
+            0.3182,
+            0.3441,
+            0.37,
+            0.407,
+            0.4329,
+            0.4625,
+            0.5032,
+            0.5439,
+            0.5846,
+            0.629,
+            0.6734,
+            0.7178,
+            0.7622,
+            0.8066,
+            0.851
+          ],
+          "param5": [
+            0.75852,
+            0.82026,
+            0.882,
+            0.9702,
+            1.03194,
+            1.1025,
+            1.19952,
+            1.29654,
+            1.39356,
+            1.4994,
+            1.60524,
+            1.71108,
+            1.81692,
+            1.92276,
+            2.0286
+          ],
+          "param6": [
+            1.11026,
+            1.20063,
+            1.291,
+            1.4201,
+            1.51047,
+            1.61375,
+            1.75576,
+            1.89777,
+            2.03978,
+            2.1947,
+            2.34962,
+            2.50454,
+            2.65946,
+            2.81438,
+            2.9693
+          ],
+          "param7": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param8": [
+            0.639324,
+            0.691362,
+            0.7434,
+            0.81774,
+            0.869778,
+            0.92925,
+            1.011024,
+            1.092798,
+            1.174572,
+            1.26378,
+            1.352988,
+            1.442196,
+            1.531404,
+            1.620612,
+            1.70982
+          ],
+          "param9": [
+            1.278377,
+            1.382431,
+            1.486485,
+            1.635134,
+            1.739187,
+            1.858106,
+            2.02162,
+            2.185133,
+            2.348646,
+            2.527025,
+            2.705403,
+            2.883781,
+            3.062159,
+            3.240537,
+            3.418915
+          ],
+          "param10": [
+            1.596762,
+            1.726731,
+            1.8567,
+            2.04237,
+            2.172339,
+            2.320875,
+            2.525112,
+            2.729349,
+            2.933586,
+            3.15639,
+            3.379194,
+            3.601998,
+            3.824802,
+            4.047606,
+            4.27041
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Thunderbolt Strike",
+      "descriptionRaw": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect to the hit opponents.\n\n<color=#FFD780FF>Tapping</color>\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\n\n<color=#FFD780FF>Holding</color>\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\n\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
+      "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the **Hunter's Mark** effect to the hit opponents.\n\nTapping\nFires at opponents in front of him, dealing AoE Electro DMG.\n\nHolding\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.",
+      "flavorText": "The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+      "attributes": {
+        "labels": [
+          "Press DMG|{param1:F1P}",
+          "Hold DMG|{param2:F1P}",
+          "CD|{param3:F1}s",
+          "Hunter's Mark Duration|{param4:F1}s",
+          "Hunter's Precision ATK Bonus|{param5:F1P}",
+          "Hunter's Precision Duration|{param6:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            2.8672,
+            3.08224,
+            3.29728,
+            3.584,
+            3.79904,
+            4.01408,
+            4.3008,
+            4.58752,
+            4.87424,
+            5.16096,
+            5.44768,
+            5.7344,
+            6.0928,
+            6.4512,
+            6.8096
+          ],
+          "param2": [
+            3.584,
+            3.8528,
+            4.1216,
+            4.48,
+            4.7488,
+            5.0176,
+            5.376,
+            5.7344,
+            6.0928,
+            6.4512,
+            6.8096,
+            7.168,
+            7.616,
+            8.064,
+            8.512
+          ],
+          "param3": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            0.1166,
+            0.1272,
+            0.1378,
+            0.1484,
+            0.159,
+            0.1696,
+            0.1802,
+            0.1908,
+            0.2014,
+            0.212,
+            0.22472,
+            0.23744,
+            0.25016,
+            0.26288,
+            0.2756
+          ],
+          "param6": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Hunter's Advance",
+      "descriptionRaw": "Summons his trusted companion <color=#FFD780FF>Tugarin</color> to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\n\n<color=#FFD780FF>Fulgurite Hunting Field</color>\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that enters the field.\n\n<color=#FFD780FF>Tugarin</color>\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing <color=#FFACFFFF>Electro DMG</color>.\n· If an opponent affected by the <color=#FFD780FF>Hunter's Mark</color> effect is hit, the <color=#FFD780FF>Hunter's Mark</color> will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the <color=#FFD780FF>Hunter's Mark</color> effect first.\n\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
+      "description": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\n\nFulgurite Hunting Field\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of AoE Electro DMG to any opponent that enters the field.\n\nTugarin\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing Electro DMG.\n· If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.",
+      "flavorText": "Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+      "attributes": {
+        "labels": [
+          "Fulgurite Hunting Field DMG|{param1:F1P}",
+          "Tugarin DMG|{param2:F1P}",
+          "Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.7496,
+            0.80582,
+            0.86204,
+            0.937,
+            0.99322,
+            1.04944,
+            1.1244,
+            1.19936,
+            1.27432,
+            1.34928,
+            1.42424,
+            1.4992,
+            1.5929,
+            1.6866,
+            1.7803
+          ],
+          "param2": [
+            0.502232,
+            0.539899,
+            0.577567,
+            0.62779,
+            0.665457,
+            0.703125,
+            0.753348,
+            0.803571,
+            0.853794,
+            0.904018,
+            0.954241,
+            1.004464,
+            1.067243,
+            1.130022,
+            1.192801
+          ],
+          "param3": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "param4": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "param5": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Awakened by the Baying Hounds",
+      "descriptionRaw": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
+      "description": "When **Tugarin** attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK."
+    },
+    "passive2": {
+      "name": "Suffer the Winter Wheat Will",
+      "descriptionRaw": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way.",
+      "description": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way."
+    },
+    "passive3": {
+      "name": "Into the Fray",
+      "descriptionRaw": "Alyosha will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}.\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Hunter's Precision</color> effect obtained when the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%.",
+      "description": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a **Polestar Field**.\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the **Hunter's Mark** is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%."
+    },
+    "passive4": {
+      "name": "Treetop Watch",
+      "descriptionRaw": "Displays the location of nearby <color=#FFD780FF>resources unique to Snezhnaya</color> on the mini-map, and this effect also applies in the Shadow Realm.",
+      "description": "Displays the location of nearby resources unique to Snezhnaya on the mini-map, and this effect also applies in the Shadow Realm."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104368,
+          "name": "Teachings of Fortitude",
+          "count": 3
+        },
+        {
+          "id": 112149,
+          "name": "Chimeric Core",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104369,
+          "name": "Guide to Fortitude",
+          "count": 2
+        },
+        {
+          "id": 112150,
+          "name": "Symbiotic Chimeric Nucleus",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104369,
+          "name": "Guide to Fortitude",
+          "count": 4
+        },
+        {
+          "id": 112150,
+          "name": "Symbiotic Chimeric Nucleus",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104369,
+          "name": "Guide to Fortitude",
+          "count": 6
+        },
+        {
+          "id": 112150,
+          "name": "Symbiotic Chimeric Nucleus",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104369,
+          "name": "Guide to Fortitude",
+          "count": 9
+        },
+        {
+          "id": 112150,
+          "name": "Symbiotic Chimeric Nucleus",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104370,
+          "name": "Philosophies of Fortitude",
+          "count": 4
+        },
+        {
+          "id": 112151,
+          "name": "Prime Chimeric Nexus",
+          "count": 4
+        },
+        {
+          "id": 113083,
+          "name": "Elixir of the Heretic",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104370,
+          "name": "Philosophies of Fortitude",
+          "count": 6
+        },
+        {
+          "id": 112151,
+          "name": "Prime Chimeric Nexus",
+          "count": 6
+        },
+        {
+          "id": 113083,
+          "name": "Elixir of the Heretic",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104370,
+          "name": "Philosophies of Fortitude",
+          "count": 12
+        },
+        {
+          "id": 112151,
+          "name": "Prime Chimeric Nexus",
+          "count": 9
+        },
+        {
+          "id": 113083,
+          "name": "Elixir of the Heretic",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104370,
+          "name": "Philosophies of Fortitude",
+          "count": 16
+        },
+        {
+          "id": 112151,
+          "name": "Prime Chimeric Nexus",
+          "count": 12
+        },
+        {
+          "id": 113083,
+          "name": "Elixir of the Heretic",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_03",
+      "filename_combat2": "Skill_S_Alyosha_01",
+      "filename_combat3": "Skill_E_Alyosha_01_HD",
+      "filename_passive1": "UI_Talent_S_Alyosha_05",
+      "filename_passive2": "UI_Talent_S_Alyosha_06",
+      "filename_passive3": "UI_Talent_S_Alyosha_07",
+      "filename_passive4": "UI_Talent_S_Alyosha_08"
+    },
+    "version": "7.0"
+  },
+  "rawConstellations": {
+    "id": 14801,
+    "name": "Alyosha",
+    "c1": {
+      "name": "Frostvale Thunderclap",
+      "descriptionRaw": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an <color=#FFACFFFF>Electro-related reaction</color> on an opponent. This effect can trigger once every 18s.",
+      "description": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction on an opponent. This effect can trigger once every 18s."
+    },
+    "c2": {
+      "name": "Howl From Afar",
+      "descriptionRaw": "The duration of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> is extended by 6s.\nAdditionally, each time {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks the opponent, he will also apply the {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to a target. This effect does not activate existing <color=#FFD780FF>Hunter's Marks</color>.",
+      "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\nAdditionally, each time **Tugarin** attacks the opponent, he will also apply the **Hunter's Mark** to a target. This effect does not activate existing Hunter's Marks."
+    },
+    "c3": {
+      "name": "Friendly Call",
+      "descriptionRaw": "Increases the Level of the Elemental Skill <color=#FFD780FF>Thunderbolt Strike</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Skill Thunderbolt Strike by 3.\nMaximum upgrade level is 15."
+    },
+    "c4": {
+      "name": "Harvest the Spoils",
+      "descriptionRaw": "When {LINK#N11480002}<color=#FFD780FF>Tugarin</color>{/LINK} attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+      "description": "When **Tugarin** attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
+    },
+    "c5": {
+      "name": "When the Nightbird Falls Silent",
+      "descriptionRaw": "Increases the Level of the Elemental Burst <color=#FFD780FF>Hunter's Advance</color> by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Burst Hunter's Advance by 3.\nMaximum upgrade level is 15."
+    },
+    "c6": {
+      "name": "Standard Reclaimed",
+      "descriptionRaw": "The <color=#FFD780FF>Hunter's Precision</color> effect obtained from activating a {LINK#N11480001}<color=#FFD780FF>Hunter's Mark</color>{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by <color=#FFD780FF>Hunter's Precision</color> will also have their Elemental Mastery increased by 100 if they are on the field.",
+      "description": "The Hunter's Precision effect obtained from activating a **Hunter's Mark** can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100 if they are on the field."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Alyosha_01",
+      "filename_c2": "UI_Talent_S_Alyosha_02",
+      "filename_c3": "UI_Talent_U_Alyosha_01",
+      "filename_c4": "UI_Talent_S_Alyosha_03",
+      "filename_c5": "UI_Talent_U_Alyosha_02",
+      "filename_c6": "UI_Talent_S_Alyosha_04",
+      "filename_constellation": "Eff_UI_Talent_Alyosha"
+    },
+    "version": "7.0"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "id": 14426,
+  "name": "Ballad of the Boundless Blue",
+  "description": "An anthology of exquisite poetry. It contains quite a few poems beloved by Mondstadters, concerning the skies, dandelions, and other such topics.",
+  "rarity": 4,
+  "weaponType": "Catalyst",
+  "baseAttack": 43.7349,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "6.7%",
+  "effectName": "Azure Skies",
+  "effectTemplate": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <color=#99FFFFFF>{0}</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>{1}</color>. Max 3 stacks. This effect can be triggered once every 0.3s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 8% and Charged Attack DMG will be increased by 6%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+      "values": [
+        "8%",
+        "6%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 10% and Charged Attack DMG will be increased by 7.5%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+      "values": [
+        "10%",
+        "7.5%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 12% and Charged Attack DMG will be increased by 9%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+      "values": [
+        "12%",
+        "9%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 14% and Charged Attack DMG will be increased by 10.5%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+      "values": [
+        "14%",
+        "10.5%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 16% and Charged Attack DMG will be increased by 12%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+      "values": [
+        "16%",
+        "12%"
+      ]
+    }
+  ],
+  "story": "Between two shores, past and present,\nA sky stretches vast and boundless, a limitless realm of freedom.\nFlowers are rooted in the earth, yet they still yearn for the endless sky,\nAnd though they are without wings, they still seek to rise through the air...\n\nJust as the fate of flowers is bound by the roots deep beneath the ground,\nThe dandelions are destined to witness the heights and freedom of the sky.\nThe endless azure empyrean is as if a dome that reflects the world beneath it,\nWith white clouds above dotting the calm and peaceful sky.\n\nJust as the tenacious dandelions and wild chrysanthemums,\nThe people of the verdant ground will heed freedom's call.\nThe tyranny of storms and bitter winter may have oppressed them,\nAnd the virtues they held may have become corrupt and gone astray,\n\nBut so long as the traditions of praising the skyward gales remain,\nAnd so long as this precious freedom continues to be celebrated from generation to generation,\nThen the people will ever soar to the sky like all the seeds of the dandelions,\nLeaning on their spirited souls to pursue a boundless and unshackled freedom.",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_DandelionPoem",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_DandelionPoem_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_DandelionPoem",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem_Awaken.png"
+  },
+  "version": "4.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 3
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      },
+      {
+        "id": 112041,
+        "name": "Fragile Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 6
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 6
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 3
+      },
+      {
+        "id": 112042,
+        "name": "Sturdy Bone Shard",
+        "count": 12
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 6
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 9
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 4
+      },
+      {
+        "id": 112043,
+        "name": "Fossilized Bone Shard",
+        "count": 18
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.066667
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.30626819800000005
+    }
+  ],
+  "r1": {
+    "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 8% and Charged Attack DMG will be increased by 6%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "values": [
+      "8%",
+      "6%"
+    ]
+  },
+  "r2": {
+    "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 10% and Charged Attack DMG will be increased by 7.5%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "values": [
+      "10%",
+      "7.5%"
+    ]
+  },
+  "r3": {
+    "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 12% and Charged Attack DMG will be increased by 9%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "values": [
+      "12%",
+      "9%"
+    ]
+  },
+  "r4": {
+    "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 14% and Charged Attack DMG will be increased by 10.5%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "values": [
+      "14%",
+      "10.5%"
+    ]
+  },
+  "r5": {
+    "description": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 16% and Charged Attack DMG will be increased by 12%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "values": [
+      "16%",
+      "12%"
+    ]
+  }
+}

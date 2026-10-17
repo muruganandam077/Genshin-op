@@ -1,0 +1,189 @@
+{
+  "id": 10000118,
+  "name": "Manekina",
+  "title": "",
+  "description": "A Manekin gifted to you and Paimon by a witch who uses the pseudonym \"Octavia.\" They are gifted at exploring the mysteries sealed within the Miliastra Wonderland.",
+  "rarity": 5,
+  "element": "None",
+  "weaponType": "Sword",
+  "substat": "ATK",
+  "gender": "Female",
+  "bodyType": "BODY_GIRL",
+  "region": "",
+  "affiliation": "——",
+  "birthday": "",
+  "constellationName": "——",
+  "cv": {
+    "english": "——",
+    "chinese": "——",
+    "japanese": "——",
+    "korean": "——"
+  },
+  "images": {
+    "filename_icon": "UI_AvatarIcon_MannequinGirl",
+    "filename_iconCard": "UI_AvatarIcon_MannequinGirl_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_MannequinGirl",
+    "filename_gachaSplash": "UI_Gacha_AvatarImg_MannequinGirl",
+    "filename_gachaSlice": "UI_Gacha_AvatarIcon_MannequinGirl",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MannequinGirl.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_MannequinGirl.png",
+    "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/28/e45a556519d524e2b14aaaff4104ebe1_558967600629726716.png"
+  },
+  "version": "6.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora"
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "hp": 911.791,
+      "attack": 17.808,
+      "defense": 57.225,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2342.391079,
+      "attack": 45.748751999999996,
+      "defense": 147.011025,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3023.545619,
+      "attack": 59.052552,
+      "defense": 189.761025,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5012.8908200000005,
+      "attack": 97.90626,
+      "defense": 314.6145,
+      "specialized": 0.06
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 5012.8908200000005,
+      "attack": 97.90626,
+      "defense": 314.6145,
+      "specialized": 0.06
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6411.334486000001,
+      "attack": 125.219268,
+      "defense": 402.38235000000003,
+      "specialized": 0.12
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 6411.334486000001,
+      "attack": 125.219268,
+      "defense": 402.38235000000003,
+      "specialized": 0.12
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7648.452052000001,
+      "attack": 149.381376,
+      "defense": 480.0252,
+      "specialized": 0.12
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 7648.452052000001,
+      "attack": 149.381376,
+      "defense": 480.0252,
+      "specialized": 0.12
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8884.657927,
+      "attack": 173.525676,
+      "defense": 557.610825,
+      "specialized": 0.18
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 8884.657927,
+      "attack": 173.525676,
+      "defense": 557.610825,
+      "specialized": 0.18
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10121.775493000001,
+      "attack": 197.687784,
+      "defense": 635.2536749999999,
+      "specialized": 0.24
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 10121.775493000001,
+      "attack": 197.687784,
+      "defense": 635.2536749999999,
+      "specialized": 0.24
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "hp": 10874.914859,
+      "attack": 212.397192,
+      "defense": 682.521525,
+      "specialized": 0.24
+    }
+  ],
+  "passives": [],
+  "combatTalents": [],
+  "talentUpgradeCosts": {},
+  "constellations": []
+}

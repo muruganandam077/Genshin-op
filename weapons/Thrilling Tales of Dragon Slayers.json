@@ -1,0 +1,315 @@
+{
+  "id": 14302,
+  "name": "Thrilling Tales of Dragon Slayers",
+  "description": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+  "rarity": 3,
+  "weaponType": "Catalyst",
+  "baseAttack": 38.7413,
+  "mainStat": "HP",
+  "baseStatText": "7.7%",
+  "effectName": "Heritage",
+  "effectTemplate": "When switching characters, the new character taking the field has their ATK increased by <color=#99FFFFFF>{0}</color> for 10s. This effect can only occur once every 20s.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s.",
+      "values": [
+        "24%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 30% for 10s. This effect can only occur once every 20s.",
+      "values": [
+        "30%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 36% for 10s. This effect can only occur once every 20s.",
+      "values": [
+        "36%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 42% for 10s. This effect can only occur once every 20s.",
+      "values": [
+        "42%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 48% for 10s. This effect can only occur once every 20s.",
+      "values": [
+        "48%"
+      ]
+    }
+  ],
+  "story": "Five Heroes embarked on a journey to slay the evil dragon.\nFor honor, the master swordsman.\nFor research, the knowledgeable sorceress.\nFor bounty, the swashbuckling mercenary.\nFor vengeance, the deadeye marksman.\nFor stories, the grand novelist.\nA lotus proceeds from my mouth and flowers bloom on the page. My words are wise and clear and my thoughts are sharp like lightning.\nI joined this party because I couldn't find a job, and anybody can be a copywriter.\nBut I'm no writer, just a regular fellow in his mid twenties without an honest job.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Catalyst_Pulpfic",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_Pulpfic_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_Pulpfic",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 2
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 2
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 2
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 8
+      },
+      {
+        "id": 112008,
+        "name": "Divining Scroll",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 4
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 4
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 2
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 8
+      },
+      {
+        "id": 112009,
+        "name": "Sealed Scroll",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 4
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 6
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 3
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 12
+      },
+      {
+        "id": 112010,
+        "name": "Forbidden Curse Scroll",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.0766
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.35190040000000006
+    }
+  ],
+  "r1": {
+    "description": "When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s.",
+    "values": [
+      "24%"
+    ]
+  },
+  "r2": {
+    "description": "When switching characters, the new character taking the field has their ATK increased by 30% for 10s. This effect can only occur once every 20s.",
+    "values": [
+      "30%"
+    ]
+  },
+  "r3": {
+    "description": "When switching characters, the new character taking the field has their ATK increased by 36% for 10s. This effect can only occur once every 20s.",
+    "values": [
+      "36%"
+    ]
+  },
+  "r4": {
+    "description": "When switching characters, the new character taking the field has their ATK increased by 42% for 10s. This effect can only occur once every 20s.",
+    "values": [
+      "42%"
+    ]
+  },
+  "r5": {
+    "description": "When switching characters, the new character taking the field has their ATK increased by 48% for 10s. This effect can only occur once every 20s.",
+    "values": [
+      "48%"
+    ]
+  }
+}

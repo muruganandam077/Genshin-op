@@ -1,0 +1,324 @@
+{
+  "id": 13415,
+  "name": "\"The Catch\"",
+  "description": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+  "rarity": 4,
+  "weaponType": "Polearm",
+  "baseAttack": 42.401,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "10%",
+  "effectName": "Shanty",
+  "effectTemplate": "Increases Elemental Burst DMG by <color=#99FFFFFF>{0}</color> and Elemental Burst CRIT Rate by <color=#99FFFFFF>{1}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%.",
+      "values": [
+        "16%",
+        "6%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases Elemental Burst DMG by 20% and Elemental Burst CRIT Rate by 7.5%.",
+      "values": [
+        "20%",
+        "7.5%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases Elemental Burst DMG by 24% and Elemental Burst CRIT Rate by 9%.",
+      "values": [
+        "24%",
+        "9%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases Elemental Burst DMG by 28% and Elemental Burst CRIT Rate by 10.5%.",
+      "values": [
+        "28%",
+        "10.5%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases Elemental Burst DMG by 32% and Elemental Burst CRIT Rate by 12%.",
+      "values": [
+        "32%",
+        "12%"
+      ]
+    }
+  ],
+  "story": "The favored barbed spear of a famous Inazuman bandit.\nIt was originally a harpoon used to catch fish, but it was also very handy in battle.\nThey say that he even pierced the enchanted, sword-armed puppet before carrying it off.\n\n\"Haha! Once, I was the master of this ship, the 'Seiraimaru.'\"\n\"I commanded over ten ships, and they called me the Deathless Oni of Seirai.\"\n\"Now, I am but a leaf floating upon the waves.\"\n\"If not for Janome and the people marooned on those islands,\"\n\"Forget raising our sails again — I doubt I would have managed to make it back to my home shores.\"\n\"And yet Seirai now looks like this.\"\n\"There is no longer any place for me in the Inazuman Islands.\"\n\"Even that naggy, fretful old shrine maiden is gone...\"\n\nThe bandit named Ako Domeki's voice was thick with emotion. Then he said...\n\"Hey, Janome! I'm now the freest man in the whole wide world!\"\n\"Aunt Shrine Maiden! Didn't you say that you wanted to go see the world?\"\n\"You know, go someplace else, like that Kamuna guy or that Konbumaru you always talk about?\"\n\"You know what? Let me, Ako Domeki Zaemon, go in your stead!\"\n\"Let me go see what the edge of the world really looks like!\"\n\n\"We'll meet again where all ship routes end!\"\n\"And when we do, it'll be my turn to tell you all about these distant lands!\"",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori.png",
+    "filename_icon": "UI_EquipIcon_Pole_Mori",
+    "filename_awakenIcon": "UI_EquipIcon_Pole_Mori_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Pole_Mori",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori_Awaken.png"
+  },
+  "version": "2.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114033,
+        "name": "Mask of the Wicked Lieutenant",
+        "count": 3
+      },
+      {
+        "id": 112047,
+        "name": "Chaos Gear",
+        "count": 3
+      },
+      {
+        "id": 112053,
+        "name": "Spectral Husk",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114034,
+        "name": "Mask of the Tiger's Bite",
+        "count": 3
+      },
+      {
+        "id": 112047,
+        "name": "Chaos Gear",
+        "count": 12
+      },
+      {
+        "id": 112053,
+        "name": "Spectral Husk",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114034,
+        "name": "Mask of the Tiger's Bite",
+        "count": 6
+      },
+      {
+        "id": 112048,
+        "name": "Chaos Axis",
+        "count": 6
+      },
+      {
+        "id": 112054,
+        "name": "Spectral Heart",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114035,
+        "name": "Mask of the One-Horned",
+        "count": 3
+      },
+      {
+        "id": 112048,
+        "name": "Chaos Axis",
+        "count": 12
+      },
+      {
+        "id": 112054,
+        "name": "Spectral Heart",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114035,
+        "name": "Mask of the One-Horned",
+        "count": 6
+      },
+      {
+        "id": 112049,
+        "name": "Chaos Oculus",
+        "count": 9
+      },
+      {
+        "id": 112055,
+        "name": "Spectral Nucleus",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114036,
+        "name": "Mask of the Kijin",
+        "count": 4
+      },
+      {
+        "id": 112049,
+        "name": "Chaos Oculus",
+        "count": 18
+      },
+      {
+        "id": 112055,
+        "name": "Spectral Nucleus",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.1
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.1767
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.1767
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.45940000000000003
+    }
+  ],
+  "r1": {
+    "description": "Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%.",
+    "values": [
+      "16%",
+      "6%"
+    ]
+  },
+  "r2": {
+    "description": "Increases Elemental Burst DMG by 20% and Elemental Burst CRIT Rate by 7.5%.",
+    "values": [
+      "20%",
+      "7.5%"
+    ]
+  },
+  "r3": {
+    "description": "Increases Elemental Burst DMG by 24% and Elemental Burst CRIT Rate by 9%.",
+    "values": [
+      "24%",
+      "9%"
+    ]
+  },
+  "r4": {
+    "description": "Increases Elemental Burst DMG by 28% and Elemental Burst CRIT Rate by 10.5%.",
+    "values": [
+      "28%",
+      "10.5%"
+    ]
+  },
+  "r5": {
+    "description": "Increases Elemental Burst DMG by 32% and Elemental Burst CRIT Rate by 12%.",
+    "values": [
+      "32%",
+      "12%"
+    ]
+  }
+}

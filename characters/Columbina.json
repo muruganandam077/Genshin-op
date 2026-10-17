@@ -1,0 +1,1737 @@
+{
+  "id": 10000125,
+  "name": "Columbina",
+  "title": "Welkin Moon's Homecoming",
+  "description": "The Moon Maiden born in Nod-Krai, and also the welkin moon returning home.",
+  "rarity": 5,
+  "element": "Hydro",
+  "weaponType": "Catalyst",
+  "substat": "CRIT Rate",
+  "gender": "Female",
+  "bodyType": "BODY_GIRL",
+  "region": "Nod-Krai",
+  "affiliation": "Silvermoon Hall",
+  "birthday": "January 14",
+  "constellationName": "???",
+  "cv": {
+    "english": "Emi Lo",
+    "chinese": "杨梦露",
+    "japanese": "Lynn",
+    "korean": "Yu Yeong"
+  },
+  "images": {
+    "filename_icon": "UI_AvatarIcon_Columbina",
+    "filename_iconCard": "UI_AvatarIcon_Columbina_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_Columbina",
+    "filename_gachaSplash": "UI_Gacha_AvatarImg_Columbina",
+    "filename_gachaSlice": "UI_Gacha_AvatarIcon_Columbina",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Columbina.png",
+    "hoyowiki_icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2026/01/13/80fa97679c8d1828fdd96c6aa9638632_4327573591148809640.png"
+  },
+  "version": "6.3",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104121,
+        "name": "Varunada Lazurite Sliver",
+        "count": 1
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 3
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104122,
+        "name": "Varunada Lazurite Fragment",
+        "count": 3
+      },
+      {
+        "id": 113079,
+        "name": "Radiant Antler",
+        "count": 2
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 10
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104122,
+        "name": "Varunada Lazurite Fragment",
+        "count": 6
+      },
+      {
+        "id": 113079,
+        "name": "Radiant Antler",
+        "count": 4
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 20
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104123,
+        "name": "Varunada Lazurite Chunk",
+        "count": 3
+      },
+      {
+        "id": 113079,
+        "name": "Radiant Antler",
+        "count": 8
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 30
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104123,
+        "name": "Varunada Lazurite Chunk",
+        "count": 6
+      },
+      {
+        "id": 113079,
+        "name": "Radiant Antler",
+        "count": 12
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 45
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104124,
+        "name": "Varunada Lazurite Gemstone",
+        "count": 6
+      },
+      {
+        "id": 113079,
+        "name": "Radiant Antler",
+        "count": 20
+      },
+      {
+        "id": 101268,
+        "name": "Winter Icelea",
+        "count": 60
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 24
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "hp": 1143.984,
+      "attack": 7.448,
+      "defense": 40.0861,
+      "specialized": 0.05
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "hp": 2967.494496,
+      "attack": 19.320112,
+      "defense": 103.9833434,
+      "specialized": 0.05
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "hp": 3948.357346,
+      "attack": 25.705632,
+      "defense": 138.3543434,
+      "specialized": 0.05
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 6604.930788,
+      "attack": 43.001136,
+      "defense": 231.4433327,
+      "specialized": 0.098
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "hp": 6604.930788,
+      "attack": 43.001136,
+      "defense": 231.4433327,
+      "specialized": 0.098
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 8528.291484,
+      "attack": 55.522888,
+      "defense": 298.8401536,
+      "specialized": 0.14600000000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "hp": 8528.291484,
+      "attack": 55.522888,
+      "defense": 298.8401536,
+      "specialized": 0.14600000000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 10229.638136,
+      "attack": 66.599312,
+      "defense": 358.4572494,
+      "specialized": 0.14600000000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "hp": 10229.638136,
+      "attack": 66.599312,
+      "defense": 358.4572494,
+      "specialized": 0.14600000000000002
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 11940.13696,
+      "attack": 77.73532,
+      "defense": 418.395034,
+      "specialized": 0.194
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "hp": 11940.13696,
+      "attack": 77.73532,
+      "defense": 418.395034,
+      "specialized": 0.194
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 13662.075624000001,
+      "attack": 88.945808,
+      "defense": 478.7336796000001,
+      "specialized": 0.242
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "hp": 13662.075624000001,
+      "attack": 88.945808,
+      "defense": 478.7336796000001,
+      "specialized": 0.242
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "hp": 14695.093175999998,
+      "attack": 95.67135200000001,
+      "defense": 514.9314279,
+      "specialized": 0.242
+    }
+  ],
+  "passives": [
+    {
+      "slot": "passive1",
+      "name": "Lunacy's Lure",
+      "descriptionRaw": "When triggering {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times.",
+      "description": "When triggering **Gravity Interference**, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
+    },
+    {
+      "slot": "passive2",
+      "name": "Law of the New Moon",
+      "descriptionRaw": "When characters within the {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} trigger Lunar reactions, they will gain the following effects respectively: \n· <color=#FFD780FF>Lunar-Charged</color>: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \n· <color=#FFD780FF>Lunar-Bloom</color>: When triggering Lunar-Bloom reactions, the party gains a special {LINK#N11250003}<color=#FFD780FF>Moonridge Dew</color>{/LINK}. Up to 3 Moonridge Dews can be gained every 18s. \n· <color=#FFD780FF>Lunar-Crystallize</color>: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack.",
+      "description": "When characters within the **Lunar Domain** trigger Lunar reactions, they will gain the following effects respectively: \n· Lunar-Charged: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \n· Lunar-Bloom: When triggering Lunar-Bloom reactions, the party gains a special **Moonridge Dew**. Up to 3 Moonridge Dews can be gained every 18s. \n· Lunar-Crystallize: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack."
+    },
+    {
+      "slot": "passive3",
+      "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+      "descriptionRaw": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's Moonsign will increase by 1 level."
+    },
+    {
+      "slot": "passive4",
+      "name": "Lunar Vigil",
+      "descriptionRaw": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
+      "description": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki..."
+    }
+  ],
+  "combatTalents": [
+    {
+      "slot": "combat1",
+      "name": "Moondew Cascade",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nSummons Moonlit Tides, performing up to 3 attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\nIf you have at least 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}, Columbina's Charged Attacks will be replaced with the special Charged Attack <color=#FFD780FF>Moondew Cleanse</color>, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nSummons Moonlit Tides, performing up to 3 attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nIf you have at least 1 **Verdant Dew**, Columbina's Charged Attacks will be replaced with the special Charged Attack Moondew Cleanse, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of AoE Dendro DMG to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:F1P}",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.46792,
+            0.503014,
+            0.538108,
+            0.5849,
+            0.619994,
+            0.655088,
+            0.70188,
+            0.748672,
+            0.795464,
+            0.842256,
+            0.889048,
+            0.93584,
+            0.99433,
+            1.05282,
+            1.11131
+          ],
+          "param2": [
+            0.366256,
+            0.393725,
+            0.421194,
+            0.45782,
+            0.485289,
+            0.512758,
+            0.549384,
+            0.58601,
+            0.622635,
+            0.659261,
+            0.695886,
+            0.732512,
+            0.778294,
+            0.824076,
+            0.869858
+          ],
+          "param3": [
+            0.58484,
+            0.628703,
+            0.672566,
+            0.73105,
+            0.774913,
+            0.818776,
+            0.87726,
+            0.935744,
+            0.994228,
+            1.052712,
+            1.111196,
+            1.16968,
+            1.242785,
+            1.31589,
+            1.388995
+          ],
+          "param4": [
+            1.1608,
+            1.24786,
+            1.33492,
+            1.451,
+            1.53806,
+            1.62512,
+            1.7412,
+            1.85728,
+            1.97336,
+            2.08944,
+            2.20552,
+            2.3216,
+            2.4667,
+            2.6118,
+            2.7569
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.015112,
+            0.016245,
+            0.017379,
+            0.01889,
+            0.020023,
+            0.021157,
+            0.022668,
+            0.024179,
+            0.02569,
+            0.027202,
+            0.028713,
+            0.030224,
+            0.032113,
+            0.034002,
+            0.035891
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    {
+      "slot": "combat2",
+      "name": "Eternal Tides",
+      "descriptionRaw": "Awaken Moonbound Tides, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and summoning {LINK#N11250001}<color=#FFD780FF>Gravity Ripple</color>{/LINK}.\n<color=#FFD780FF>Gravity Ripple</color> will follow the active character on the field, while continuously dealing <color=#80C0FFFF>AoE Hydro DMG</color> to surrounding opponents. While <color=#FFD780FF>Gravity Ripple</color> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <color=#FFD780FF>Gravity</color>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <color=#FFD780FF>Gravity</color> for Columbina.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: <color=#FFD780FF>Gravity Ripple</color> inflicts <color=#80C0FFFF>AoE Hydro DMG</color> over a wider area.",
+      "description": "Awaken Moonbound Tides, dealing AoE Hydro DMG and summoning **Gravity Ripple**.\nGravity Ripple will follow the active character on the field, while continuously dealing AoE Hydro DMG to surrounding opponents. While Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special Gravity. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most Gravity for Columbina.\nMoonsign: Ascendant Gleam: Gravity Ripple inflicts AoE Hydro DMG over a wider area.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Gravity Ripple: Continuous DMG|{param2:F1P} Max HP",
+          "Gravity Interference: Lunar-Charged DMG|{param3:F2P} Max HP",
+          "Gravity Interference: Lunar-Bloom DMG|{param4:F2P} Max HP ×5",
+          "Gravity Interference: Lunar-Crystallize DMG|{param5:F2P} Max HP",
+          "Gravity Limit|{param8:I}",
+          "Gravity Ripple Duration|{param9:F1}s",
+          "CD|{param10:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.1672,
+            0.17974,
+            0.19228,
+            0.209,
+            0.22154,
+            0.23408,
+            0.2508,
+            0.26752,
+            0.28424,
+            0.30096,
+            0.31768,
+            0.3344,
+            0.3553,
+            0.3762,
+            0.3971
+          ],
+          "param2": [
+            0.0936,
+            0.10062,
+            0.10764,
+            0.117,
+            0.12402,
+            0.13104,
+            0.1404,
+            0.14976,
+            0.15912,
+            0.16848,
+            0.17784,
+            0.1872,
+            0.1989,
+            0.2106,
+            0.2223
+          ],
+          "param3": [
+            0.04704,
+            0.050568,
+            0.054096,
+            0.0588,
+            0.062328,
+            0.065856,
+            0.07056,
+            0.075264,
+            0.079968,
+            0.084672,
+            0.089376,
+            0.09408,
+            0.09996,
+            0.10584,
+            0.11172
+          ],
+          "param4": [
+            0.01408,
+            0.015136,
+            0.016192,
+            0.0176,
+            0.018656,
+            0.019712,
+            0.02112,
+            0.022528,
+            0.023936,
+            0.025344,
+            0.026752,
+            0.02816,
+            0.02992,
+            0.03168,
+            0.03344
+          ],
+          "param5": [
+            0.08824,
+            0.094858,
+            0.101476,
+            0.1103,
+            0.116918,
+            0.123536,
+            0.13236,
+            0.141184,
+            0.150008,
+            0.158832,
+            0.167656,
+            0.17648,
+            0.18751,
+            0.19854,
+            0.20957
+          ],
+          "param6": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "param7": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param8": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param9": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param10": [
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "slot": "combat3",
+      "name": "Moonlit Melancholy",
+      "descriptionRaw": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK}, dealing <color=#80C0FFFF> AoE Hydro DMG</color>.",
+      "description": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into **Lunar Domain**, dealing  AoE Hydro DMG.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Lunar Reaction DMG Bonus|{param2:F1P}",
+          "Lunar Domain Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.3224,
+            0.34658,
+            0.37076,
+            0.403,
+            0.42718,
+            0.45136,
+            0.4836,
+            0.51584,
+            0.54808,
+            0.58032,
+            0.61256,
+            0.6448,
+            0.6851,
+            0.7254,
+            0.7657
+          ],
+          "param2": [
+            0.13,
+            0.16,
+            0.19,
+            0.22,
+            0.25,
+            0.28,
+            0.31,
+            0.34,
+            0.37,
+            0.4,
+            0.43,
+            0.46,
+            0.49,
+            0.52,
+            0.55
+          ],
+          "param3": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    }
+  ],
+  "talentUpgradeCosts": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104356,
+        "name": "Teachings of Moonlight",
+        "count": 3
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104357,
+        "name": "Guide to Moonlight",
+        "count": 2
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104357,
+        "name": "Guide to Moonlight",
+        "count": 4
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104357,
+        "name": "Guide to Moonlight",
+        "count": 6
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104357,
+        "name": "Guide to Moonlight",
+        "count": 9
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104358,
+        "name": "Philosophies of Moonlight",
+        "count": 4
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 4
+      },
+      {
+        "id": 113081,
+        "name": "Mask of the Virtuous Doctor",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104358,
+        "name": "Philosophies of Moonlight",
+        "count": 6
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 6
+      },
+      {
+        "id": 113081,
+        "name": "Mask of the Virtuous Doctor",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104358,
+        "name": "Philosophies of Moonlight",
+        "count": 12
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 9
+      },
+      {
+        "id": 113081,
+        "name": "Mask of the Virtuous Doctor",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104358,
+        "name": "Philosophies of Moonlight",
+        "count": 16
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 12
+      },
+      {
+        "id": 113081,
+        "name": "Mask of the Virtuous Doctor",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Crown of Insight",
+        "count": 1
+      }
+    ]
+  },
+  "constellations": [
+    {
+      "level": "C1",
+      "name": "Radiance Over Blossoms and Peaks",
+      "descriptionRaw": "Unleashing her Elemental Skill <color=#FFD780FF>Eternal Tides</color> will immediately trigger an effect equivalent to the effect of {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}. This effect can be triggered once every 15s.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <color=#FFD780FF>Lunar-Charged</color>: Your current active character will recover 6 Energy.\n· <color=#FFD780FF>Lunar-Bloom</color>: Your active character's interruption resistance will be increased for 8s.\n· <color=#FFD780FF>Lunar-Crystallize</color>: Summons a <color=#FFD780FF>Rainsea Shield</color>. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb <color=#80C0FFFF>Hydro DMG</color> with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of **Gravity Interference**. This effect can be triggered once every 15s.\nMoonsign: Ascendant Gleam\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: Your current active character will recover 6 Energy.\n· Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\n· Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    {
+      "level": "C2",
+      "name": "Not in Lone Splendor",
+      "descriptionRaw": "Rate of accumulating {LINK#N11250001}<color=#FFD780FF>Gravity</color>{/LINK} increases by 34%. \nWhen <color=#FFD780FF>Gravity Interference</color> is triggered, Columbina will receive the <color=#FFD780FF>Lunar Brilliance</color> effect, which increases her Max HP by 40% for 8s.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>:\nWhen <color=#FFD780FF>Lunar Brilliance</color> is active, if, during the current trigger of <color=#FFD780FF>Gravity Interference</color>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <color=#FFD780FF>Lunar-Charged</color>: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· <color=#FFD780FF>Lunar-Bloom</color>: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· <color=#FFD780FF>Lunar-Crystallize</color>: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 7%.",
+      "description": "Rate of accumulating **Gravity** increases by 34%. \nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\nMoonsign: Ascendant Gleam:\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 7%."
+    },
+    {
+      "level": "C3",
+      "name": "Dreamlike Glow Across Tranquil Waters",
+      "descriptionRaw": "Increases the Level of Elemental Skill <color=#FFD780FF>{LINK#S11252}Eternal Tides{/LINK}</color> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Skill **Eternal Tides** by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    {
+      "level": "C4",
+      "name": "Cloudveiled Ridges in Floral Mists",
+      "descriptionRaw": "When {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK} is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most <color=#FFD780FF>Gravity</color> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "When **Gravity Interference** is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    {
+      "level": "C5",
+      "name": "Silence Tending One Lone Song",
+      "descriptionRaw": "Increases the Level of Elemental Burst <color=#FFD780FF>{LINK#S11255}Moonlit Melancholy{/LINK}</color> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Burst **Moonlit Melancholy** by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    {
+      "level": "C6",
+      "name": "Through Darkness Led by Moonlight",
+      "descriptionRaw": "For 8s after characters in the {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 7%.",
+      "description": "For 8s after characters in the **Lunar Domain** trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 7%."
+    }
+  ],
+  "rawTalents": {
+    "id": 12501,
+    "name": "Columbina",
+    "combat1": {
+      "name": "Moondew Cascade",
+      "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nSummons Moonlit Tides, performing up to 3 attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\nIf you have at least 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}, Columbina's Charged Attacks will be replaced with the special Charged Attack <color=#FFD780FF>Moondew Cleanse</color>, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+      "description": "Normal Attack\nSummons Moonlit Tides, performing up to 3 attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nIf you have at least 1 **Verdant Dew**, Columbina's Charged Attacks will be replaced with the special Charged Attack Moondew Cleanse, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of AoE Dendro DMG to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+      "attributes": {
+        "labels": [
+          "1-Hit DMG|{param1:F1P}",
+          "2-Hit DMG|{param2:F1P}",
+          "3-Hit DMG|{param3:F1P}",
+          "Charged Attack DMG|{param4:F1P}",
+          "Charged Attack Stamina Cost|{param5:F1}",
+          "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
+          "Plunge DMG|{param7:F1P}",
+          "Low/High Plunge DMG|{param8:P}/{param9:P}"
+        ],
+        "parameters": {
+          "param1": [
+            0.46792,
+            0.503014,
+            0.538108,
+            0.5849,
+            0.619994,
+            0.655088,
+            0.70188,
+            0.748672,
+            0.795464,
+            0.842256,
+            0.889048,
+            0.93584,
+            0.99433,
+            1.05282,
+            1.11131
+          ],
+          "param2": [
+            0.366256,
+            0.393725,
+            0.421194,
+            0.45782,
+            0.485289,
+            0.512758,
+            0.549384,
+            0.58601,
+            0.622635,
+            0.659261,
+            0.695886,
+            0.732512,
+            0.778294,
+            0.824076,
+            0.869858
+          ],
+          "param3": [
+            0.58484,
+            0.628703,
+            0.672566,
+            0.73105,
+            0.774913,
+            0.818776,
+            0.87726,
+            0.935744,
+            0.994228,
+            1.052712,
+            1.111196,
+            1.16968,
+            1.242785,
+            1.31589,
+            1.388995
+          ],
+          "param4": [
+            1.1608,
+            1.24786,
+            1.33492,
+            1.451,
+            1.53806,
+            1.62512,
+            1.7412,
+            1.85728,
+            1.97336,
+            2.08944,
+            2.20552,
+            2.3216,
+            2.4667,
+            2.6118,
+            2.7569
+          ],
+          "param5": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "param6": [
+            0.015112,
+            0.016245,
+            0.017379,
+            0.01889,
+            0.020023,
+            0.021157,
+            0.022668,
+            0.024179,
+            0.02569,
+            0.027202,
+            0.028713,
+            0.030224,
+            0.032113,
+            0.034002,
+            0.035891
+          ],
+          "param7": [
+            0.568288,
+            0.614544,
+            0.6608,
+            0.72688,
+            0.773136,
+            0.826,
+            0.898688,
+            0.971376,
+            1.044064,
+            1.12336,
+            1.202656,
+            1.281952,
+            1.361248,
+            1.440544,
+            1.51984
+          ],
+          "param8": [
+            1.136335,
+            1.228828,
+            1.32132,
+            1.453452,
+            1.545944,
+            1.65165,
+            1.796995,
+            1.94234,
+            2.087686,
+            2.246244,
+            2.404802,
+            2.563361,
+            2.721919,
+            2.880478,
+            3.039036
+          ],
+          "param9": [
+            1.419344,
+            1.534872,
+            1.6504,
+            1.81544,
+            1.930968,
+            2.063,
+            2.244544,
+            2.426088,
+            2.607632,
+            2.80568,
+            3.003728,
+            3.201776,
+            3.399824,
+            3.597872,
+            3.79592
+          ]
+        }
+      }
+    },
+    "combat2": {
+      "name": "Eternal Tides",
+      "descriptionRaw": "Awaken Moonbound Tides, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and summoning {LINK#N11250001}<color=#FFD780FF>Gravity Ripple</color>{/LINK}.\n<color=#FFD780FF>Gravity Ripple</color> will follow the active character on the field, while continuously dealing <color=#80C0FFFF>AoE Hydro DMG</color> to surrounding opponents. While <color=#FFD780FF>Gravity Ripple</color> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <color=#FFD780FF>Gravity</color>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <color=#FFD780FF>Gravity</color> for Columbina.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: <color=#FFD780FF>Gravity Ripple</color> inflicts <color=#80C0FFFF>AoE Hydro DMG</color> over a wider area.",
+      "description": "Awaken Moonbound Tides, dealing AoE Hydro DMG and summoning **Gravity Ripple**.\nGravity Ripple will follow the active character on the field, while continuously dealing AoE Hydro DMG to surrounding opponents. While Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special Gravity. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most Gravity for Columbina.\nMoonsign: Ascendant Gleam: Gravity Ripple inflicts AoE Hydro DMG over a wider area.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Gravity Ripple: Continuous DMG|{param2:F1P} Max HP",
+          "Gravity Interference: Lunar-Charged DMG|{param3:F2P} Max HP",
+          "Gravity Interference: Lunar-Bloom DMG|{param4:F2P} Max HP ×5",
+          "Gravity Interference: Lunar-Crystallize DMG|{param5:F2P} Max HP",
+          "Gravity Limit|{param8:I}",
+          "Gravity Ripple Duration|{param9:F1}s",
+          "CD|{param10:F1}s"
+        ],
+        "parameters": {
+          "param1": [
+            0.1672,
+            0.17974,
+            0.19228,
+            0.209,
+            0.22154,
+            0.23408,
+            0.2508,
+            0.26752,
+            0.28424,
+            0.30096,
+            0.31768,
+            0.3344,
+            0.3553,
+            0.3762,
+            0.3971
+          ],
+          "param2": [
+            0.0936,
+            0.10062,
+            0.10764,
+            0.117,
+            0.12402,
+            0.13104,
+            0.1404,
+            0.14976,
+            0.15912,
+            0.16848,
+            0.17784,
+            0.1872,
+            0.1989,
+            0.2106,
+            0.2223
+          ],
+          "param3": [
+            0.04704,
+            0.050568,
+            0.054096,
+            0.0588,
+            0.062328,
+            0.065856,
+            0.07056,
+            0.075264,
+            0.079968,
+            0.084672,
+            0.089376,
+            0.09408,
+            0.09996,
+            0.10584,
+            0.11172
+          ],
+          "param4": [
+            0.01408,
+            0.015136,
+            0.016192,
+            0.0176,
+            0.018656,
+            0.019712,
+            0.02112,
+            0.022528,
+            0.023936,
+            0.025344,
+            0.026752,
+            0.02816,
+            0.02992,
+            0.03168,
+            0.03344
+          ],
+          "param5": [
+            0.08824,
+            0.094858,
+            0.101476,
+            0.1103,
+            0.116918,
+            0.123536,
+            0.13236,
+            0.141184,
+            0.150008,
+            0.158832,
+            0.167656,
+            0.17648,
+            0.18751,
+            0.19854,
+            0.20957
+          ],
+          "param6": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "param7": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param8": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "param9": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "param10": [
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17
+          ]
+        }
+      }
+    },
+    "combat3": {
+      "name": "Moonlit Melancholy",
+      "descriptionRaw": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK}, dealing <color=#80C0FFFF> AoE Hydro DMG</color>.",
+      "description": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into **Lunar Domain**, dealing  AoE Hydro DMG.",
+      "attributes": {
+        "labels": [
+          "Skill DMG|{param1:F1P} Max HP",
+          "Lunar Reaction DMG Bonus|{param2:F1P}",
+          "Lunar Domain Duration|{param3:F1}s",
+          "CD|{param4:F1}s",
+          "Energy Cost|{param5:I}"
+        ],
+        "parameters": {
+          "param1": [
+            0.3224,
+            0.34658,
+            0.37076,
+            0.403,
+            0.42718,
+            0.45136,
+            0.4836,
+            0.51584,
+            0.54808,
+            0.58032,
+            0.61256,
+            0.6448,
+            0.6851,
+            0.7254,
+            0.7657
+          ],
+          "param2": [
+            0.13,
+            0.16,
+            0.19,
+            0.22,
+            0.25,
+            0.28,
+            0.31,
+            0.34,
+            0.37,
+            0.4,
+            0.43,
+            0.46,
+            0.49,
+            0.52,
+            0.55
+          ],
+          "param3": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "param4": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "param5": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      }
+    },
+    "passive1": {
+      "name": "Lunacy's Lure",
+      "descriptionRaw": "When triggering {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times.",
+      "description": "When triggering **Gravity Interference**, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
+    },
+    "passive2": {
+      "name": "Law of the New Moon",
+      "descriptionRaw": "When characters within the {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} trigger Lunar reactions, they will gain the following effects respectively: \n· <color=#FFD780FF>Lunar-Charged</color>: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \n· <color=#FFD780FF>Lunar-Bloom</color>: When triggering Lunar-Bloom reactions, the party gains a special {LINK#N11250003}<color=#FFD780FF>Moonridge Dew</color>{/LINK}. Up to 3 Moonridge Dews can be gained every 18s. \n· <color=#FFD780FF>Lunar-Crystallize</color>: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack.",
+      "description": "When characters within the **Lunar Domain** trigger Lunar reactions, they will gain the following effects respectively: \n· Lunar-Charged: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. \n· Lunar-Bloom: When triggering Lunar-Bloom reactions, the party gains a special **Moonridge Dew**. Up to 3 Moonridge Dews can be gained every 18s. \n· Lunar-Crystallize: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack."
+    },
+    "passive3": {
+      "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+      "descriptionRaw": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "description": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's Moonsign will increase by 1 level."
+    },
+    "passive4": {
+      "name": "Lunar Vigil",
+      "descriptionRaw": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
+      "description": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki..."
+    },
+    "costs": {
+      "lvl2": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 12500
+        },
+        {
+          "id": 104356,
+          "name": "Teachings of Moonlight",
+          "count": 3
+        },
+        {
+          "id": 112002,
+          "name": "Slime Condensate",
+          "count": 6
+        }
+      ],
+      "lvl3": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 17500
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 2
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 3
+        }
+      ],
+      "lvl4": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 25000
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 4
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 4
+        }
+      ],
+      "lvl5": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 30000
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 6
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 6
+        }
+      ],
+      "lvl6": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 37500
+        },
+        {
+          "id": 104357,
+          "name": "Guide to Moonlight",
+          "count": 9
+        },
+        {
+          "id": 112003,
+          "name": "Slime Secretions",
+          "count": 9
+        }
+      ],
+      "lvl7": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 120000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 4
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 4
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 1
+        }
+      ],
+      "lvl8": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 260000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 6
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 6
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 1
+        }
+      ],
+      "lvl9": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 450000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 12
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 9
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 2
+        }
+      ],
+      "lvl10": [
+        {
+          "id": 202,
+          "name": "Mora",
+          "count": 700000
+        },
+        {
+          "id": 104358,
+          "name": "Philosophies of Moonlight",
+          "count": 16
+        },
+        {
+          "id": 112004,
+          "name": "Slime Concentrate",
+          "count": 12
+        },
+        {
+          "id": 113081,
+          "name": "Mask of the Virtuous Doctor",
+          "count": 2
+        },
+        {
+          "id": 104319,
+          "name": "Crown of Insight",
+          "count": 1
+        }
+      ]
+    },
+    "images": {
+      "filename_combat1": "Skill_A_Catalyst_MD",
+      "filename_combat2": "Skill_S_Columbina_01",
+      "filename_combat3": "Skill_E_Columbina_01_HD",
+      "filename_passive1": "UI_Talent_S_Columbina_05",
+      "filename_passive2": "UI_Talent_S_Columbina_06",
+      "filename_passive3": "UI_Talent_S_Columbina_07",
+      "filename_passive4": "UI_Talent_S_Columbina_08"
+    },
+    "version": "6.3"
+  },
+  "rawConstellations": {
+    "id": 12501,
+    "name": "Columbina",
+    "c1": {
+      "name": "Radiance Over Blossoms and Peaks",
+      "descriptionRaw": "Unleashing her Elemental Skill <color=#FFD780FF>Eternal Tides</color> will immediately trigger an effect equivalent to the effect of {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK}. This effect can be triggered once every 15s.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <color=#FFD780FF>Lunar-Charged</color>: Your current active character will recover 6 Energy.\n· <color=#FFD780FF>Lunar-Bloom</color>: Your active character's interruption resistance will be increased for 8s.\n· <color=#FFD780FF>Lunar-Crystallize</color>: Summons a <color=#FFD780FF>Rainsea Shield</color>. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb <color=#80C0FFFF>Hydro DMG</color> with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of **Gravity Interference**. This effect can be triggered once every 15s.\nMoonsign: Ascendant Gleam\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: Your current active character will recover 6 Energy.\n· Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\n· Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    "c2": {
+      "name": "Not in Lone Splendor",
+      "descriptionRaw": "Rate of accumulating {LINK#N11250001}<color=#FFD780FF>Gravity</color>{/LINK} increases by 34%. \nWhen <color=#FFD780FF>Gravity Interference</color> is triggered, Columbina will receive the <color=#FFD780FF>Lunar Brilliance</color> effect, which increases her Max HP by 40% for 8s.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>:\nWhen <color=#FFD780FF>Lunar Brilliance</color> is active, if, during the current trigger of <color=#FFD780FF>Gravity Interference</color>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <color=#FFD780FF>Lunar-Charged</color>: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· <color=#FFD780FF>Lunar-Bloom</color>: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· <color=#FFD780FF>Lunar-Crystallize</color>: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 7%.",
+      "description": "Rate of accumulating **Gravity** increases by 34%. \nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\nMoonsign: Ascendant Gleam:\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 7%."
+    },
+    "c3": {
+      "name": "Dreamlike Glow Across Tranquil Waters",
+      "descriptionRaw": "Increases the Level of Elemental Skill <color=#FFD780FF>{LINK#S11252}Eternal Tides{/LINK}</color> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Skill **Eternal Tides** by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    "c4": {
+      "name": "Cloudveiled Ridges in Floral Mists",
+      "descriptionRaw": "When {LINK#N11250001}<color=#FFD780FF>Gravity Interference</color>{/LINK} is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most <color=#FFD780FF>Gravity</color> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "When **Gravity Interference** is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    "c5": {
+      "name": "Silence Tending One Lone Song",
+      "descriptionRaw": "Increases the Level of Elemental Burst <color=#FFD780FF>{LINK#S11255}Moonlit Melancholy{/LINK}</color> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Burst **Moonlit Melancholy** by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 1.5%."
+    },
+    "c6": {
+      "name": "Through Darkness Led by Moonlight",
+      "descriptionRaw": "For 8s after characters in the {LINK#N11250002}<color=#FFD780FF>Lunar Domain</color>{/LINK} trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 7%.",
+      "description": "For 8s after characters in the **Lunar Domain** trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is **elevated** by 7%."
+    },
+    "images": {
+      "filename_c1": "UI_Talent_S_Columbina_01",
+      "filename_c2": "UI_Talent_S_Columbina_02",
+      "filename_c3": "UI_Talent_U_Columbina_01",
+      "filename_c4": "UI_Talent_S_Columbina_03",
+      "filename_c5": "UI_Talent_U_Columbina_02",
+      "filename_c6": "UI_Talent_S_Columbina_04",
+      "filename_constellation": "Eff_UI_Talent_Columbina"
+    },
+    "version": "6.3"
+  }
+}

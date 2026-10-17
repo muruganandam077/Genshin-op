@@ -1,0 +1,178 @@
+{
+  "id": 12101,
+  "name": "Waster Greatsword",
+  "description": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
+  "rarity": 1,
+  "weaponType": "Claymore",
+  "baseAttack": 23.245,
+  "refinements": [],
+  "story": "The one who uses this heavy, edgeless two-handed greatsword knows this well:\nIt matters not what the weapon is, for it is the wielder's might that counts.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Aniki",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Aniki",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 0
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 1
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 1
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 4
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 2
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 2
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 2
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 2
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 1
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 4
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 3
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 23.245,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 56.252900000000004,
+      "specialized": 0
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 67.9529,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 113.16517,
+      "specialized": 0
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 113.16517,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 141.32263,
+      "specialized": 0
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 141.32263,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 169.29413,
+      "specialized": 0
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 169.29413,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 185.42615999999998,
+      "specialized": 0
+    },
+    {
+      "level": 70,
+      "ascension": 4,
+      "attack": 185.42615999999998,
+      "specialized": 0
+    }
+  ]
+}

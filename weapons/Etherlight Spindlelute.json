@@ -1,0 +1,313 @@
+{
+  "id": 14432,
+  "name": "Etherlight Spindlelute",
+  "description": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
+  "rarity": 4,
+  "weaponType": "Catalyst",
+  "baseAttack": 42.401,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "10%",
+  "effectName": "Last Singer",
+  "effectTemplate": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100.",
+      "values": [
+        "100"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 125.",
+      "values": [
+        "125"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 150.",
+      "values": [
+        "150"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 175.",
+      "values": [
+        "175"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 200.",
+      "values": [
+        "200"
+      ]
+    }
+  ],
+  "story": "Beyond the ruins of the ancient palace and on the edge of the wasteland stands the tranquil sacred forest of Lake Amsvartnir.\nLegend has it that whoever breaks the golden branch in the forest will find the royal court of the Seelie, which is concealed from mortal eyes during the day.\nA kingdom of the past, it lies forgotten by both time and space, hidden in shadow where no heavenly light can touch it.\nIts owner has long departed, leaving behind nothing but a neglected courtyard and a hall stripped bare.\nYet, within the palace that should have been abandoned, a young woman's silent lament echoes across its walls.\n\"Once upon a time, the titan craftsman of the skies once wove the destinies of all living beings, the golden harp their instrument of fate.\"\n\"That was the divine plan of the heavens. If it were followed, the entire world would usher happiness in.\"\n\"Yet even the ignorant can dream, and in her dream, a new future revealed itself.\"\n\"She saw men raise a tower to the heavens, and from its heights, the tower's apostle waging war against the sky...\"\n\"She saw roaring beasts, each larger than a mountain, breaking free from the bonds of the earth...\"\n\"She saw three moons casting their light upon the sea, a sight soon eclipsed by an ancient dragon rising like a tide.\"\n\"All that vanished the moment she awoke, as if it had never happened.\"\n\"All that remained was the indescribable glance from those star-like eyes.\"\n\"Was that love? Perhaps it was just delusion woven from hope, ambition, and a longing for death.\"\n\"But that matters not now, for their story has ended, and it became Elysium's finale.\"\n\"The chirping of insects on a long-gone autumn night is the chorus of exiles, singing mankind's most ancient song as they live out their plight...\"\n\"They had lost the place of their bodies and souls, with nothing left but songs and memories of the homeland they once knew.\"\nThe last singers, the first Seelie, they played their final tune in the hall of angels.\nThe wolf who once broke into this place had long since departed. Only unfulfilled dreams remain, and continue to chase phantoms.",
+  "images": {
+    "filename_icon": "UI_EquipIcon_Catalyst_SeeliesLute",
+    "filename_awakenIcon": "UI_EquipIcon_Catalyst_SeeliesLute_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Catalyst_SeeliesLute",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute_Awaken.png"
+  },
+  "version": "6.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114081,
+        "name": "Sundered Glory of the Far-North Scions",
+        "count": 3
+      },
+      {
+        "id": 112131,
+        "name": "Lightless Bone",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114082,
+        "name": "Unyielding Delusion of the Far-North Scions",
+        "count": 3
+      },
+      {
+        "id": 112131,
+        "name": "Lightless Bone",
+        "count": 12
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114082,
+        "name": "Unyielding Delusion of the Far-North Scions",
+        "count": 6
+      },
+      {
+        "id": 112132,
+        "name": "Glowing Remains",
+        "count": 6
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114083,
+        "name": "Oblation of the Far-North Scions",
+        "count": 3
+      },
+      {
+        "id": 112132,
+        "name": "Glowing Remains",
+        "count": 12
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114083,
+        "name": "Oblation of the Far-North Scions",
+        "count": 6
+      },
+      {
+        "id": 112133,
+        "name": "Radiant Exoskeleton",
+        "count": 9
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114084,
+        "name": "Aureate Radiance of the Far-North Scions",
+        "count": 4
+      },
+      {
+        "id": 112133,
+        "name": "Radiant Exoskeleton",
+        "count": 18
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.1
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.1767
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.1767
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.2575
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.2979
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.33830000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.37860000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.41900000000000004
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.45940000000000003
+    }
+  ],
+  "r1": {
+    "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100.",
+    "values": [
+      "100"
+    ]
+  },
+  "r2": {
+    "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 125.",
+    "values": [
+      "125"
+    ]
+  },
+  "r3": {
+    "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 150.",
+    "values": [
+      "150"
+    ]
+  },
+  "r4": {
+    "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 175.",
+    "values": [
+      "175"
+    ]
+  },
+  "r5": {
+    "description": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 200.",
+    "values": [
+      "200"
+    ]
+  }
+}

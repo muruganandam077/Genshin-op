@@ -1,0 +1,325 @@
+{
+  "id": 15403,
+  "name": "Sacrificial Bow",
+  "description": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+  "rarity": 4,
+  "weaponType": "Bow",
+  "baseAttack": 43.7349,
+  "mainStat": "Energy Recharge",
+  "baseStatText": "6.7%",
+  "effectName": "Composed",
+  "effectTemplate": "After damaging an opponent with an Elemental Skill, the skill has a <color=#99FFFFFF>{0}</color> chance to end its own CD. Can only occur once every <color=#99FFFFFF>{1}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+      "values": [
+        "40%",
+        "30"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+      "values": [
+        "50%",
+        "26"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+      "values": [
+        "60%",
+        "22s"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+      "values": [
+        "70%",
+        "19"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+      "values": [
+        "80%",
+        "16s"
+      ]
+    }
+  ],
+  "story": "On the cliff facing the eastern sea, the ancestors worshiped the masters of Time and Anemo together.\nThe two are intimately related, as expressed in the saying, \"Anemo brings stories while Time nurtures them.\"\nThis bow tells the story of the pioneers and the hardships they went through.\nIt used to be a prop with an immobile bowstring, but the string became both flexible and sturdier with the passage of time.\n\nThis bow was once the property of the proud Lawrence Clan.\nIn the far-flung past, they used it to reenact their clan's brave victory over the frozen wilderness.\n\nThe first act of the ceremony told the tale of their forebears conquering the land through their wisdom and strength.\nOver their long history, though this ceremony was lost, they continued to play the same role.\n\nBut this role became corrupted. Gradually, their view of themselves shifted from conquerors, to overlords, to kings.\nGradually, they strayed onto the path of depravity, and lost the affection of Mondstadt's winds.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Bow_Fossil",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Fossil_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Fossil",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114005,
+        "name": "Boreal Wolf's Milk Tooth",
+        "count": 3
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 3
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 3
+      },
+      {
+        "id": 112020,
+        "name": "Dead Ley Line Branch",
+        "count": 12
+      },
+      {
+        "id": 112002,
+        "name": "Slime Condensate",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114006,
+        "name": "Boreal Wolf's Cracked Tooth",
+        "count": 6
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 6
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 3
+      },
+      {
+        "id": 112021,
+        "name": "Dead Ley Line Leaves",
+        "count": 12
+      },
+      {
+        "id": 112003,
+        "name": "Slime Secretions",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114007,
+        "name": "Boreal Wolf's Broken Fang",
+        "count": 6
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 9
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114008,
+        "name": "Boreal Wolf's Nostalgia",
+        "count": 4
+      },
+      {
+        "id": 112022,
+        "name": "Ley Line Sprout",
+        "count": 18
+      },
+      {
+        "id": 112004,
+        "name": "Slime Concentrate",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 43.7349,
+      "specialized": 0.066667
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 118.5653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 144.4653139,
+      "specialized": 0.117800589
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 251.98716750000003,
+      "specialized": 0.17166752500000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 319.2603829,
+      "specialized": 0.19860099300000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 386.7960077,
+      "specialized": 0.22553446100000002
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 454.6940419,
+      "specialized": 0.252401262
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 522.6232808,
+      "specialized": 0.27933473000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 564.7837244,
+      "specialized": 0.30626819800000005
+    }
+  ],
+  "r1": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+    "values": [
+      "40%",
+      "30"
+    ]
+  },
+  "r2": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 50% chance to end its own CD. Can only occur once every 26s.",
+    "values": [
+      "50%",
+      "26"
+    ]
+  },
+  "r3": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 60% chance to end its own CD. Can only occur once every 22s.",
+    "values": [
+      "60%",
+      "22s"
+    ]
+  },
+  "r4": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 70% chance to end its own CD. Can only occur once every 19s.",
+    "values": [
+      "70%",
+      "19"
+    ]
+  },
+  "r5": {
+    "description": "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s.",
+    "values": [
+      "80%",
+      "16s"
+    ]
+  }
+}

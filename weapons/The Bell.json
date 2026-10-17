@@ -1,0 +1,335 @@
+{
+  "id": 12402,
+  "name": "The Bell",
+  "description": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+  "rarity": 4,
+  "weaponType": "Claymore",
+  "baseAttack": 42.401,
+  "mainStat": "HP",
+  "baseStatText": "9%",
+  "effectName": "Rebellious Guardian",
+  "effectTemplate": "Taking DMG generates a shield which absorbs DMG up to <color=#99FFFFFF>{0}</color> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <color=#99FFFFFF>{1}</color>s. While protected by a shield, the character gains <color=#99FFFFFF>{2}</color> increased DMG.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
+      "values": [
+        "20%",
+        "45",
+        "12%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Taking DMG generates a shield which absorbs DMG up to 23% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 15% increased DMG.",
+      "values": [
+        "23%",
+        "45",
+        "15%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Taking DMG generates a shield which absorbs DMG up to 26% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 18% increased DMG.",
+      "values": [
+        "26%",
+        "45",
+        "18%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Taking DMG generates a shield which absorbs DMG up to 29% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 21% increased DMG.",
+      "values": [
+        "29%",
+        "45",
+        "21%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG.",
+      "values": [
+        "32%",
+        "45",
+        "24%"
+      ]
+    }
+  ],
+  "story": "A strange greatsword decorated with an exquisite clock.\nThe distinctive sound of clockwork served as a combat rhythm for the wielder and their friends.\nAfter the Wanderer's Troupe disbanded, the greatsword was soaked in acid. The gears have rusted because of this.\nEven so, it still makes a lethal weapon.\n\nOne by the name of Kreuzlied traveled with the Wanderer's Troupe. Once a member of the ruling Lawrence Clan, now a traitor and outcast.\nIn that time, scholars and bards paid no heed to history. For the Aristocracy preferred to remain willfully ignorant of their own moral degeneracy than face history's judgment.\nBut the aristocrats trembled in fear at the sound of this blade as it flew through the air, for it was the toll of the bell of judgment.\n\nIt was not made public what punishment Kreuzlied met with after the failed uprising. This in itself is a testament to his privileged origins.\nLegend says that after being dismissed from office, his desire to continue the legacy of his fellow rebels led him to establish a secret society aimed at bringing down the Aristocracy.\nIt is also said that he gave his full assistance to the enslaved gladiator when she revolted.\n\nIn the past, a popular rumor was that Kreuzlied's secret society was working constantly in the background,\nHelping the Knights of Favonius keep Mondstadt safe through deeds that no knight should ever be party to.\nIt was even said that the Wolf Pup Rostam ran this organization in secret, behind the Grand Master's back.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Troupe",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Troupe_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Troupe",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 3
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 3
+      },
+      {
+        "id": 112038,
+        "name": "Whopperflower Nectar",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 3
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 12
+      },
+      {
+        "id": 112038,
+        "name": "Whopperflower Nectar",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 6
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 6
+      },
+      {
+        "id": 112039,
+        "name": "Shimmering Nectar",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 3
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 12
+      },
+      {
+        "id": 112039,
+        "name": "Shimmering Nectar",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 6
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 9
+      },
+      {
+        "id": 112040,
+        "name": "Energy Nectar",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 4
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 18
+      },
+      {
+        "id": 112040,
+        "name": "Energy Nectar",
+        "count": 12
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 42.401,
+      "specialized": 0.09
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 108.92816900000001,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 134.828169,
+      "specialized": 0.15902999999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 230.83222,
+      "specialized": 0.23175
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 291.755446,
+      "specialized": 0.26811
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 352.678672,
+      "specialized": 0.30446999999999996
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 413.659497,
+      "specialized": 0.34074
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 474.582723,
+      "specialized": 0.37710000000000005
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 509.605949,
+      "specialized": 0.41346
+    }
+  ],
+  "r1": {
+    "description": "Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
+    "values": [
+      "20%",
+      "45",
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Taking DMG generates a shield which absorbs DMG up to 23% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 15% increased DMG.",
+    "values": [
+      "23%",
+      "45",
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Taking DMG generates a shield which absorbs DMG up to 26% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 18% increased DMG.",
+    "values": [
+      "26%",
+      "45",
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Taking DMG generates a shield which absorbs DMG up to 29% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 21% increased DMG.",
+    "values": [
+      "29%",
+      "45",
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG.",
+    "values": [
+      "32%",
+      "45",
+      "24%"
+    ]
+  }
+}

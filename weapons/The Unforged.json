@@ -1,0 +1,325 @@
+{
+  "id": 12504,
+  "name": "The Unforged",
+  "description": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+  "rarity": 5,
+  "weaponType": "Claymore",
+  "baseAttack": 45.9364,
+  "mainStat": "ATK",
+  "baseStatText": "10.8%",
+  "effectName": "Golden Majesty",
+  "effectTemplate": "Increases Shield Strength by <color=#99FFFFFF>{0}</color>. Scoring hits on opponents increases ATK by <color=#99FFFFFF>{1}</color> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      "values": [
+        "20%",
+        "4%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases Shield Strength by 25%. Scoring hits on opponents increases ATK by 5% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      "values": [
+        "25%",
+        "5%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases Shield Strength by 30%. Scoring hits on opponents increases ATK by 6% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      "values": [
+        "30%",
+        "6%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases Shield Strength by 35%. Scoring hits on opponents increases ATK by 7% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      "values": [
+        "35%",
+        "7%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases Shield Strength by 40%. Scoring hits on opponents increases ATK by 8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+      "values": [
+        "40%",
+        "8%"
+      ]
+    }
+  ],
+  "story": "A long time ago, a dragon there was to be found in Liyue.\nNot a dragon that soared the skies, but one whose abode was the mountains.\nIndeed, this ancient dragon of stone was as large as the very mountains it called home.\n\nThe legends say that it slumbered in Nantianmen, seeming not at all unlike the surrounding hills.\nBut when it awakened, even the tiniest movement, or the slightest stretch...\nThat would cause the earth to tremble and shake.\nThen, Rex Lapis came before the dragon, seeking to stop the earth's quailing.\n\nThey say that for a long while, the land knew peace,\nAnd that Rex Lapis gained another comrade by his side.\n\nBut in the end, the union of dragons, gods and men was perhaps not to be...\n\nThe dragon was sealed in the bowels of the earth. Fearing the ire of the gods and the adepti,\nThe Geovishaps, who once heeded the trembling of the rock and wrought havoc alongside the dragon,\nFled into the roots of the mountains.\nBut as millennia passed, the dragon began to stir once again...\n\nThe legends hold that those who triumphed over the dragon stabbed this sword into the ground next to the giant tree that subdued the ancient dragon.\nAs one of the seals, monsters and malevolent mortals would be unable to touch it.\nIndeed, if the legends are true, only those with hearts as pure as clear mirrors could even come near it.\nYet, if those legends are true, how did this sword come to be lost?",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Claymore_Kunwu",
+    "filename_awakenIcon": "UI_EquipIcon_Claymore_Kunwu_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Claymore_Kunwu",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu_Awaken.png"
+  },
+  "version": "1.1",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114017,
+        "name": "Mist Veiled Lead Elixir",
+        "count": 5
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 5
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 5
+      },
+      {
+        "id": 112026,
+        "name": "Mist Grass Pollen",
+        "count": 18
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114018,
+        "name": "Mist Veiled Mercury Elixir",
+        "count": 9
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 9
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 5
+      },
+      {
+        "id": 112027,
+        "name": "Mist Grass",
+        "count": 18
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114019,
+        "name": "Mist Veiled Gold Elixir",
+        "count": 9
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 14
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114020,
+        "name": "Mist Veiled Primo Elixir",
+        "count": 6
+      },
+      {
+        "id": 112028,
+        "name": "Mist Grass Wick",
+        "count": 27
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 18
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 45.9364,
+      "specialized": 0.108
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 121.73146,
+      "specialized": 0.19083599999999998
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 152.83146,
+      "specialized": 0.19083599999999998
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.2781
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 266.29542519999995,
+      "specialized": 0.2781
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.321732
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 339.619104,
+      "specialized": 0.321732
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.365364
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 413.53182879999997,
+      "specialized": 0.365364
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.408888
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 488.08766319999995,
+      "specialized": 0.408888
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.45252000000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 563.3325436,
+      "specialized": 0.45252000000000003
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 608.0745972,
+      "specialized": 0.49615200000000004
+    }
+  ],
+  "r1": {
+    "description": "Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "values": [
+      "20%",
+      "4%"
+    ]
+  },
+  "r2": {
+    "description": "Increases Shield Strength by 25%. Scoring hits on opponents increases ATK by 5% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "values": [
+      "25%",
+      "5%"
+    ]
+  },
+  "r3": {
+    "description": "Increases Shield Strength by 30%. Scoring hits on opponents increases ATK by 6% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "values": [
+      "30%",
+      "6%"
+    ]
+  },
+  "r4": {
+    "description": "Increases Shield Strength by 35%. Scoring hits on opponents increases ATK by 7% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "values": [
+      "35%",
+      "7%"
+    ]
+  },
+  "r5": {
+    "description": "Increases Shield Strength by 40%. Scoring hits on opponents increases ATK by 8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "values": [
+      "40%",
+      "8%"
+    ]
+  }
+}

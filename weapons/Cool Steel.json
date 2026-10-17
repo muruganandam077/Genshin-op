@@ -1,0 +1,315 @@
+{
+  "id": 11301,
+  "name": "Cool Steel",
+  "description": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+  "rarity": 3,
+  "weaponType": "Sword",
+  "baseAttack": 38.7413,
+  "mainStat": "ATK",
+  "baseStatText": "7.7%",
+  "effectName": "Bane of Water and Ice",
+  "effectTemplate": "Increases DMG against opponents affected by Hydro or Cryo by <color=#99FFFFFF>{0}</color>.",
+  "refinements": [
+    {
+      "rank": 1,
+      "refinementKey": "r1",
+      "description": "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
+      "values": [
+        "12%"
+      ]
+    },
+    {
+      "rank": 2,
+      "refinementKey": "r2",
+      "description": "Increases DMG against opponents affected by Hydro or Cryo by 15%.",
+      "values": [
+        "15%"
+      ]
+    },
+    {
+      "rank": 3,
+      "refinementKey": "r3",
+      "description": "Increases DMG against opponents affected by Hydro or Cryo by 18%.",
+      "values": [
+        "18%"
+      ]
+    },
+    {
+      "rank": 4,
+      "refinementKey": "r4",
+      "description": "Increases DMG against opponents affected by Hydro or Cryo by 21%.",
+      "values": [
+        "21%"
+      ]
+    },
+    {
+      "rank": 5,
+      "refinementKey": "r5",
+      "description": "Increases DMG against opponents affected by Hydro or Cryo by 24%.",
+      "values": [
+        "24%"
+      ]
+    }
+  ],
+  "story": "A sturdy steel sword forged by the method of folding.\nIt has a dull shine with a cold glimmer.\nIt belonged to a famous adventurer who witnessed the vastness of the earth.\nWith it, he severed the iron bones of monsters and crossed blades with bandits.\nBut in the end,\nHe gave up the vast earth, the boundless sky,\nHis friends in the Guild, his trusty Cool Steel, and old pals, to be with the girl he loved.",
+  "images": {
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+    "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel_Awaken.png",
+    "filename_icon": "UI_EquipIcon_Sword_Steel",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Steel_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Steel",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel_Awaken.png"
+  },
+  "version": "1.0",
+  "ascensionCosts": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 2
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 2
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 1
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 2
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 8
+      },
+      {
+        "id": 112011,
+        "name": "Firm Arrowhead",
+        "count": 5
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 4
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 4
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 2
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 8
+      },
+      {
+        "id": 112012,
+        "name": "Sharp Arrowhead",
+        "count": 6
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 4
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 6
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 4
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 3
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 12
+      },
+      {
+        "id": 112013,
+        "name": "Weathered Arrowhead",
+        "count": 8
+      }
+    ]
+  },
+  "ascensionStats": [
+    {
+      "level": 1,
+      "ascension": 0,
+      "attack": 38.7413,
+      "specialized": 0.0766
+    },
+    {
+      "level": 20,
+      "ascension": 0,
+      "attack": 93.753946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 20,
+      "ascension": 1,
+      "attack": 113.253946,
+      "specialized": 0.1353522
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 40,
+      "ascension": 2,
+      "attack": 188.67386580000002,
+      "specialized": 0.197245
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 50,
+      "ascension": 3,
+      "attack": 235.6027062,
+      "specialized": 0.22819140000000002
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 60,
+      "ascension": 4,
+      "attack": 282.1216162,
+      "specialized": 0.25913780000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 70,
+      "ascension": 5,
+      "attack": 328.5080784,
+      "specialized": 0.29000760000000003
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 80,
+      "ascension": 6,
+      "attack": 374.6783167,
+      "specialized": 0.320954
+    },
+    {
+      "level": 90,
+      "ascension": 6,
+      "attack": 401.2935898,
+      "specialized": 0.35190040000000006
+    }
+  ],
+  "r1": {
+    "description": "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
+    "values": [
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Increases DMG against opponents affected by Hydro or Cryo by 15%.",
+    "values": [
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Increases DMG against opponents affected by Hydro or Cryo by 18%.",
+    "values": [
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Increases DMG against opponents affected by Hydro or Cryo by 21%.",
+    "values": [
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Increases DMG against opponents affected by Hydro or Cryo by 24%.",
+    "values": [
+      "24%"
+    ]
+  }
+}
