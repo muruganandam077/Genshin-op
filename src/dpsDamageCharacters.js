@@ -1,7 +1,9 @@
 import * as arlecchino from "./dpsDamage/characters/arlecchino.js";
+import * as raidenShogun from "./dpsDamage/characters/raiden.js";
 
 const CHARACTER_DAMAGE_RULES = {
   Arlecchino: arlecchino,
+  "Raiden Shogun": raidenShogun,
 };
 
 function getCharacterRules(character) {

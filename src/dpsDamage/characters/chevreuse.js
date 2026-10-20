@@ -102,11 +102,13 @@ export function processHealing({
   activeMemberIndex,
   previousActionMemberIndex,
   buffsByTarget,
+  onHeal,
 }) {
   const effects = [];
   const applyStack = (targetIndex, healTime, description) => {
     const target = members.find((entry) => entry.index === targetIndex);
     if (!target) return;
+    onHeal?.(target, healTime);
     const effect = applyC6Stack({ target, time: healTime, buffsByTarget });
     if (effect) effects.push(`${effect} ${description}`);
   };

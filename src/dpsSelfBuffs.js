@@ -22,6 +22,9 @@ export function getSelfEffects({
   isElementalBurst = false,
   isElementalSkill = false,
   isOffField = false,
+  isStellarConduct = false,
+  enemyAffectedByStellarConduct = false,
+  energyRecharge = member.stats?.energyRecharge || 100,
 }) {
   const effects = [];
   if (member.character.name === "Arlecchino" && damageElement === "Pyro") {
@@ -57,15 +60,21 @@ export function getSelfEffects({
     const twoPieceStatEffect = (group.setName === "Noblesse Oblige" &&
       isElementalBurst) ||
       (group.setName === "Golden Troupe" && isElementalSkill) ||
-      /(?:ATK|HP|DEF|Elemental Mastery|CRIT Rate|CRIT DMG|[A-Za-z]+ DMG Bonus)\s*(?:increased\s*)?(?:by\s*)?\+\s*\d|increases?\s+(?:Elemental Mastery|ATK|HP|DEF|CRIT Rate|CRIT DMG)[\s\S]{0,40}\bby\s+\d/i
+      /(?:ATK|HP|DEF|Elemental Mastery|Energy Recharge|CRIT Rate|CRIT DMG|[A-Za-z]+ DMG Bonus)\s*(?:increased\s*)?(?:by\s*)?\+\s*\d|increases?\s+(?:Elemental Mastery|Energy Recharge|ATK|HP|DEF|CRIT Rate|CRIT DMG)[\s\S]{0,40}\bby\s+\d/i
         .test(set.effect2Pc || "");
     const setFourPieceActive =
       (group.setName === "Noblesse Oblige" &&
         activeSupportEffects.some((effect) => effect.source === "Noblesse Oblige · 4-piece")) ||
       (group.setName === "Tenacity of the Millelith" &&
         activeSupportEffects.some((effect) => effect.source === "Tenacity of the Millelith · 4-piece")) ||
+      (group.setName === "Heart of the Furnace" &&
+        activeSupportEffects.some((effect) =>
+          effect.source === "Heart of the Furnace · 4-piece Stellar DMG")) ||
+      (group.setName === "Emblem of Severed Fate" && isElementalBurst) ||
       (group.setName === "Fragment of Harmonic Whimsy" && fragmentStacks > 0) ||
       (group.setName === "Golden Troupe" && isElementalSkill) ||
+      (group.setName === "Disenchantment in Deep Shadow" &&
+        (isStellarConduct || enemyAffectedByStellarConduct)) ||
       (group.setName === "Noblesse Oblige" &&
         activatedSupportEffects.some((effect) => effect.includes("Noblesse Oblige")));
     if (group.count >= 2) {
@@ -88,14 +97,28 @@ export function getSelfEffects({
         description: set.effect4Pc,
         applied: setFourPieceActive,
         modeled: ["Golden Troupe", "Noblesse Oblige", "Tenacity of the Millelith",
-          "Fragment of Harmonic Whimsy"].includes(group.setName),
+          "Fragment of Harmonic Whimsy", "Disenchantment in Deep Shadow",
+          "Heart of the Furnace", "Emblem of Severed Fate"]
+          .includes(group.setName),
         status: group.setName === "Golden Troupe"
           ? isElementalSkill
             ? isOffField
               ? "+25% Skill DMG and additional +25% while off-field are active"
               : "+25% Skill DMG active; off-field bonus inactive"
             : "inactive for this non-Skill hit"
-          : setFourPieceActive ? undefined : "inactive until triggered",
+          : group.setName === "Disenchantment in Deep Shadow"
+            ? setFourPieceActive
+              ? "+40% Stellar-Conduct reaction DMG and +16% CRIT Rate while the target is affected"
+              : "4-piece bonus activates on Stellar-Conduct; CRIT Rate requires an affected target"
+            : group.setName === "Heart of the Furnace"
+              ? setFourPieceActive
+                ? "+12% ATK and +50% party Stellar-Conduct DMG for 12s are active"
+                : "Activates on Stellar-Conduct reaction damage"
+            : group.setName === "Emblem of Severed Fate"
+              ? isElementalBurst
+                ? `+${Math.min(75, energyRecharge * 0.25).toFixed(1)}% Elemental Burst DMG from Energy Recharge`
+                : "4-piece bonus applies only to Elemental Burst DMG"
+              : setFourPieceActive ? undefined : "inactive until triggered",
       });
     }
   });

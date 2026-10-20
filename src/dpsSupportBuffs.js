@@ -80,6 +80,38 @@ export function activateTenacitySkill({
   return events;
 }
 
+export function activateHeartOfFurnaceStellarReaction({
+  member,
+  members,
+  time,
+  buffsByTarget,
+}) {
+  if (!member.build?.setGroups?.some((group) => group.count >= 4 &&
+      group.setName === "Heart of the Furnace")) return [];
+  storeBuff(buffsByTarget, member.index, {
+    source: "Heart of the Furnace · 4-piece ATK",
+    stat: "atkPercent",
+    value: 12,
+    expiresAt: time + 12,
+    stackGroup: "heart-of-the-furnace-atk",
+  });
+  members.forEach((target) => storeBuff(
+    buffsByTarget,
+    target.index,
+    {
+      source: "Heart of the Furnace · 4-piece Stellar DMG",
+      stat: "stellarConductDamageBonus",
+      value: 50,
+      expiresAt: time + 12,
+      stackGroup: "heart-of-the-furnace-stellar-damage",
+    },
+  ));
+  return [
+    `${member.character.name} gains +12% ATK from Heart of the Furnace for 12s`,
+    "The party gains +50% Stellar-Conduct DMG from Heart of the Furnace for 12s",
+  ];
+}
+
 export function activateThrillingTales({
   holder,
   target,

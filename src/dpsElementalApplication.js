@@ -1,3 +1,5 @@
+import * as raidenRules from "./dpsDamage/characters/raiden.js";
+
 export const STANDARD_ICD = Object.freeze({ hitCount: 3, seconds: 2.5 });
 
 const STANDARD = Object.freeze({
@@ -44,6 +46,22 @@ export function getElementalApplicationRule(character, talentAction, constellati
     if (talentName === "Oz's Joint Attack") {
       return rule("Electro", 1, NO_ICD, "a4");
     }
+  }
+
+  if (raidenRules.isCoordinatedAttack(character, talentAction)) {
+    return rule("Electro", 1, STANDARD, "raiden-eye");
+  }
+
+  if (name === "Yae Miko" &&
+      talentName === "Yakan Evocation: Sesshou Sakura" &&
+      /^Sesshou Sakura DMG: Level \d+$/i.test(actionName)) {
+    return rule("Electro", 1, STANDARD, "yae-totem");
+  }
+
+  if (name === "Qiqi" &&
+      talentName === "Adeptus Art: Herald of Frost" &&
+      actionName === "Herald of Frost DMG") {
+    return rule("Cryo", 1, STANDARD, "qiqi-herald");
   }
 
   if (name === "Chevreuse") {
@@ -135,13 +153,19 @@ export function trackElementalApplication(stateByGroup, groupKey, applicationRul
 
 export function resolveElementalReaction(auraByEnemy, application, time) {
   if (application?.reason !== "applied" ||
-      !["Pyro", "Electro"].includes(application.element)) {
+      !["Pyro", "Electro", "Cryo"].includes(application.element)) {
     return null;
   }
 
   const activeAuras = [...auraByEnemy.entries()].filter(([, aura]) =>
     aura.expiresAt > time && aura.gauge > 0);
-  const opposingElement = application.element === "Pyro" ? "Electro" : "Pyro";
+  const opposingElement = application.element === "Cryo"
+    ? "Electro"
+    : application.element === "Electro"
+      ? activeAuras.some(([element]) => element === "Cryo")
+        ? "Cryo"
+        : "Pyro"
+      : "Electro";
   const opposingAura = activeAuras.find(([element]) => element === opposingElement);
   if (!opposingAura) {
     auraByEnemy.set(application.element, {
@@ -152,6 +176,10 @@ export function resolveElementalReaction(auraByEnemy, application, time) {
   }
 
   auraByEnemy.delete(opposingElement);
+  if ([application.element, opposingElement].includes("Cryo") &&
+      [application.element, opposingElement].includes("Electro")) {
+    return "superconduct";
+  }
   const remainingGauge = application.gauge * 0.8 - 0.5;
   if (remainingGauge > 0) {
     auraByEnemy.set(application.element, {

@@ -3333,7 +3333,7 @@ h1 em {
 
 .dps-action-row {
   display: grid;
-  grid-template-columns: 28px repeat(4, minmax(110px, 1fr)) repeat(2, minmax(90px, 0.7fr)) minmax(130px, 1.1fr) auto;
+  grid-template-columns: 28px repeat(4, minmax(110px, 1fr)) repeat(3, minmax(90px, 0.7fr)) minmax(130px, 1.1fr) auto;
   align-items: end;
   gap: 8px;
   padding: 10px;
@@ -3640,6 +3640,12 @@ h1 em {
   text-align: center;
 }
 
+@media (max-width: 1000px) {
+  .dps-action-row {
+    grid-template-columns: 26px repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 780px) {
   .loadout-inventory-grid,
   .optimizer-member-grid,
@@ -3649,10 +3655,6 @@ h1 em {
 
   .dps-member-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .dps-action-row {
-    grid-template-columns: 26px repeat(2, minmax(0, 1fr));
   }
 
   .dps-action-row .optimizer-delete-button {

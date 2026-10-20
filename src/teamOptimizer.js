@@ -47,6 +47,17 @@ const ROLE_WEIGHTS = {
   reaction: { critRate_: 0.88, critDMG_: 0.62, atk_: 0.42, atk: 0.012, enerRech_: 0.62, eleMas: 0.92, hp_: 0.18, def_: 0.16, damage: 0.56 },
 };
 const ROLE_PRIORITY = { dps: 0, offField: 1, reaction: 2, support: 3 };
+const STELLAR_ATK_SCALERS = new Set(["Yae Miko", "Odette"]);
+const STELLAR_CONDUCT_ENABLERS = new Set(["Sandrone", "Cryo Traveler", "Odette"]);
+
+function hasCryoResonance(team) {
+  return team.filter((member) => member.character.element === "Cryo").length >= 2;
+}
+
+function hasStellarConductEnabler(team) {
+  return team.some((member) =>
+    STELLAR_CONDUCT_ENABLERS.has(member.character.name));
+}
 
 function isRecord(value) {
   return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -175,7 +186,7 @@ function addSetStatBonuses(stats, sources, setGroups, artifacts) {
   });
 }
 
-export function calculateBuildStats(build, weapon, artifacts) {
+export function calculateBuildStats(build, weapon, artifacts, team = []) {
   const characterBase = getLevel90Stats(build.character);
   const weaponBase = weapon ? getLevel90Stats(weapon) : null;
   const artifactBonuses = {};
@@ -261,7 +272,12 @@ export function calculateBuildStats(build, weapon, artifacts) {
       ...(bonusSources.def || []),
     ],
     elementalMastery: bonusSources.eleMas || [],
-    critRate: withBaseSources("critRate_", "Base CRIT Rate", 5),
+    critRate: [
+      ...withBaseSources("critRate_", "Base CRIT Rate", 5),
+      ...(hasCryoResonance(team)
+        ? [{ label: "Cryo Resonance", value: 15 }]
+        : []),
+    ],
     critDamage: withBaseSources("critDMG_", "Base CRIT DMG", 50),
     energyRecharge: withBaseSources("enerRech_", "Base Energy Recharge", 100),
     elementalDamageBonus: bonusSources[`${String(build.character.element).toLowerCase()}_dmg_`] || [],
@@ -286,8 +302,10 @@ export function calculateBuildStats(build, weapon, artifacts) {
     elementalMastery: artifactBonuses.eleMas || 0,
     elementalDamageBonus: artifactBonuses[`${String(build.character.element).toLowerCase()}_dmg_`] || 0,
     physicalDamageBonus: artifactBonuses.physical_dmg_ || 0,
-    critRate: Math.min(100, 5 + (artifactBonuses.critRate_ || 0)),
-    critRateRaw: 5 + (artifactBonuses.critRate_ || 0),
+    critRate: Math.min(100, 5 + (artifactBonuses.critRate_ || 0) +
+      (hasCryoResonance(team) ? 15 : 0)),
+    critRateRaw: 5 + (artifactBonuses.critRate_ || 0) +
+      (hasCryoResonance(team) ? 15 : 0),
     critDamage: 50 + (artifactBonuses.critDMG_ || 0),
     energyRecharge: 100 + (artifactBonuses.enerRech_ || 0),
     statSources,
@@ -309,6 +327,15 @@ function hasDirectElementalMasteryDamageScaling(character) {
 
 function keyWeight(key, character, role, team = [], slot = "") {
   const weights = ROLE_WEIGHTS[role] || ROLE_WEIGHTS.dps;
+  if (STELLAR_ATK_SCALERS.has(character.name)) {
+    if (key === "eleMas") return 0.08;
+    if (key === "atk_" && slot === "sands") return 1.05;
+  }
+  if (character.name === "Yae Miko" &&
+      hasStellarConductEnabler(team)) {
+    if (key === "atk_" && slot === "goblet") return 0.9;
+    if (key === "electro_dmg_") return 0.08;
+  }
   if (key === "critRate_") return weights.critRate_;
   const hasMeltPartner = ["Pyro", "Cryo"].includes(character.element) &&
     team.some((member) =>
@@ -344,7 +371,7 @@ function statScore(stats, character, role, team = [], slot = "") {
   );
 }
 
-function critRateScaleForBuild(character, weapon, setId, catalogs) {
+function critRateScaleForBuild(character, weapon, setId, catalogs, team = []) {
   const set = catalogs.artifacts.find((artifact) => String(artifact.id) === String(setId));
   const setCritRate = readEffectStats(set?.effect4Pc || "")
     .filter((stat) => stat.key === "critRate_")
@@ -356,7 +383,11 @@ function critRateScaleForBuild(character, weapon, setId, catalogs) {
   const weaponCritRate = weaponKey === "critRate_"
     ? specializedStatValue(weapon, weaponKey)
     : 0;
-  const remainingCritRate = Math.max(0, 100 - 5 - characterCritRate - weaponCritRate - setCritRate);
+  const resonanceCritRate = hasCryoResonance(team) ? 15 : 0;
+  const remainingCritRate = Math.max(
+    0,
+    100 - 5 - characterCritRate - weaponCritRate - setCritRate - resonanceCritRate,
+  );
   return Math.min(1, remainingCritRate / 100);
 }
 
@@ -459,7 +490,7 @@ function scoreArtifact(entry, catalogs, character, role, team) {
   };
 }
 
-function artifactCritRateCorrection(items, character, role, critRateScale, weapon) {
+function artifactCritRateCorrection(items, character, role, critRateScale, weapon, team = []) {
   const artifactCritStats = items.reduce((totals, item) => {
     item.stats.forEach(({ key, value }) => {
       if (key === "critRate_") totals.rate += value;
@@ -487,7 +518,13 @@ function artifactCritRateCorrection(items, character, role, critRateScale, weapo
 }
 
 function buildForCharacter(character, role, preferredSetId, weapon, team, artifacts, catalogs, alreadyEquipped) {
-  const critRateScale = critRateScaleForBuild(character, weapon, preferredSetId, catalogs);
+  const critRateScale = critRateScaleForBuild(
+    character,
+    weapon,
+    preferredSetId,
+    catalogs,
+    team,
+  );
   const candidatesBySlot = Object.fromEntries(SLOTS.map((slot) => {
     const allCandidates = artifacts
       .filter((entry) => getEntrySlot(entry) === slot && !alreadyEquipped.has(entry.id))
@@ -547,6 +584,7 @@ function buildForCharacter(character, role, preferredSetId, weapon, team, artifa
                 role,
                 critRateScale,
                 weapon,
+                team,
               ),
             });
           }
@@ -564,6 +602,7 @@ function buildForCharacter(character, role, preferredSetId, weapon, team, artifa
             role,
             critRateScale,
             weapon,
+            team,
           ),
         }))
         .sort((a, b) => b.score - a.score)[0];
@@ -612,6 +651,7 @@ function buildForCharacter(character, role, preferredSetId, weapon, team, artifa
                 role,
                 critRateScale,
                 weapon,
+                team,
               ),
           };
         })
@@ -628,6 +668,7 @@ function buildForCharacter(character, role, preferredSetId, weapon, team, artifa
             role,
             critRateScale,
             weapon,
+            team,
           ),
       }))
       .sort((a, b) => b.score - a.score)[0];

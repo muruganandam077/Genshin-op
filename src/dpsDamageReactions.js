@@ -54,3 +54,66 @@ export function applyReactionDamage({
 
   return { nonCritDamage, critDamageValue };
 }
+
+export function calculateStellarConductDamage({
+  baseDamage,
+  stats,
+  characterLevel = 90,
+  enemyLevel,
+  enemyResistance,
+  resistanceShred = 0,
+  defenseReduction = 0,
+  stellarDamageBonus = 0,
+  stellarCritRateBonus = 0,
+  stellarCritDamageBonus = 0,
+  enemyDamageTakenBonus = 0,
+  polestarStacks = 0,
+  damageBonus = 0,
+  independentDamageMultiplier = 1,
+  baseDamageBonus = 0,
+}) {
+  const stacks = Math.min(10, Math.max(0, Math.floor(polestarStacks)));
+  const elementalMasteryBonus = 6 * Math.max(0, stats.elementalMastery) /
+    (Math.max(0, stats.elementalMastery) + 2000);
+  const polestarMultiplier = stacks === 0 ? 1 : 1.4 + 0.05 * stacks;
+  const defenseMultiplier = (characterLevel + 100) /
+    ((characterLevel + 100) + (enemyLevel + 100) *
+      (1 - Math.min(100, Math.max(0, defenseReduction)) / 100));
+  const effectiveResistance = enemyResistance - resistanceShred;
+  const resistanceRatio = effectiveResistance / 100;
+  const resistanceMultiplier = resistanceRatio < 0
+    ? 1 - resistanceRatio / 2
+    : resistanceRatio <= 0.75
+      ? 1 - resistanceRatio
+      : 1 / (4 * resistanceRatio + 1);
+  const nonCritDamage = baseDamage * (1 + baseDamageBonus / 100) *
+    (1 + (stellarDamageBonus + damageBonus) / 100 + elementalMasteryBonus) *
+    polestarMultiplier * defenseMultiplier * resistanceMultiplier *
+    (1 + enemyDamageTakenBonus / 100) * independentDamageMultiplier;
+  const critRate = Math.min(
+    100,
+    Math.max(0, (stats.critRate || 0) + stellarCritRateBonus),
+  ) / 100;
+  const critDamage = (Math.max(0, stats.critDamage || 0) +
+    stellarCritDamageBonus) / 100;
+  const critDamageValue = nonCritDamage * (1 + critDamage);
+
+  return {
+    nonCritDamage,
+    critDamage: critDamageValue,
+    averageDamage: nonCritDamage * (1 + critRate * critDamage),
+    elementalMasteryBonus: elementalMasteryBonus * 100,
+    critRate: critRate * 100,
+    stellarDamageBonus,
+    damageBonus,
+    stellarCritRateBonus,
+    stellarCritDamageBonus,
+    independentDamageMultiplier,
+    baseDamageBonus,
+    polestarStacks: stacks,
+    polestarMultiplier,
+    defenseMultiplier,
+    resistanceMultiplier,
+    effectiveResistance,
+  };
+}

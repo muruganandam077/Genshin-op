@@ -1,3 +1,13 @@
+import * as echoesOfTheHeart from "./dpsDamage/weapons/echoesOfTheHeart.js";
+import * as silverLight from "./dpsDamage/weapons/silverLight.js";
+import * as tidalShadow from "./dpsDamage/weapons/tidalShadow.js";
+
+const WEAPON_RULES = {
+  "Echoes of the Heart": echoesOfTheHeart,
+  "Silver Light": silverLight,
+  "Tidal Shadow": tidalShadow,
+};
+
 function refinementValues(weapon, refinement) {
   const entry = weapon?.refinements?.find((value) => value.rank === refinement);
   return (entry?.values || []).map((value) => Number.parseFloat(String(value)) || 0);
@@ -26,6 +36,10 @@ export function createWeaponBuffState() {
     scarletStacks: new Map(),
     calamitySkills: new Map(),
     missiveExpiresAt: new Map(),
+    tidalShadowExpiresAt: new Map(),
+    echoesOfHeartExpiresAt: new Map(),
+    silverLightStacks: new Map(),
+    engulfingLightningExpiresAt: new Map(),
     lastHitTimes: new Map(),
   };
 }
@@ -43,13 +57,37 @@ export function getWeaponHitEffects({
   state,
 }) {
   const weapon = member.weapon;
-  if (!weapon) return { attackPercent: 0, flatAttack: 0, elementalMastery: 0, damageBonuses: {}, entries: [] };
+  if (!weapon) return {
+    attackPercent: 0,
+    flatAttack: 0,
+    elementalMastery: 0,
+    energyRecharge: 0,
+    damageBonuses: {},
+    entries: [],
+  };
   const values = refinementValues(weapon, member.settings.refinement);
+  const weaponRules = WEAPON_RULES[weapon.name];
+  if (weaponRules) {
+    return weaponRules.getHitEffects({
+      member,
+      members,
+      talentAction,
+      action,
+      time,
+      bondOfLifePercent,
+      enemyCount,
+      shielded,
+      enemyAffectedByPyroHydro,
+      values,
+      state,
+    });
+  }
   const entries = [];
   const damageBonuses = {};
   let attackPercent = 0;
   let flatAttack = 0;
   let elementalMastery = 0;
+  let energyRecharge = 0;
   const addDamage = (type, value) => {
     damageBonuses[type] = (damageBonuses[type] || 0) + value;
   };
@@ -139,6 +177,34 @@ export function getWeaponHitEffects({
         source: weapon.name,
         description: active ? `+${values[0]} Elemental Mastery (3+ party elements)` : `Requires 3 party elements; current count: ${types.size}`,
         applied: active,
+        modeled: true,
+      });
+      break;
+    }
+    case "Engulfing Lightning": {
+      const active = (state.engulfingLightningExpiresAt.get(member.index) || 0) > time;
+      energyRecharge = active ? values[2] || 0 : 0;
+      attackPercent += Math.min(
+        values[1] || 0,
+        Math.max(0, (member.stats.energyRecharge + energyRecharge - 100) *
+          (values[0] || 0) / 100),
+      );
+      entries.push({
+        source: weapon.name,
+        description: `+${attackPercent.toFixed(1)}% ATK from Energy Recharge${active
+          ? `; +${energyRecharge}% Energy Recharge for 12s`
+          : "; Energy Recharge bonus activates after Elemental Burst"}`,
+        applied: attackPercent > 0 || active,
+        modeled: true,
+      });
+      break;
+    }
+    case "\"The Catch\"": {
+      addDamage("burst", values[0] || 0);
+      entries.push({
+        source: weapon.name,
+        description: `+${values[0] || 0}% Elemental Burst DMG`,
+        applied: isElementalBurst(member, talentAction),
         modeled: true,
       });
       break;
@@ -288,7 +354,14 @@ export function getWeaponHitEffects({
     });
   }
 
-  return { attackPercent, flatAttack, elementalMastery, damageBonuses, entries };
+  return {
+    attackPercent,
+    flatAttack,
+    elementalMastery,
+    energyRecharge,
+    damageBonuses,
+    entries,
+  };
 }
 
 export function recordWeaponHit({
@@ -298,6 +371,7 @@ export function recordWeaponHit({
   time,
   hitIndex,
   state,
+  isSummonTick = false,
 }) {
   const weaponName = member.weapon?.name;
   const recordStack = (map, duration, cooldown, maximumStacks) => {
@@ -313,18 +387,38 @@ export function recordWeaponHit({
   };
   if (weaponName === "Primordial Jade Winged-Spear") recordStack(state.jadeHits, 6, 0.3, 7);
   if (weaponName === "Vortex Vanquisher") recordStack(state.vortexHits, 8, 0.3, 5);
-  if (weaponName === "Staff of the Scarlet Sands" && isElementalSkill(member, talentAction)) {
+  if (!isSummonTick && weaponName === "Staff of the Scarlet Sands" &&
+      isElementalSkill(member, talentAction)) {
     const active = (state.scarletStacks.get(member.index) || []).filter((expiry) => expiry > time);
     if (active.length < 3) active.push(time + 10);
     state.scarletStacks.set(member.index, active);
   }
-  if (weaponName === "Calamity Queller" && isElementalSkill(member, talentAction)) {
+  if (!isSummonTick && weaponName === "Calamity Queller" &&
+      isElementalSkill(member, talentAction)) {
     state.calamitySkills.set(member.index, time);
   }
   if (weaponName === "Missive Windspear" && action.reaction !== "none") {
     state.missiveExpiresAt.set(member.index, time + 10);
   }
+  if (weaponName === "Engulfing Lightning" &&
+      isElementalBurst(member, talentAction)) {
+    state.engulfingLightningExpiresAt.set(member.index, time + 12);
+  }
+  const weaponRules = WEAPON_RULES[weaponName];
+  if (!isSummonTick) {
+    weaponRules?.recordHit?.(member, talentAction, time, state);
+  }
+  if (action.reaction !== "none") {
+    weaponRules?.recordReaction?.(member, time, state);
+  }
   state.activeMemberIndex = member.index;
   return weaponName === "Crimson Moon's Semblance" &&
     talentAction.name === "Charged Attack DMG" && hitIndex === 0;
+}
+
+export function recordWeaponHealing(member, time, state) {
+  const weaponRules = WEAPON_RULES[member.weapon?.name];
+  if (!weaponRules?.recordHealing) return false;
+  weaponRules.recordHealing(member, time, state);
+  return true;
 }

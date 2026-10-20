@@ -34,6 +34,9 @@ const ACTION_FRAMES = {
 
 export function getActionFrameData(character, talentAction, chargedAttackContext = "neutral") {
   if (!character || !talentAction?.name) return null;
+  if (talentAction.isSummonSetup || talentAction.isCodaSetup) {
+    return { frames: 30, kind: "skill" };
+  }
   const timing = ACTION_FRAMES[character.name];
   if (!timing) return null;
 

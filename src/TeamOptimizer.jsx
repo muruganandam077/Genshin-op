@@ -64,8 +64,8 @@ function level90WeaponAttack(weapon) {
   return highestAscension?.attack || weapon.baseAttack;
 }
 
-function BuildFaceCard({ character, weapon, build, artifacts }) {
-  const stats = calculateBuildStats(build, weapon, artifacts);
+function BuildFaceCard({ character, weapon, build, artifacts, team }) {
+  const stats = calculateBuildStats(build, weapon, artifacts, team);
   const weaponImage = weapon
     ? `./assets/weapons/${encodeURIComponent(slugifyAssetName(weapon.name))}.png`
     : "";
@@ -196,6 +196,11 @@ function TeamOptimizerPage({
   const [presets, setPresets] = useState(initialPresets.presets);
   const [presetError, setPresetError] = useState(initialPresets.error);
   const [presetNotice, setPresetNotice] = useState("");
+  const selectedTeamCharacters = team.flatMap((member) => {
+    const character = characters.find((entry) =>
+      String(entry.id) === String(member.characterId));
+    return character ? [{ character }] : [];
+  });
 
   const optimization = useMemo(() => optimizeTeam(team, inventory, {
     characters,
@@ -394,7 +399,12 @@ function TeamOptimizerPage({
         <div className="optimizer-team-context">
           <span>TEAM CONTEXT</span>
           {resonanceElements.length
-            ? <p>Repeated element: {resonanceElements.join(", ")}. Party-wide artifact effects are valued against the selected teammates.</p>
+            ? <p>
+              Repeated element: {resonanceElements.join(", ")}.
+              {selectedTeamCharacters.filter((entry) => entry.character.element === "Cryo").length >= 2
+                ? " Cryo resonance adds 15% CRIT Rate to builds and artifact scoring."
+                : ""} Party-wide artifact effects are valued against the selected teammates.
+            </p>
             : <p>Choose teammates to give party-wide artifact effects their team context.</p>}
         </div>
       </section>
@@ -504,6 +514,7 @@ function TeamOptimizerPage({
                         artifacts={artifacts}
                         build={build}
                         character={character}
+                        team={selectedTeamCharacters}
                         weapon={weapon}
                       />
                       <ul className="optimizer-artifact-list">
